@@ -1,9 +1,4 @@
----
-layout: page
-title: Calendar
-permalink: /calendar
-name: 7
----
+
 
 
 <div class="mainbar">
