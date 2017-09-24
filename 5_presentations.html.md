@@ -1,9 +1,4 @@
----
-layout: page
-title: Presentations
-permalink: /presentation
-name: 5
----
+
 
 
 The purpose of this project presentation is to allow students to practice giving research talks in front of others. 
