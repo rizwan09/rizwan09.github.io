@@ -1,9 +1,4 @@
----
-layout: page
-title: Policies
-permalink: /policy
-name: 4
----
+
 
 ## Grading Policy
 
