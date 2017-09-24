@@ -1,9 +1,4 @@
----
-layout: page
-title: Projects
-permalink: /project
-name: 6
----
+
 The goal of the course project is to provide the students an opportunity to explore research directions in Natural Language Processing
 and develop some useful NLP applications and tools. Therefore, the project aims at producing a "deliverable" result, meaning that your project 
 should be self-complete, reproducible (scientifically correct) and related to the course content. 
