@@ -9,7 +9,7 @@ I am a graduate student of computer science at [UCLA](http://www.cs.ucla.edu/) a
 My research adviser is  [Prof. Kai-Wi Chang](http://web.cs.ucla.edu/~kwchang/).
 ##### Contact:
 * email: rizwan@cs.ucla.edu
-* Office hours: Wed 12pm-2pm, BH 3909
+* Office hours: Wed 12pm-2pm, BH 3809
 
 #### Publications:
 * [Google Scholar Profile](https://scholar.google.com/citations?user=tSWF2QMAAAAJ&hl=en&oi=ao)
