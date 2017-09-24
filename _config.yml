@@ -1,6 +1,6 @@
 # Site settings
 #title1: "CS 269 "
-title2: "Md Rizwan Parvez"
+#title2: "Md Rizwan Parvez"
 email:  rizwan@cs.ucla.edu
 #description: "Seminar: Current Topics in Artificial Intelligence: Machine Learning in Natural Language Processing"
 baseurl: "/"
