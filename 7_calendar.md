@@ -18,7 +18,7 @@ name: 7
 <li>email: rizwan@cs.ucla.edu <br></li>
 </ul>
 <h2 id="calendar">Calendar</h2>
-<iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=rizwan@g.ucla.edu&amp;color=%231B887A&amp;src=orfnjqu2dpmgcjf6h244cn8d04%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FCalifornia" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe></section>
+<iframe src="https://calendar.google.com/calendar/embed?src=rizwan%40g.ucla.edu&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></section>
   <footer class="block-footer">
   </footer>
 </article>
