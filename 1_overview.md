@@ -5,7 +5,7 @@ permalink: /overview
 name: 1
 ---
 
-I am a graduate student of computer science at [UCLA](http://www.cs.ucla.edu/) and a member of [NLP group at UCLA](https://github.com/uclanlp/). 
+I am a graduate student of computer science at [UCLA](http://www.cs.ucla.edu/) and a member of [NLP group](https://github.com/uclanlp/) at UCLA. 
 My research adviser is  [Prof. Kai-Wi Chang](http://web.cs.ucla.edu/~kwchang/).
 ##### Contact:
 * email: rizwan@cs.ucla.edu
