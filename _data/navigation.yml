@@ -12,8 +12,6 @@ main:
     - title: "Teaching"
     url: /teaching/
 
-  - title: "Talks"
-    url: /talk/
     
   - title: "Miscellaneous"
     url: /miscellaneous/
