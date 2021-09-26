@@ -3,7 +3,7 @@ title: "Evaluating the Values of Sources in Transfer Learning"
 collection: publications
 Authors: '<b>Md Rizwan Parvez</b>,  and Kai-Wei Chang.'
 date: 03/2021
-venue: 'NAACL'
+venue: 'Proceedings of NAACL'
 paperurl: 'https://arxiv.org/abs/2104.12567'
 presentationurl: 'https://underline.io/events/122/sessions/4261/lecture/19707-evaluating-the-values-of-sources-in-transfer-learning'
 codeurl: 'https://github.com/rizwan09/NLPDV/'
