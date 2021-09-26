@@ -5,9 +5,10 @@ Authors: 'Himel Dev, <b>Md Rizwan Parvez</b> Md. Momen Bhuiyan, Turash Mosharraf
 Ferdous Haque, Abdullah Al Mamun, Farhan Ahmed Chowdhury, Md. Sharif Shadat Hossain, Mehrab Bin Morshed and A. B. M. Alim Al Islam'
 date: 01/2014
 venue: 'Proceedings of Workshop on Mobile Computing and Human Computer Interaction (MoHCI)'
-paperurl: 'https://drive.google.com/file/d/0Bx8TkRpgeLNLeV8zek1PTmc1eXM/edit?resourcekey=0-qTerYto3GaJfMYeEbCbtVg'
+paperurl: 'https://www.researchgate.net/profile/Md-Rizwan-Parvez/publication/277326995_DhakaSim_A_Tool_for_Simulating_Traffic_Mobility_in_Dhaka_City/links/57529a8a08ae6807fafb7e15/DhakaSim-A-Tool-for-Simulating-Traffic-Mobility-in-Dhaka-City.pdf'
 presentationurl: ''
 codeurl: ''
+website: 'https://sites.google.com/site/dhakasim/'
 excerpt: ''
 ---
 ---
