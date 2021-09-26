@@ -16,17 +16,6 @@ collection: portfolio
 		</td>
  	</tr>
 	<tr>
-		<td class="table__tablenospace"><img src='/images/Yahoo.png' style='height:100px;;width:100px'></td>
-		<td class="table__tablenospace" width="600px">
-			<span style="color:black; font-size:17px"> 
-			<font color="brown" size="5"><b>Yahoo Research</b></font><br/>
-			Research Intern [Summer 2019]<br/>
-			Mentor: <a href="https://sites.google.com/site/xiaobaihomepage/">Xiao Bai</a><br/>
-			Lab: <a href="https://research.yahoo.com/research-areas/advertising-science">Ad Quality Science</a
-			</span>
-		</td>
- 	</tr>
-	<tr>
 		<td class="table__tablenospace"><img src='/images/MSR.png' style='height:100px;;width:100px'></td>
 		<td class="table__tablenospace" width="600px">
 			<span style="color:black; font-size:17px"> 
@@ -44,38 +33,6 @@ collection: portfolio
 			<font color="brown" size="5"><b>University of Virginia (UVA)</b></font><br/>
 			Graduate Research Assistant [August,2016 - May,2017]<br/>
 			Advisor: <a href="hhttp://czhai.cs.illinois.edu/">Dr. Kai-Wei Chang</a><br/>
-			</span>
-		</td>
- 	</tr>
-	<tr>
-		<td class="table__tablenospace"><img src='/images/Walmart.png' style='height:100px;;width:100px'></td>
-		<td class="table__tablenospace" width="600px">
-			<span style="color:black; font-size:17px"> 
-			<font color="brown" size="5"><b>WalmartLabs</b></font><br/>
-			Research Intern [Summer 2016]<br/>
-			Manager: <a href="https://www.linkedin.com/in/gregfavinger/">Greg Favinger</a><br/>
-			Mentor: <a href="https://www.linkedin.com/in/colin-morse-13549b3/">Colin Morse</a><br/>
-			Lab: <a href="https://www.walmartlabs.com/">WalmartLabs, Reston</a>
-			</span>
-		</td>
- 	</tr>
- 	<tr>
-		<td class="table__tablenospace"><img src='/images/AUST.png' style='height:100px;;width:100px'></td>
-		<td class="table__tablenospace" width="600px">
-			<span style="color:black; font-size:17px"> 
-			<font color="brown" size="5"><b>Ahsanullah University of Science and Technology (AUST)</b></font><br/>
-			Lecturer [November, 2013 - August, 2015]<br/>
-			Department: <a href="http://aust.edu/cse/index.htm">Computer Science and Engineering</a>
-			</span>
-		</td>
- 	</tr>
-	<tr>
-		<td class="table__tablenospace"><img src='' style='height:100px;;width:100px'></td>
-		<td class="table__tablenospace" width="600px">
-			<span style="color:black; font-size:17px"> 
-			<font color="brown" size="5"><b>REVE Systems</b></font><br/>
-			Software Engineer [February, 2013 - October, 2013]<br/>
-			Department: <a href="http://aust.edu/cse/index.htm">Computer Science and Engineering</a>
 			</span>
 		</td>
  	</tr>
