@@ -13,7 +13,7 @@ redirect_from:
 		<ul>
 			<li> ACL [2018] </li>
 			<li> West Coast NLP Summit (WeCNLP) [2019]  </li>
-		<\ul>
+		</ul>
 	</li>
 	<li> Best paper/demo/poster awards 
 		<ul>
@@ -21,7 +21,7 @@ redirect_from:
 		 	<li> [Best Demo Award] Bangladesh Inter-University System Design and Development [2015] </li>
         		<li> [Best Demo Award] Workshop on Mobile Computing and Human Computer Interaction [2014] </li>
         		<li> [Second Runner-Up Award] Bangladesh National Innovative  Projects on Improving  Road  Safety [2014] </li>
-		<\ul>		
+		</ul>		
 	</li>
 	<li> Fellowships/scholarship awards 
 		<ul>
@@ -30,7 +30,7 @@ redirect_from:
         		<li> Dean's List Award, BUET [2013-2015] </li>
         		<li> University Merit Scholarship, BUET [2014-2015] </li>
 			<li> Merit Scholarships, Rajshahi Education Board, Bangladesh [2007, 2009] </li>
-		<\ul>	
+		</ul>	
 	</li>
 </ol>
 
