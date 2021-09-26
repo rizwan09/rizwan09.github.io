@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-You can download my [cv](../files/cv_wasi_ahmad.pdf) or [resume](../files/resume_wasi_ahmad.pdf).
+You can download my [cv](../files/cv_md_rizwan_parvez) or [resume](../files/resume_md_rizwan_parvez.pdf).
 <br/><br/>
     <span style="color:black; font-size:17px"><b><a href="https://cs.ucla.edu" target="_blank"><font color="brown" size="5">University of California, Los Angeles</font></a></b></span><br/>
     Doctor of Philosophy (Ph.D.) in Computer Science <br/>
