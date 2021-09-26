@@ -14,7 +14,7 @@ excerpt: ''
 <a href='https://www.researchgate.net/profile/Md-Rizwan-Parvez/publication/277326995_DhakaSim_A_Tool_for_Simulating_Traffic_Mobility_in_Dhaka_City/links/57529a8a08ae6807fafb7e15/DhakaSim-A-Tool-for-Simulating-Traffic-Mobility-in-Dhaka-City.pdf' target="_blank">[Download Paper]</a><a href='' target="_blank">[Source Code]</a>
 
 <p align="justify">
-  Abstract—We demonstrate a microscopic traffic simulator
+ We demonstrate a microscopic traffic simulator
 with mixed simulation capability that mimics real traffic scenarios
 in a virtual environment using real road network topology and
 real traffic data. The purpose of our project is to evaluate
