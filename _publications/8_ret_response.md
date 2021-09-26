@@ -3,7 +3,7 @@ title: "A Template Retrieval Approach for Generating Diverse Dialogue Responses:
 collection: publications
 Authors: '<b>Md Rizwan Parvez</b>,  Raghav Gupta, Bin Zhang, Kai-Wei Chang, and Abhinav Rastogi'
 date: 09/2021
-venue: ''
+venue: 'preprint'
 paperurl: ''
 presentationurl: ''
 codeurl: ''
