@@ -12,10 +12,14 @@ redirect_from:
     Graduate Teaching Assistant [August, 2017 - Present]<br/>
     Advisor: <a href="http://web.cs.ucla.edu/~kwchang/" target="_blank">Prof. Kai-Wei Chang</a>, Lab: <a href="http://web.cs.ucla.edu/~kwchang/members/" target="_blank">UCLA NLP</a> <br/>
 <br/>
+    <span style="color:black; font-size:17px"><b><a href="https://research.google/" target="_blank"><font color="brown" size="5">Google Reserach</font></a></b></span><br/>
+    Kirkland, Washinton<br/>
+    Research Intern [June, 2020 - September, 2020]<br/>
+    Manager: <a href="https://www.linkedin.com/in/binzh/" target="_blank">Bin Zhang</a><br/><br/>
     <span style="color:black; font-size:17px"><b><a href="https://ai.facebook.com/" target="_blank"><font color="brown" size="5">Facebook AI Reserach (FAIR)</font></a></b></span><br/>
     Seattle, Washinton<br/>
     Research Intern [June, 2020 - September, 2020]<br/>
-    Manager: <a href="http://scottyih.org/" target="_blank">Scott Wen-tau Yih</a>, Mentor: <a href="http://sriniiyer.github.io/" target="_blank">Srini Iyer</a> <br/>
+    Manager: <a href="http://scottyih.org/" target="_blank">Scott Wen-tau Yih</a> <br/>
 <br/>
     <span style="color:black; font-size:17px"><b><a href="https://www.microsoft.com/en-us/research/" target="_blank"><font color="brown" size="5">Microsoft AI and Research</font></a></b></span><br/>
     Redmond, Washington<br/>
