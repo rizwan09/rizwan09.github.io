@@ -18,8 +18,8 @@ redirect_from:
 	<li> Best paper/demo/poster awards 
 		<ul>
 			<li>  Among top-6 undergrad thesis posters, BUET [2015] </li>
-		 	<li> <span style="color:red">[Best Demo Award] </span>  Bangladesh Inter-University System Design and Development [2015] </li>
-        		<li> <span style="color:red">[Best Demo Award] </span> Workshop on Mobile Computing and Human Computer Interaction [2014] </li>
+			<li> <span style="color:red"> <b> [Best Demo Award]</b> </span>  Bangladesh Inter-University System Design and Development [2015] </li>
+        		<li> <span style="color:red"><b> [Best Demo Award]</b> </span> Workshop on Mobile Computing and Human Computer Interaction [2014] </li>
         		<li> [Second Runner-Up Award] Bangladesh National Innovative  Projects on Improving  Road  Safety [2014] </li>
 		</ul>		
 	</li>
