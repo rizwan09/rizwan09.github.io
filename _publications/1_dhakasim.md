@@ -4,7 +4,7 @@ collection: publications
 Authors: 'Himel Dev, <b>Md Rizwan Parvez</b> Md. Momen Bhuiyan, Turash Mosharraf, Taslim Arefin Khan,
 Ferdous Haque, Abdullah Al Mamun, Farhan Ahmed Chowdhury, Md. Sharif Shadat Hossain, Mehrab Bin Morshed and A. B. M. Alim Al Islam'
 date: 01/2014
-venue: 'in  Proceedings of Workshop on Mobile Computing and Human Computer Interaction (MoHCI)'
+venue: 'Proceedings of Workshop on Mobile Computing and Human Computer Interaction (MoHCI)'
 paperurl: 'https://drive.google.com/file/d/0Bx8TkRpgeLNLeV8zek1PTmc1eXM/edit?resourcekey=0-qTerYto3GaJfMYeEbCbtVg'
 presentationurl: ''
 codeurl: ''
