@@ -21,7 +21,7 @@ collection: portfolio
 			<span style="color:black; font-size:17px"> 
 			<font color="brown" size="5"><b>Microsoft Research</b></font><br/>
 			Research Intern [Summer 2018]<br/>
-			Mentor: <a href="http://lowrank.net/nikos/index.html">Nikos Karampatziakis</a><br/>
+			Mentor: <a href="https://www.microsoft.com/en-us/research/people/pmineiro/">Paul Mineiro</a><br/>
 			Lab: <a href="https://www.microsoft.com/en-us/research/">Microsoft Research, Redmond</a>
 			</span>
 		</td>
