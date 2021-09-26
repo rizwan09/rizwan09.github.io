@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Academic Homepage"
+title                    : "Personal Homepage"
 title_separator          : "-"
-name                     : &name "Wasi Uddin Ahmad"
+name                     : &name "Md Rizwan Parvez"
 description              : &description "personal description"
-url                      : "https://wasiahmad.github.io"  #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://rizwan09.github.io"  #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "wasiahmad/wasiahmad.github.io"
+repository               : "rizwan09/rizwan09.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "ahmadwasi"
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -80,43 +80,43 @@ analytics:
 
 # Site Author
 author:
-  name             : "Wasi Uddin Ahmad"
+  name             : "Md Rizwan Parvez"
   avatar           : "wasiahmad.png"
   bio              : "Ph.D. student at University of California, Los Angeles (UCLA)"
   employer         : 
   location         : "Los Angeles, CA, US"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YCHJZOMAAAAJ&hl=en"
-  email            : "wasiahmad@ucla.edu"
-  researchgate     : "https://www.researchgate.net/profile/Wasi_Ahmad3"
+  googlescholar    : "https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en"
+  email            : "rizwan@ucla.edu"
+  researchgate     : "https://www.researchgate.net/profile/Md-Rizwan-Parvez"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "wasiahmad07"
+  facebook         : 
   foursquare       :
-  github           : "wasiahmad"
+  github           : "rizwan09"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      :
   lastfm           :
-  linkedin         : "ahmadwasi"
-  orcid            : #"http://orcid.org/yourorcidurl"
+  linkedin         : "rizwan.incipient"
+  orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : 5352399/wasi-ahmad
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "ahmadwasi"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
   youtube          :
-  dblp             : "https://dblp.org/pers/hd/a/Ahmad:Wasi_Uddin"
+  dblp             : "https://dblp.org/pid/180/3830.html"
   wikipedia        :
-  semanticscholar  : "https://www.semanticscholar.org/author/Wasi-Uddin-Ahmad/38123220"
+  semanticscholar  : "https://www.semanticscholar.org/author/Md.-Rizwan-Parvez/3405393"
 
 
 # Reading Files
