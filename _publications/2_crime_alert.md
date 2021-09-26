@@ -2,7 +2,7 @@
 title: "A Novel Approach to Identify Spatio-Temporal Crime Pattern in Dhaka City"
 collection: publications
 Authors: '<b>Md Rizwan Parvez</b>, Turash Mosharraf, and Mohammed Eunus Ali'
-date: 08/2021
+date: 08/2016
 venue: 'Proceedings of ICTD'
 paperurl: 'https://www.researchgate.net/profile/Md-Rizwan-Parvez/publication/303542708_A_Novel_Approach_to_Identify_Spatio-Temporal_Crime_Pattern_in_Dhaka_City/links/5afe72fc458515e9a5764cfa/A-Novel-Approach-to-Identify-Spatio-Temporal-Crime-Pattern-in-Dhaka-City.pdf'
 presentationurl: ''
