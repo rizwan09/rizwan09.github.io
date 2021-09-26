@@ -9,11 +9,29 @@ redirect_from:
 
 <h2>Honors, Awards, and Scholarships</h2>
 <ol>
-	<li> SIGIR Student Travel Grant [2016, 2019] </li>
-	<li> ICLR Travel Award [2018] </li>
-	<li> Graduate Division Fellowships, UCLA [2017-2018] </li>
-	<li> William L Ballard Jr Endowed Graduate Fellowship, UVA [Spring, 2017] </li>
-	<li> Graduate Division Fellowships, UVA [2015-2016] </li>
+	<li> Student Travel Grants 
+		<ul>
+			<li> ACL [2018] <\li>
+			<li> West Coast NLP Summit (WeCNLP) [2019]  <\li>
+		<\ul>
+	</li>
+	<li> Best paper/demo/poster awards 
+		<ul>
+			<li>  Among top-6 undergrad thesis posters, BUET [2015] <\li>
+		 	<li> [Best Demo Award] Bangladesh Inter-University System Design and Development [2015] <\li>
+        		<li> [Best Demo Award] Workshop on Mobile Computing and Human Computer Interaction [2014] <\li>
+        		<li> [Second Runner-Up Award] Bangladesh National Innovative  Projects on Improving  Road  Safety [2014] <\li> 
+		<\ul>		
+	</li>
+	<li> Fellowships/scholarship awards 
+		<ul>
+			<li>  UCLA graduate fellowship  [2017] <\li>
+		 	<li> Professor M. A.  Nasser Memorial Scholarship, BUET [2014] <\li>
+        		<li> Dean's List Award, BUET [2013-2015] <\li>
+        		<li> University Merit Scholarship, BUET [2014-2015] <\li> 
+			<li> Merit Scholarships, Rajshahi Education Board, Bangladesh [2007, 2009] <\li> 	
+		<\ul>	
+	</li>
 </ol>
 
 
@@ -21,14 +39,12 @@ redirect_from:
 <ol>
 	<li> Program Committee/Reviewer
 		<ul>
-			<li>2022: AAAI, WSDM, ICLR </li>
-			<li>2021: NeurIPS, EMNLP, SIGIR, ACL-IJCNLP, IJCAI, NAACL, EACL, AAAI </li>
-			<li>2020: EMNLP, ICML, IJCAI, AAAI, LREC </li>
+			<li>2022: ICLR (expected) </li>
 			<li>2019: NAACL </li>
+			<li>2018: Southern California (SoCal) NLP Summit </li>
     		</ul>
 	</li>
-	<li> Secondary Reviewer: EMNLP 2018 </li>
-	<li> Journal Reviewer: <a href="https://dl.acm.org/journal/tois">TOIS</a> </li>
 </ol>
+
 
 
