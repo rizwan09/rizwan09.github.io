@@ -1,7 +1,7 @@
 ---
 title: "Robust Text Classifier on Test-Time Budgets"
 collection: publications
-Authors: '<b>Md Rizwan Parvez</b>,  Tolga Bolukbasi, Kai-Wei Chang, Venkatesh Saligrama'
+Authors: '<b>Md Rizwan Parvez</b>,  Tolga Bolukbasi, Kai-Wei Chang, and Venkatesh Saligrama'
 date: 08/2019
 venue: 'Proceedings of EMNLP'
 paperurl: 'https://arxiv.org/abs/1808.08270'
