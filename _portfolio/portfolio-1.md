@@ -9,8 +9,8 @@ collection: portfolio
 		<td class="table__tablenospace" width="600px">
 			<span style="color:black; font-size:17px"> 
 			<font color="brown" size="5"><b>University of California, Los Angeles (UCLA)</b></font><br/>
-			Graduate Research Assistant [August,2017 - Present]<br/>
-			Advisor: <a href="http://web.cs.ucla.edu/~kwchang/">Dr. Kai-Wei Chang</a><br/>
+			Graduate Research Assistant [Sep,2017 - Present]<br/>
+			Advisor: <a href="http://web.cs.ucla.edu/~kwchang/">Prof. Kai-Wei Chang</a><br/>
 			Lab: <a href="http://web.cs.ucla.edu/~kwchang/members/">UCLA NLP</a>
 			</span>
 		</td>
@@ -31,7 +31,7 @@ collection: portfolio
 		<td class="table__tablenospace" width="600px">
 			<span style="color:black; font-size:17px"> 
 			<font color="brown" size="5"><b>University of Virginia (UVA)</b></font><br/>
-			Graduate Research Assistant [August,2016 - May,2017]<br/>
+			Graduate Research Assistant [August,2016 - August,2017]<br/>
 			Advisor: <a href="hhttp://czhai.cs.illinois.edu/">Dr. Kai-Wei Chang</a><br/>
 			</span>
 		</td>
