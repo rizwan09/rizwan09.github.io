@@ -43,6 +43,7 @@ redirect_from:
 <br/>
     <span style="color:black; font-size:17px"><b><a href="https://cse.uiu.ac.bd/" target="_blank"><font color="brown" size="5">United International University (UIU)</font></a></b></span><br/>
     Dhaka, Bangladesh<br/>
-    Lecturer, Computer Science and Engineering [Oct, 2015 - August, 2016]<br/>
+    Lecturer<br/>
+    Computer Science and Engineering [Oct, 2015 - August, 2016]
     <br/>
 
