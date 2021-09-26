@@ -1,7 +1,7 @@
 ---
 title: "Retrieval Augmented Code Generation and Summarization"
 collection: publications
-Authors: 'Md Rizwan Parvez, <b>Wasi Ahmad</b>, Saikat Chakraborty, Baishakhi Ray, and Kai-Wei Chang.'
+Authors: '<b>Md Rizwan Parvez</b>, Wasi Ahmad, Saikat Chakraborty, Baishakhi Ray, and Kai-Wei Chang.'
 date: 08/2021
 venue: 'Findings of the ACL: EMNLP'
 paperurl: 'https://arxiv.org/abs/2108.11601'
