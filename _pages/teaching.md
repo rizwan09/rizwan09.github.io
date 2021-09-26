@@ -1,3 +1,12 @@
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+redirect_from:
+  - 
+---
+
 <b> Teaching Fellow, CSM146: Introduction to Machine Learning, UCLA</b>
 - Fall 2020, enrollment ~ 40 
 - Winter 2020, enrollment ~ 40
