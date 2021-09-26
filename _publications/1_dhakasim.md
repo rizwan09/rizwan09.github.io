@@ -7,8 +7,7 @@ date: 01/2014
 venue: 'Proceedings of Workshop on Mobile Computing and Human Computer Interaction (MoHCI)'
 paperurl: 'https://www.researchgate.net/profile/Md-Rizwan-Parvez/publication/277326995_DhakaSim_A_Tool_for_Simulating_Traffic_Mobility_in_Dhaka_City/links/57529a8a08ae6807fafb7e15/DhakaSim-A-Tool-for-Simulating-Traffic-Mobility-in-Dhaka-City.pdf'
 presentationurl: ''
-codeurl: ''
-website: 'https://sites.google.com/site/dhakasim/'
+codeurl: 'https://sites.google.com/site/dhakasim/'
 excerpt: ''
 ---
 ---
