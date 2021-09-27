@@ -6,15 +6,16 @@ main:
   - title: "Education"
     url: /cv/
     
+  - title: "Teaching"
+    url: /teaching/
+    
   - title: "Publications"
     url: /publications/
-    
-    - title: "Teaching"
-    url: /teaching/
 
+  - title: "Talks"
+    url: /talks/
     
   - title: "Miscellaneous"
     url: /miscellaneous/
     
 
-    
