@@ -29,11 +29,11 @@ I have received my Bachelor's in Computer Science and Engineering from the <a hr
 
 News and Announcements
 ======
-1. <span style="color:blue">[09.2021] </span>  Delived invited talk at [AWS AI](https://aws.amazon.com/ai/). 
+1. <span style="color:blue">[09.2021] </span>  Delivered my invited talk at [AWS AI](https://aws.amazon.com/ai/). 
 1. <span style="color:blue">[08.2021] </span>  One [paper](https://arxiv.org/abs/2108.11601) got accepted at EMNLP 2021.
 1. <span style="color:blue">[03.2021] </span>  One [paper](https://arxiv.org/abs/2104.12567) got accepted at NAACL 2021.
 1. <span style="color:blue">[06.2021] </span>  Joined Facebook AI Research, Seattle, WA (summer internship 2020).
-1. <span style="color:blue">[12.2019] </span>  Delivered invited talk at [NSysS](https://cse.buet.ac.bd/nsyss2019/)
+1. <span style="color:blue">[12.2019] </span>  Delivered my invited talk at [NSysS](https://cse.buet.ac.bd/nsyss2019/)
 3. <span style="color:blue">[12.2019] </span>  Passed the oral qualification exam (Advanced to candidacy) 
 4. <span style="color:blue">[08.2019] </span> Our paper on [Robust Text Classifier on Test-Time Budgets](https://arxiv.org/abs/1808.08270)  is accepted by EMNLP-IJCAI, 2019.
 5. <span style="color:blue">[08.2019] </span> I received WeCNLP travel grant, Facebook, Menlo Park, CA.
