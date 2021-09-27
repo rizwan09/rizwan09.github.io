@@ -30,7 +30,7 @@ I have received my Bachelor's in Computer Science and Engineering from the <a hr
 News and Announcements
 ======
 1. <span style="color:blue">[09.2021] </span>  Delived invited talk at [AWS AI](https://aws.amazon.com/ai/). 
-1. <span style="color:blue">[08.2021] </span>  Two papers [[1](https://arxiv.org/abs/2104.08645), [2](https://arxiv.org/abs/2108.11601)] got accepted at EMNLP 2021.
+1. <span style="color:blue">[08.2021] </span>  One [[paper](https://arxiv.org/abs/2108.11601)] got accepted at EMNLP 2021.
 1. <span style="color:blue">[03.2021] </span>  One [paper](https://arxiv.org/abs/2104.12567) got accepted at NAACL 2021.
 1. <span style="color:blue">[06.2021] </span>  Joined Facebook AI Research, Seattle, WA (summer internship 2020).
 1. <span style="color:blue">[12.2019] </span>  Delivered invited [[talk at NSysS](https://cse.buet.ac.bd/nsyss2019/program/)] 
