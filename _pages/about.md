@@ -12,12 +12,12 @@ redirect_from:
 I am a final-year Ph.D. candidate at <a href="http://www.cs.ucla.edu/">CS@UCLA</a>.
   I work under the supervision of <a href="http://web.cs.ucla.edu/~kwchang/">Prof. Kai-Wei Chang</a>.
   My research interests span the areas of natural and programming language processing (e.g., English, Python) with a special focus on learning with auxiliary supervision and world knowledge.
-  My research goal is to enhance the inclusion of technology for processing both natural and programming languages by learning from open-source resources.
+  My research goal is to enhance the processing both natural and programming languages by learning from open-source resources.
   During my Ph.D., I got the opportunity to work as a research intern at Google Reserach (Summer 2021), Facebook AI Research (Summer 2020), Salesforce Research (Summer 2019), and Microsoft AI & Research (Summer 2018).
 </p>
 
 <p align="justify">
-I have received my Bachelor's in Computer Science and Engineering from the <a href="http://cse.buet.ac.bd/">CSE@BUET</a>, in September 2015. In my free time, I like to brainstrom to improve my research skill. 
+I have received my Bachelor's in Computer Science and Engineering from the <a href="http://cse.buet.ac.bd/">CSE@BUET</a>, in September 2015. In my free time, I like to spend time with my familty and visit scenic spots. 
 </p>
 
 <!--
