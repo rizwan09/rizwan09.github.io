@@ -5,7 +5,7 @@ type: "Conference Presentation"
 permalink: /talks/2021-aws-code
 venue: "Amazon Web Service (AWS) 2021"
 date: 2019-07-23
-location: "Paris, France"
+location: "Seattle, WA"
 ---
 
 [[Presentation-slides]](https://docs.google.com/presentation/d/1SOatvBHD_JyOgNuW5GueGd1yJ4vVghbG/edit?usp=sharing&ouid=109501306155809246755&rtpof=true&sd=true)[[Presenation-pdf]](https://drive.google.com/file/d/1q53HEVzgZv-wgPqd6mYFConk829QPgCc/view?usp=sharing)
