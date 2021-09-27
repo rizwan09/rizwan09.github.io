@@ -8,8 +8,8 @@ date: 2019-12-02
 location: "Dhaka, Bangladesh"
 ---
 
-[[Presentation-slides]](https://drive.google.com/file/d/1c8QiTuKihpX6iheBiGuh3AHj_P-YSeKC/view?usp=sharing)
-[[Presentation-pdf]](https://docs.google.com/presentation/d/1t0RnR9CDVZdphlaDvgduosflvLKvB8Ji/edit?usp=sharing&ouid=109501306155809246755&rtpof=true&sd=true)
+[[Presentation-slides]](https://docs.google.com/presentation/d/1t0RnR9CDVZdphlaDvgduosflvLKvB8Ji/edit?usp=sharing&ouid=109501306155809246755&rtpof=true&sd=true)
+[[Presentation-pdf]](https://drive.google.com/file/d/1c8QiTuKihpX6iheBiGuh3AHj_P-YSeKC/view?usp=sharing)
 
 ======
 
