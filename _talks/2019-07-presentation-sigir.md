@@ -2,7 +2,7 @@
 title: "Fast and Robust Text Classification Model"
 collection: talks
 type: "Talk"
-permalink: /talks/2019-nsyss
+permalink: /talks/2019-07-presentation-sigir.md
 venue: "6th International Conference on Networking, Systems and Security (NSysS)"
 date: 2019-12-02
 location: "Dhaka, Bangladesh"
