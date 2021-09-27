@@ -2,7 +2,7 @@
 title: "Language Processing with Auxiliary Supervision and World Knowledge"
 collection: talks
 type: "Conference Presentation"
-permalink: /talks/2021-09-talk-aws-code
+permalink: /talks/2017-09-talk-ucla-ml-seminar
 venue: "Amazon Web Service (AWS) 2021"
 date: 2019-07-23
 location: "Seattle, WA"
