@@ -30,12 +30,12 @@ I have received my Bachelor's in Computer Science and Engineering from the <a hr
 News and Announcements
 ======
 1. <span style="color:blue">[09.2021] </span>  Delived invited talk at [AWS AI](https://aws.amazon.com/ai/). 
-1. <span style="color:blue">[08.2021] </span>  One [[paper](https://arxiv.org/abs/2108.11601)] got accepted at EMNLP 2021.
+1. <span style="color:blue">[08.2021] </span>  One [paper](https://arxiv.org/abs/2108.11601) got accepted at EMNLP 2021.
 1. <span style="color:blue">[03.2021] </span>  One [paper](https://arxiv.org/abs/2104.12567) got accepted at NAACL 2021.
 1. <span style="color:blue">[06.2021] </span>  Joined Facebook AI Research, Seattle, WA (summer internship 2020).
-1. <span style="color:blue">[12.2019] </span>  Delivered invited [[talk at NSysS](https://cse.buet.ac.bd/nsyss2019/program/)] 
+1. <span style="color:blue">[12.2019] </span>  Delivered invited [talk at NSysS](https://cse.buet.ac.bd/nsyss2019/program/)
 3. <span style="color:blue">[12.2019] </span>  Passed the oral qualification exam (Advanced to candidacy) 
-4. <span style="color:blue">[08.2019] </span> Our paper on [[Robust Text Classifier on Test-Time Budgets](https://arxiv.org/abs/1808.08270)]  is accepted by EMNLP-IJCAI, 2019.
+4. <span style="color:blue">[08.2019] </span> Our paper on [Robust Text Classifier on Test-Time Budgets](https://arxiv.org/abs/1808.08270)  is accepted by EMNLP-IJCAI, 2019.
 5. <span style="color:blue">[08.2019] </span> I received WeCNLP travel grant, Facebook, Menlo Park, CA.
 6. <span style="color:blue">[07.2019] </span> Abstract accepted at the second annual West Coast NLP (WeCNLP) Summit, Facebook, Menlo Park, CA. 
 7. <span style="color:blue">[08.2019] </span> Joined Salesforce Research, Palo Alto, CA (summer internship 2019).
@@ -43,6 +43,6 @@ News and Announcements
 9. <span style="color:blue">[07.2018] </span> Attending ACL, 2018 at Melbourne, Australia.
 10. <span style="color:blue">[06.2018] </span> Joined Microsoft AI & Research, Redmond, WA (summer internship 2018).
 11. <span style="color:blue">[05.2018] </span> Received ACL Student Travel Grant, Melbourne, Australia, 2018. 
-12. <span style="color:blue">[04.2018] </span> Our paper on [[Building Language Models for Text with Named Entities](https://arxiv.org/pdf/1805.04836.pdf)] is accepted by ACL, 2018.
-13. <span style="color:blue">[03.2018] </span> Presented [[poster at SoCal NLP symposium](https://socalnlp.github.io/symp18/#paper)] at University of California, Irvine, 2018.
-14. <span style="color:blue">[12.2017] </span> Our Paper on [[A Corpus of Drug Usage Guidelines Annotated with Type of Advice](https://aclanthology.org/L18-1190.pdf)] is accepted by LREC, 2018.
+12. <span style="color:blue">[04.2018] </span> Our paper on [Building Language Models for Text with Named Entities](https://arxiv.org/pdf/1805.04836.pdf) is accepted by ACL, 2018.
+13. <span style="color:blue">[03.2018] </span> Presented [poster at SoCal NLP symposium](https://socalnlp.github.io/symp18/#paper) at University of California, Irvine, 2018.
+14. <span style="color:blue">[12.2017] </span> Our Paper on [A Corpus of Drug Usage Guidelines Annotated with Type of Advice](https://aclanthology.org/L18-1190.pdf) is accepted by LREC, 2018.
