@@ -4,7 +4,7 @@ collection: talks
 type: "talk"
 permalink: /talks/2017-09-talk-ucla-ml-seminar
 venue: "Amazon Web Service (AWS) 2021"
-date: 2019-07-23
+date: 2021-09-20
 location: "Seattle, WA"
 ---
 
