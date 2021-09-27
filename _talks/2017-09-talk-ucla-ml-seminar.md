@@ -1,7 +1,7 @@
 ---
 title: "Language Processing with Auxiliary Supervision and World Knowledge"
 collection: talks
-type: "talk"
+type: "Talk"
 permalink: /talks/2017-09-talk-ucla-ml-seminar
 venue: "Amazon Web Service (AWS) 2021"
 date: 2021-09-20
