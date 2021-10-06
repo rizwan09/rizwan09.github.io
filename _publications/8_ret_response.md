@@ -10,7 +10,7 @@ codeurl: ''
 excerpt: ''
 ---
 ---
-<a href='' target="_blank">[Download Paper]</a><a href='' target="_blank">[Source Code]</a>
+
 
 <p align="justify">
 The use of templates provides a good control
