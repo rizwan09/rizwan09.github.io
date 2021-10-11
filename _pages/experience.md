@@ -8,8 +8,8 @@ redirect_from:
 ---
 <br/>
     <span style="color:black; font-size:17px"><b><a href="http://www.ucla.edu/" target="_blank"><font color="brown" size="5">University of California, Los Angeles</font></a></b></span><br/>
-    Graduate Research Assistant [January, 2019 - June, 2019]<br/>
-    Graduate Teaching Assistant [August, 2017 - Present]<br/>
+    Graduate  Teaching Assistant [Sepetember, 2017 - June, 2019]<br/>
+    Graduate  Research Assistant [January, 2019 - Present]<br/>
     Advisor: <a href="http://web.cs.ucla.edu/~kwchang/" target="_blank">Prof. Kai-Wei Chang</a>, Lab: <a href="http://web.cs.ucla.edu/~kwchang/members/" target="_blank">UCLA NLP</a> <br/>
 
 
