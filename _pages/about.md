@@ -30,8 +30,8 @@ I have received my Bachelor's in Computer Science and Engineering from the <a hr
 News and Announcements
 ======
 1. <span style="color:blue">[11.2021] </span>  Delivered my invited talk at [MBZUAI](https://mbzuai.ac.ae/). 
-3. <span style="color:blue">[09.2021] </span>  Delivered my invited talk at [UCSB NLP](https://www.cs.washington.edu/research/nlp). 
-3. <span style="color:blue">[09.2021] </span>  Delivered my invited talk at [UW NLP](https://www.cs.washington.edu/research/nlp). 
+3. <span style="color:blue">[11.2021] </span>  Delivered my invited talk at [UCSB NLP](https://www.cs.washington.edu/research/nlp). 
+3. <span style="color:blue">[11.2021] </span>  Delivered my invited talk at [UW NLP](https://www.cs.washington.edu/research/nlp). 
 4. <span style="color:blue">[08.2021] </span>  One [paper](https://arxiv.org/abs/2108.11601) got accepted at EMNLP 2021.
 5. <span style="color:blue">[06.2021] </span>  Joined Google Research, Kirkland, WA (summer internship 2021).
 6. <span style="color:blue">[03.2021] </span>  One [paper](https://arxiv.org/abs/2104.12567) got accepted at NAACL 2021.
