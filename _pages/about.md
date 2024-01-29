@@ -29,12 +29,10 @@ I have received my Bachelor's in Computer Science and Engineering from the <a hr
 
 News and Announcements
 ======
-1. <span style="color:blue">[2023] </span> Joined QCRI and two papers got accepted: [ERA](https://arxiv.org/pdf/2204.08952.pdf) at EACL, [DelucionQA](https://arxiv.org/pdf/2312.05200.pdf) at EMNLP.
+1. <span style="color:blue">[2023] </span> (1) Joined QCRI and (2) two papers got accepted: [ERA](https://arxiv.org/pdf/2204.08952.pdf) at EACL, [DelucionQA](https://arxiv.org/pdf/2312.05200.pdf) at EMNLP.
 2. <span style="color:blue">[06.2022] </span>  Graduated from Phd, UCLA and Joined Bosch Research as a Research Scientist.
-3. <span style="color:blue">[2021] </span>  Two papers got accepted: [Redcoder](https://arxiv.org/abs/2108.11601) at EMNLP, [Seal-Shap](https://arxiv.org/abs/2104.12567) at NAACL.
-4. <span style="color:blue">[06.2021] </span>  Joined Google Research, Kirkland, WA (summer internship 2021).
-5. <span style="color:blue">[06.2020] </span>  Joined Facebook AI Research, Seattle, WA (summer internship 2020).
-6. <span style="color:blue">[08.2019] </span> One [paper](https://arxiv.org/abs/1808.08270)  is accepted by EMNLP-IJCAI, 2019.
-7. <span style="color:blue">[06.2018] </span> Joined Microsoft AI & Research, Redmond, WA (summer internship 2018).
-8. <span style="color:blue">[04.2018] </span> One [paper](https://arxiv.org/pdf/1805.04836.pdf) is accepted by ACL, 2018.
-9. <span style="color:blue">[12.2017] </span> One [paper](https://aclanthology.org/L18-1190.pdf) is accepted by LREC, 2018.
+3. <span style="color:blue">[2021] </span>  (1) Two papers got accepted: [Redcoder](https://arxiv.org/abs/2108.11601) at EMNLP, [Seal-Shap](https://arxiv.org/abs/2104.12567) at NAACL (2) Joined Google Research, Kirkland, WA (summer internship 2021).
+4. <span style="color:blue">[2020] </span>  Joined Facebook AI Research, Seattle, WA (summer internship 2020).
+5. <span style="color:blue">[2019] </span> One [paper](https://arxiv.org/abs/1808.08270)  is accepted by EMNLP-IJCAI, 2019.
+6. <span style="color:blue">[2018] </span> Joined Microsoft AI & Research, Redmond, WA (summer internship 2018) and (2) One [paper](https://arxiv.org/pdf/1805.04836.pdf) is accepted by ACL, 2018.
+7. <span style="color:blue">[12.2017] </span> One [paper](https://aclanthology.org/L18-1190.pdf) is accepted by LREC, 2018.
