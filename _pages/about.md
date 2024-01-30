@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <p align="justify">
-I am a Scientist at Qatar Computing Research Institute. I have completeded my Ph.D. from <a href="http://www.cs.ucla.edu/">CS@UCLA</a>.
+I am a Scientist at Qatar Computing Research Institute. I have completeded my Ph.D. from <a href="http://www.cs.ucla.edu/">CS@UCLA</a>
   and was advised by <a href="http://web.cs.ucla.edu/~kwchang/">Prof. Kai-Wei Chang</a>.
   My research interests span the areas of information retrieval, natural and programming language processing (e.g., English, Python). 
   Previously I was a Research Scientist at Bosch Research, Sunnyvale, USA (Aug 2022 to Dec 2023). 
