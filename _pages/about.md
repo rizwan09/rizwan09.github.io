@@ -18,7 +18,6 @@ I am a Scientist at Qatar Computing Research Institute. I have completeded my Ph
 
 <p align="justify">
 I have received my Bachelor's in Computer Science and Engineering from the <a href="http://cse.buet.ac.bd/">CSE@BUET</a>, in September 2015. 
-  
 I have been serving as an ACL ARR Area Chair and have accepted the Senior Area Chair Invitation for EMNLP 2025!!!
 </p>
 
