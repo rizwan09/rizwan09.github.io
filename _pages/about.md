@@ -17,7 +17,7 @@ I am a Scientist at Qatar Computing Research Institute. I have completeded my Ph
 </p>
 
 <p align="justify">
-Update: I have accepted the Senior Area Chair Invitation for EMNLP 2025!!!
+I will be serving as a Senior Area Chair at EMNLP 2025!!!
 
 </p>
 
