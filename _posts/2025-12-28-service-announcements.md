@@ -1,5 +1,5 @@
 ---
-title: Serving as a SAC for EACL, ACL, and others upcoming!
+title: Service Announcement!
 layout: post
 css: "/css/academicons.css"
 tag: [conference]
