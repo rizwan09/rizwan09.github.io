@@ -550,7 +550,7 @@ layout: page
 }
 
 .bio-content {
-  background: #f8f9fa;
+  background: #ffffff;
   padding: 0;
   border-radius: 0;
   border-left: none
