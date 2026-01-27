@@ -551,11 +551,14 @@ layout: page
 
 .bio-content {
   background: #f8f9fa;
-  padding: 2rem;
-  border-radius: 12px;
-  border-left: 4px solid #8B0000;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 0;
+  border-radius: 0;
+  border-left: none
+  box-shadow: none;
+  margin: 0;
 }
+
+  
 
 .bio-content p {
   line-height: 1.7;
