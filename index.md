@@ -317,7 +317,7 @@ layout: page
             </div>
             <div class="service-item">
               <h5>Area Chair</h5>
-              <h6>ACL 2025</h6>
+              <h6>COLM 2026, ACL 2025</h6>
             </div>
           </div>
         </section>
