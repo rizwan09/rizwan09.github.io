@@ -154,7 +154,7 @@ layout: page
 
       <ul class="posts-list">
         {% assign posts = paginator.posts | default: site.posts %}
-        {% for post in posts limit:5 %}
+        {% for post in posts limit:7 %}
           <li>
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </li>
