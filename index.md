@@ -8,7 +8,6 @@ layout: page
     <div class="profile-container">
       <div class="profile-image">
         <img src="img/myphoto.jpg" alt="Md Rizwan Parvez" class="profile-avatar">
-        <div class="status-indicator"></div>
       </div>
       <div class="profile-info">
         <h1 class="name-title">Md Rizwan Parvez</h1>
