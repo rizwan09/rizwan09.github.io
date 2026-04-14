@@ -110,7 +110,34 @@ layout: page
         </div>
 
         <div class="award-item">
-          <span class="award-name">ACL and EMNLP Student Travel Grant</span>
+          <span class="award-name">
+            <a href="https://www.paperdigest.org/digest/?topic=emnlp&type=author&year=2024">
+              Top-35 Most-Cited Paper at EMNLP 2024 (LLM Evaluation Review)
+            </a>
+          </span>
+          <span class="award-year">2024</span>
+        </div>
+
+        <div class="award-item">
+          <span class="award-name">
+            <a href="https://www.paperdigest.org/digest/?topic=acl&type=author&year=2024">
+              Top-50 Most-Cited Paper at ACL 2024 (MapCoder)
+            </a>
+          </span>
+          <span class="award-year">2024</span>
+        </div>
+
+        <div class="award-item">
+          <span class="award-name">
+            <a href="https://huggingface.co/datasets/NTU-NLP-sg/xCodeEval">
+              6M+ Downloads on HuggingFace (xCodeEval, ACL 2024)
+            </a>
+          </span>
+          <span class="award-year">2024</span>
+        </div>
+
+        <div class="award-item">
+          <span class="award-name">ACL and EMNLP Student Travel Grants</span>
           <span class="award-year">2018, 2021</span>
         </div>
 
@@ -887,6 +914,3 @@ layout: page
   line-height: 1.6;
 }
 </style>
-
-
-
