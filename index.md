@@ -96,9 +96,9 @@ layout: page
 
         <div class="award-item">
           <span class="award-name">
-            Open-RAG in
+           Press Coverage in
             <a href="https://www.marktechpost.com/2024/10/14/open-rag-a-novel-ai-framework-designed-to-enhance-reasoning-capabilities-in-rag-with-open-source-llms/">
-              MarkTechPost Coverage!!
+              MarkTechPost News (Open-RAG)!!
             </a>
           </span>
           <span class="award-year">2024</span>
