@@ -87,7 +87,7 @@ layout: page
         <div class="award-item">
           <span class="award-name">
             <a href="https://icml.cc/virtual/2025/poster/44415">
-              ICML Spotlight!! (AC Rate &lt; 2%)
+              ICML Spotlight!! (MapEval, AC Rate &lt; 2%)
             </a>
           </span>
           <span class="award-year">2025</span>
@@ -95,17 +95,11 @@ layout: page
 
         <div class="award-item">
           <span class="award-name">
-           Press Coverage in
             <a href="https://www.marktechpost.com/2024/10/14/open-rag-a-novel-ai-framework-designed-to-enhance-reasoning-capabilities-in-rag-with-open-source-llms/">
-              MarkTechPost News (Open-RAG)!!
+              Press Coverage in MarkTechPost News (Open-RAG, EMNLP 2024)
             </a>
           </span>
           <span class="award-year">2024</span>
-        </div>
-
-        <div class="award-item">
-          <span class="award-name">UCLA Graduate Fellowships</span>
-          <span class="award-year">2017, 2018</span>
         </div>
 
         <div class="award-item">
@@ -136,31 +130,23 @@ layout: page
         </div>
 
         <div class="award-item">
+          <span class="award-name">
+            <a href="https://resources.paperdigest.org/2025/09/most-influential-arxiv-software-engineering-papers-2025-09-version/">
+              Top-15 Most-Cited Paper on Software Engineering 2021 (RedCoder, EMNLP 2021)
+            </a>
+          </span>
+          <span class="award-year">2021</span>
+        </div>
+
+        <div class="award-item">
           <span class="award-name">ACL and EMNLP Student Travel Grants</span>
           <span class="award-year">2018, 2021</span>
         </div>
 
         <div class="award-item">
-          <span class="award-name">Best Demo Award: Bangladesh Inter-University System Design and Development </span>
-          <span class="award-year">2015</span>
+          <span class="award-name">UCLA Graduate Fellowships</span>
+          <span class="award-year">2017, 2018</span>
         </div>
-
-        <!--
-        <div class="award-item">
-          <span class="award-name">Dean’s List Award, BUET</span>
-          <span class="award-year">2013-2015</span>
-        </div>
-        -->
-        
-        <div class="award-item">
-          <span class="award-name">Best Demo Award: Workshop on Mobile Computing and Human Computer Interaction </span>
-          <span class="award-year">2014</span>
-        </div>
-
-
-        
-
-        
       </div>
 
       <div class="section-footer">
