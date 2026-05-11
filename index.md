@@ -105,7 +105,7 @@ layout: page
         <div class="award-item">
           <span class="award-name">
             <a href="https://www.paperdigest.org/digest/?topic=emnlp&type=author&year=2024">
-              Top-35 Most-Cited Paper at EMNLP 2024 (LLM Evaluation Review)
+              Top-28 Most-Cited Paper at EMNLP 2024 (LLM Evaluation Review)
             </a>
           </span>
           <span class="award-year">2024</span>
@@ -114,7 +114,7 @@ layout: page
         <div class="award-item">
           <span class="award-name">
             <a href="https://www.paperdigest.org/digest/?topic=acl&type=author&year=2024">
-              Top-50 Most-Cited Paper at ACL 2024 (MapCoder)
+              Top-38 Most-Cited Paper at ACL 2024 (MapCoder)
             </a>
           </span>
           <span class="award-year">2024</span>
@@ -123,7 +123,7 @@ layout: page
         <div class="award-item">
           <span class="award-name">
             <a href="https://huggingface.co/datasets/NTU-NLP-sg/xCodeEval">
-              6M+ Downloads on HuggingFace (xCodeEval, ACL 2024)
+              6.5M+ Downloads on HuggingFace (xCodeEval, ACL 2024)
             </a>
           </span>
           <span class="award-year">2024</span>
@@ -132,7 +132,7 @@ layout: page
         <div class="award-item">
           <span class="award-name">
             <a href="https://resources.paperdigest.org/2025/09/most-influential-arxiv-software-engineering-papers-2025-09-version/">
-              Top-15 Most-Cited Paper on Software Engineering 2021 (RedCoder, EMNLP 2021)
+              Top-10 Most-Cited Paper on Software Engineering 2021 (RedCoder, EMNLP 2021)
             </a>
           </span>
           <span class="award-year">2021</span>
