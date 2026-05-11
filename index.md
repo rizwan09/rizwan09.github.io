@@ -87,7 +87,7 @@ layout: page
         <div class="award-item">
           <span class="award-name">
             <a href="https://icml.cc/virtual/2025/poster/44415">
-              ICML Spotlight!! (MapEval, Top-2%)
+              ICML Spotlight!! (MapEval, Top-2% among 12,107 Submissions)
             </a>
           </span>
           <span class="award-year">2025</span>
