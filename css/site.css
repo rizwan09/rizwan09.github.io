@@ -214,3 +214,26 @@ footer { border-top: 1px solid var(--line); max-width: 1120px; margin: 0 auto; p
 .timeline ul.sub li { margin: 0 0 2px; padding: 0; font-size: 14px; }
 .timeline ul.sub li::before, .timeline ul.sub li::after { display: none; }
 .news li { border-radius: 4px; transition: background-color .18s ease; } .news li:hover { background: #f3faf6; }
+
+/* Thread headings for paper lists */
+.thread-group { margin-top: 34px; }
+.thread-name { font-family: var(--sans); font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); margin: 24px 0 4px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+.content .thread-name:first-of-type { margin-top: 10px; }
+.jump { font-size: 13.5px; line-height: 1.9; color: var(--faint); }
+
+/* Stage pipelines (from Figure 1 of the research statement) */
+.stages { display: flex; flex-wrap: wrap; align-items: stretch; gap: 8px 0; margin: 12px 0 2px; }
+.stage { position: relative; flex: 1 1 130px; min-width: 120px; background: #fff; border: 1px solid #d8e3dd; border-radius: 8px; padding: 7px 9px; margin-right: 18px; }
+.stage:last-child { margin-right: 0; }
+.stage:not(:last-child)::after { content: ""; position: absolute; right: -15px; top: 50%; border: 6px solid transparent; border-left: 8px solid #9cbfaf; transform: translateY(-50%); }
+.stage-name { font-size: 11.5px; font-weight: 600; letter-spacing: .02em; color: var(--head); margin-bottom: 4px; line-height: 1.3; }
+.stage-papers { display: flex; flex-wrap: wrap; gap: 3px; }
+.stage-papers a, .stage-papers span { font-size: 11.5px; padding: 0 6px; border-radius: 4px; background: #eef5f1; color: #2d5a48; line-height: 1.6; }
+.stage-papers span { background: #f2f2ef; color: var(--soft); }
+.stage-papers a:hover { background: var(--accent); color: #fff; text-decoration: none; }
+.thrust:hover .stage { border-color: #b7d2c4; }
+details.fig { margin-top: 10px; font-size: 13px; }
+details.fig summary { cursor: pointer; color: var(--accent); }
+details.fig img { margin-top: 8px; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
+@media (max-width: 700px) { .stage { flex-basis: 100%; margin-right: 0; margin-bottom: 14px; } .stage:not(:last-child)::after { right: 50%; top: auto; bottom: -15px; transform: translateX(50%); border: 6px solid transparent; border-top: 8px solid #9cbfaf; } }
+.thrust > .stages { grid-column: 1 / -1; margin-top: 4px; }

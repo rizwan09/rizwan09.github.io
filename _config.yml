@@ -229,6 +229,8 @@ scholar:
   - pub_type
   - topic
   - abbr
+  - thread
+  - featured
   - hide
   - keyword
   - tweet

@@ -1,0 +1,8 @@
+# Order and names of research threads used to group papers everywhere.
+- { id: knowledge, name: "Retrieval and Knowledge", group: "Knowledge" }
+- { id: code, name: "Code Generation and Software Engineering", group: "Code" }
+- { id: spatial, name: "Maps and Spatial Reasoning", group: "Grounded Actions" }
+- { id: chart, name: "Charts, Visual Data, and Multimodal", group: "Grounded Actions" }
+- { id: web, name: "Web and Computer-Use Agents", group: "Grounded Actions" }
+- { id: safety, name: "Safety, Security, and Trust", group: "Safety" }
+- { id: other, name: "Other ML and NLP", group: "Other" }

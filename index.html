@@ -49,9 +49,20 @@ permalink: /
         {% for t in r.thrusts %}
         <div class="thrust glow" id="thread-{{ t.id }}">
           <div class="thrust-name">{{ t.name }}<span>{{ t.property }} · {{ t.question }}</span></div>
-          <p><i>{{ t.thesis }}</i> {{ t.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+          <div>
+            <p><i>{{ t.thesis }}</i> {{ t.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+            {% if t.id == 'c' %}<details class="fig"><summary>End-to-end code pipeline (figure from my research statement)</summary><img src="{{ '/img/research/code-pipeline.png' | relative_url }}" alt="Language-to-code pipeline: federated coding agents retrieve, plan, simulate and verify, and execute and debug; a judge agent reconciles feedback into evolving memory; discussion and reviewer agents resolve issues behind safety guardrails."></details>{% endif %}
+          </div>
+          {% include stages.html stages=t.stages %}
         </div>
         {% endfor %}
+        <div class="thrust glow" id="thread-s">
+          <div class="thrust-name">{{ r.safety.short }}<span>{{ r.safety.property }} · {{ r.safety.question }}</span></div>
+          <div>
+            <p><i>{{ r.safety.thesis }}</i> {{ r.safety.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+          </div>
+          {% include stages.html stages=r.safety.stages %}
+        </div>
       </div>
 
       <p class="future-title"><b>Where this is heading</b></p>
@@ -64,7 +75,18 @@ permalink: /
     <section id="publications">
       <h2>Selected Publications</h2>
       <p class="small muted">Full list on the <a href="{{ '/publications/' | relative_url }}">publications page</a> and <a href="{{ p.links[0].url }}">Google Scholar</a>.</p>
-      {% bibliography --file ref --template publications-selected -q @*[selected=true]* %}
+      <h3 class="thread-name">Retrieval and Knowledge</h3>
+      {% bibliography --file ref --template publications-selected -q @*[featured=knowledge]* %}
+      <h3 class="thread-name">Code Generation and Software Engineering</h3>
+      {% bibliography --file ref --template publications-selected -q @*[featured=code]* %}
+      <h3 class="thread-name">Grounded Actions: Maps and Spatial Reasoning</h3>
+      {% bibliography --file ref --template publications-selected -q @*[featured=spatial]* %}
+      <h3 class="thread-name">Grounded Actions: Charts and Visual Data</h3>
+      {% bibliography --file ref --template publications-selected -q @*[featured=chart]* %}
+      <h3 class="thread-name">Grounded Actions: Web and Computer-Use Agents</h3>
+      {% bibliography --file ref --template publications-selected -q @*[featured=web]* %}
+      <h3 class="thread-name">Safety, Security, and Trust</h3>
+      {% bibliography --file ref --template publications-selected -q @*[featured=safety]* %}
     </section>
 
     <section id="experience">

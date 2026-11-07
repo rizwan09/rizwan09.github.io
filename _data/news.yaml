@@ -3,7 +3,7 @@
 - when: "2026"
   text: "I will serve as a Senior Area Chair for ACL 2027, and as an Area Chair for NAACL 2027 and AAAI 2027."
 - when: "2026"
-  text: "2 papers accepted at EMNLP 2026: [GUI-Primitives](https://arxiv.org/abs/2608.21832), Reward Engineering for Software Tasks."
+  text: "2 papers accepted at EMNLP 2026: [GUI-Primitives](https://arxiv.org/abs/2608.21832), [Reward Engineering for Software Tasks](https://arxiv.org/abs/2601.19100)."
 - when: "2026"
   text: "Our [survey on agentic security](https://arxiv.org/abs/2510.06445) is published in TMLR."
 - when: "2026"
