@@ -20,11 +20,11 @@ permalink: /publications/
 
 <h2 class="thread-group t-a">Grounded Actions</h2>
 
-<h3 id="spatial" class="thread-name t-a">Maps and Spatial Reasoning</h3>
+<h3 id="spatial" class="thread-name t-a">Maps and Spatial Agents</h3>
 {% bibliography --file ref -q @*[thread=spatial]* %}
 {% bibliography --file ref -q @*[thread2=spatial]* %}
 
-<h3 id="chart" class="thread-name t-a">Charts, Visual Data, and Multimodal</h3>
+<h3 id="chart" class="thread-name t-a">Charts and Visual Data Agents</h3>
 {% bibliography --file ref -q @*[thread=chart]* %}
 {% bibliography --file ref -q @*[thread2=chart]* %}
 
