@@ -237,3 +237,15 @@ details.fig summary { cursor: pointer; color: var(--accent); }
 details.fig img { margin-top: 8px; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
 @media (max-width: 700px) { .stage { flex-basis: 100%; margin-right: 0; margin-bottom: 14px; } .stage:not(:last-child)::after { right: 50%; top: auto; bottom: -15px; transform: translateX(50%); border: 6px solid transparent; border-top: 8px solid #9cbfaf; } }
 .thrust > .stages { grid-column: 1 / -1; margin-top: 4px; }
+
+/* Email stands apart from document links */
+.profile .plain-list li.email { margin: 0 0 12px; padding: 7px 10px; background: #f4f5f3; border: 1px solid var(--line); border-radius: 6px; }
+.profile .email-label { display: block; font-family: var(--sans); font-size: 10.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); }
+.profile .email a { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 13px; color: var(--head); }
+.profile .email a:hover { color: var(--accent); }
+
+/* Section headings: accent marker + rule */
+.content h2, .prose h2 { display: flex; align-items: center; gap: 12px; color: var(--head); }
+.content h2::before, .prose h2::before { content: ""; flex: 0 0 auto; width: 10px; height: 10px; border-radius: 2px; background: var(--accent); transform: rotate(45deg); box-shadow: 4px -4px 0 -1px #b9d6c7; }
+.content h2::after, .prose h2::after { content: ""; flex: 1 1 auto; height: 1px; background: linear-gradient(90deg, #cfe2d8, rgba(207, 226, 216, 0)); }
+.prose h2 { border-bottom: 0; padding-bottom: 0; }

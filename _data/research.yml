@@ -22,24 +22,25 @@ thrusts:
       [FiLCo](https://arxiv.org/abs/2311.08377) learns which context to keep,
       [DelucionQA](https://arxiv.org/abs/2312.05200) detects hallucination, and
       [CoT-PoT](https://arxiv.org/abs/2604.17433) reaches self-consistency from two samples.
-      The same machinery runs in legal aid (Mina), cyber-threat intelligence
+      The same machinery runs in legal aid ([Mina](https://aclanthology.org/2026.findings-acl.1295/)), cyber-threat intelligence
       ([TechniqueRAG](https://arxiv.org/abs/2505.11988)), and medical screening (DR-VQA).
     papers:
       - { name: Open-RAG, url: "https://arxiv.org/abs/2410.01782" }
       - { name: FiLCo, url: "https://arxiv.org/abs/2311.08377" }
       - { name: DelucionQA, url: "https://arxiv.org/abs/2312.05200" }
       - { name: CoT-PoT, url: "https://arxiv.org/abs/2604.17433" }
+      - { name: Xolver, url: "https://arxiv.org/abs/2506.14234" }
     stages:
       - name: Source data valuation
-        papers: [{ name: "Source valuation" }, { name: "Budgeted selection" }, { name: "VideoLights" }]
+        papers: [{ name: "Source valuation", url: "https://aclanthology.org/2021.naacl-main.402/" }, { name: "Budgeted selection", url: "https://aclanthology.org/D19-1108/" }, { name: "VideoLights", url: "https://arxiv.org/abs/2412.01558" }]
       - name: Retrieval and filtering
-        papers: [{ name: "RedCoder", url: "https://arxiv.org/abs/2108.11601" }, { name: "FiLCo", url: "https://arxiv.org/abs/2311.08377" }, { name: "ERA" }, { name: "DelucionQA", url: "https://arxiv.org/abs/2312.05200" }, { name: "Open-RAG", url: "https://arxiv.org/abs/2410.01782" }]
+        papers: [{ name: "RedCoder", url: "https://arxiv.org/abs/2108.11601" }, { name: "FiLCo", url: "https://arxiv.org/abs/2311.08377" }, { name: "ERA", url: "https://aclanthology.org/2023.eacl-main.16/" }, { name: "DelucionQA", url: "https://arxiv.org/abs/2312.05200" }, { name: "Open-RAG", url: "https://arxiv.org/abs/2410.01782" }]
       - name: Retrieval-augmented reasoning
-        papers: [{ name: "Open-RAG", url: "https://arxiv.org/abs/2410.01782" }, { name: "Chain of Evidences" }, { name: "CoT-PoT", url: "https://arxiv.org/abs/2604.17433" }]
+        papers: [{ name: "Open-RAG", url: "https://arxiv.org/abs/2410.01782" }, { name: "Chain of Evidences", url: "https://aclanthology.org/2025.knowledgenlp-1.21/" }, { name: "CoT-PoT", url: "https://arxiv.org/abs/2604.17433" }]
       - name: Attribution and audit
-        papers: [{ name: "DelucionQA", url: "https://arxiv.org/abs/2312.05200" }, { name: "Conformal Lens" }]
+        papers: [{ name: "DelucionQA", url: "https://arxiv.org/abs/2312.05200" }, { name: "Conformal Lens", url: "https://aclanthology.org/2026.findings-eacl.274/" }]
       - name: Applied domains
-        papers: [{ name: "TechniqueRAG", url: "https://arxiv.org/abs/2505.11988" }, { name: "Mina" }, { name: "DR-VQA" }]
+        papers: [{ name: "TechniqueRAG", url: "https://arxiv.org/abs/2505.11988" }, { name: "Mina", url: "https://aclanthology.org/2026.findings-acl.1295/" }, { name: "DR-VQA" }]
 
   - id: c
     name: Code
@@ -67,7 +68,7 @@ thrusts:
       - name: Experience and skill memory
         papers: [{ name: "RedCoder", url: "https://arxiv.org/abs/2108.11601" }, { name: "MapCoder", url: "https://arxiv.org/abs/2405.11403" }, { name: "Xolver", url: "https://arxiv.org/abs/2506.14234" }]
       - name: Foundation models for code
-        papers: [{ name: "Text and Code LM" }, { name: "RedCoder", url: "https://arxiv.org/abs/2108.11601" }, { name: "PwS", url: "https://arxiv.org/abs/2605.27631" }]
+        papers: [{ name: "Text and Code LM", url: "https://aclanthology.org/P18-1221/" }, { name: "RedCoder", url: "https://arxiv.org/abs/2108.11601" }, { name: "PwS", url: "https://arxiv.org/abs/2605.27631" }]
       - name: AI coding agents
         papers: [{ name: "MapCoder", url: "https://arxiv.org/abs/2405.11403" }, { name: "CodeSim", url: "https://arxiv.org/abs/2502.05664" }, { name: "Xolver", url: "https://arxiv.org/abs/2506.14234" }]
       - name: Software engineering agents
@@ -100,11 +101,11 @@ thrusts:
 # Arrows between threads in the map.
     stages:
       - name: Tool-calling agents
-        papers: [{ name: "MapQaTor" }, { name: "MapEval", url: "https://arxiv.org/abs/2501.00316" }, { name: "MapAgent", url: "https://arxiv.org/abs/2509.05933" }]
+        papers: [{ name: "MapQaTor", url: "https://aclanthology.org/2025.acl-demo.1/" }, { name: "MapEval", url: "https://arxiv.org/abs/2501.00316" }, { name: "MapAgent", url: "https://arxiv.org/abs/2509.05933" }]
       - name: Spatio-temporal grounding
         papers: [{ name: "SpatiaLab", url: "https://arxiv.org/abs/2602.03916" }, { name: "TimeSpot", url: "https://arxiv.org/abs/2603.06687" }, { name: "UrbanAgentBench" }]
       - name: Visual data agents
-        papers: [{ name: "ChartInstruct" }, { name: "DataNarrative" }, { name: "ChartQAPro", url: "https://arxiv.org/abs/2504.05506" }, { name: "ChartQA-Video" }, { name: "ChartOrchestra" }]
+        papers: [{ name: "ChartInstruct", url: "https://aclanthology.org/2024.findings-acl.619/" }, { name: "DataNarrative", url: "https://aclanthology.org/2024.emnlp-main.1073/" }, { name: "ChartQAPro", url: "https://arxiv.org/abs/2504.05506" }, { name: "ChartQA-Video" }, { name: "ChartOrchestra" }]
       - name: Web and computer-use agents
         papers: [{ name: "WebOperator", url: "https://arxiv.org/abs/2512.12692" }, { name: "GUI-Primitives", url: "https://arxiv.org/abs/2608.21832" }, { name: "DashboardQA", url: "https://arxiv.org/abs/2508.17398" }]
 
@@ -120,7 +121,7 @@ safety:
   question: how far an agent can be trusted
   thesis: Trust has to be built in, then audited.
   summary: >-
-    Our critical review of LLM evaluation diagnoses why model comparisons mislead.
+    Our [critical review of LLM evaluation](https://aclanthology.org/2024.emnlp-main.764/) diagnoses why model comparisons mislead.
     [X-Teaming](https://arxiv.org/abs/2504.13203) red-teams multi-turn conversations with
     collaborating planner, attacker, and verifier agents;
     [Poison with Style](https://arxiv.org/abs/2605.27631) shows the code supply chain can be poisoned
@@ -136,7 +137,7 @@ safety:
     - { name: AgentTell, url: "https://arxiv.org/abs/2609.32915" }
   stages:
     - name: Evaluation
-      papers: [{ name: "LLM evaluation review" }]
+      papers: [{ name: "LLM evaluation review", url: "https://aclanthology.org/2024.emnlp-main.764/" }]
     - name: Red-teaming
       papers: [{ name: "X-Teaming", url: "https://arxiv.org/abs/2504.13203" }]
     - name: Code poisoning
