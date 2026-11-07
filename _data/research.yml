@@ -27,7 +27,7 @@ thrusts:
       [Xolver](https://arxiv.org/abs/2506.14234) extends retrieval to agentic memory: past solutions,
       experiences, and skills become one evolving store the agent can retrieve from as it works.
       The same machinery runs in legal aid ([Mina](https://aclanthology.org/2026.findings-acl.1295/)), cyber-threat intelligence
-      ([TechniqueRAG](https://arxiv.org/abs/2505.11988)), and medical screening (DR-VQA).
+      ([TechniqueRAG](https://arxiv.org/abs/2505.11988)), and medical screening ([DR-VQA](https://www.researchgate.net/profile/Tanvir-Alam-2/publication/400926894_DR-VQA_Large_Language_Model_Based_Vision_Question_Answering_System_on_Diabetic_Retinopathy/links/69ad86e5ceb31f79ab24f76b/DR-VQA-Large-Language-Model-Based-Vision-Question-Answering-System-on-Diabetic-Retinopathy.pdf)).
     papers:
       - { name: Open-RAG, url: "https://arxiv.org/abs/2410.01782" }
       - { name: FiLCo, url: "https://arxiv.org/abs/2311.08377" }
@@ -46,7 +46,7 @@ thrusts:
       - name: Agentic memory and skills
         papers: [{ name: "Xolver", url: "https://arxiv.org/abs/2506.14234" }]
       - name: Applied domains
-        papers: [{ name: "TechniqueRAG", url: "https://arxiv.org/abs/2505.11988" }, { name: "Mina", url: "https://aclanthology.org/2026.findings-acl.1295/" }, { name: "DR-VQA" }]
+        papers: [{ name: "TechniqueRAG", url: "https://arxiv.org/abs/2505.11988" }, { name: "Mina", url: "https://aclanthology.org/2026.findings-acl.1295/" }, { name: "DR-VQA", url: "https://www.researchgate.net/profile/Tanvir-Alam-2/publication/400926894_DR-VQA_Large_Language_Model_Based_Vision_Question_Answering_System_on_Diabetic_Retinopathy/links/69ad86e5ceb31f79ab24f76b/DR-VQA-Large-Language-Model-Based-Vision-Question-Answering-System-on-Diabetic-Retinopathy.pdf" }]
 
   - id: c
     name: Code
