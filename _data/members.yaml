@@ -43,6 +43,7 @@
       current: true
       topic: Robustness and calibrated abstention in omni-modal models
     - name: Zhiruo Wang
+      url: "https://zorazrw.github.io/"
       where: "Ph.D. student, Carnegie Mellon University; mentored while I was at Bosch Research"
       since: 2023
       until: 2023
