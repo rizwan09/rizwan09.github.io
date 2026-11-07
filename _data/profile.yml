@@ -40,6 +40,6 @@ pub_summary:
   papers: "45+"
   citations: "2,700+"
   h_index: 18
-  i10_index: 25
+  i10_index: 26
   as_of: October 2026
   venues: ACL, EMNLP, NAACL, EACL, COLM, TMLR, ICML, NeurIPS, and ICLR
