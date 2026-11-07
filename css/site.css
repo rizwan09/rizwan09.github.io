@@ -338,3 +338,17 @@ details.fig img { margin-top: 8px; border: 1px solid var(--line); border-radius:
 .pubcard .pub { margin: 0 -8px; padding: 12px 8px; }
 .pubcard ol.bibliography li:last-child .pub { border-bottom: 0; }
 .pubcard ol.bibliography + ol.bibliography li:first-child .pub { border-top: 1px solid var(--line); }
+
+/* ---------- Openings page ---------- */
+.openings { display: flex; flex-direction: column; gap: 16px; margin-top: 20px; }
+.ocard { border: 1px solid #dbe6e0; border-radius: 12px; padding: 16px 20px; background: #fff; }
+.ocard h3 { margin: 0 0 10px; font-family: var(--serif); font-size: 18px; color: var(--head); display: flex; align-items: center; gap: 10px; }
+.ocard h3::before { content: ""; width: 8px; height: 8px; border-radius: 2px; background: var(--accent); transform: rotate(45deg); }
+.ocard ul, .ocard ol { margin: 0; padding-left: 20px; }
+.ocard li { margin-bottom: 6px; }
+.onote { background: #eef6f1; border-color: #cfe2d8; border-left: 4px solid var(--accent); }
+.osteps { counter-reset: s; list-style: none; padding-left: 0 !important; }
+.osteps li { counter-increment: s; position: relative; padding-left: 34px; margin-bottom: 10px; }
+.osteps li::before { content: counter(s); position: absolute; left: 0; top: 0; width: 22px; height: 22px; border-radius: 50%; background: var(--accent); color: #fff; font-size: 12px; font-weight: 600; display: grid; place-items: center; }
+.ocard code { font-size: 13px; background: #f3f5f3; border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; }
+.ocard p { margin: 8px 0 0; }

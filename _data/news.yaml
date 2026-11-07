@@ -23,7 +23,7 @@
 - when: "12.2025"
   text: "I will serve as a Senior Area Chair for ACL 2026."
 - when: "11.2025"
-  text: "We release a [survey on agentic security](https://github.com/kagnlp/Awesome-Agentic-Security) covering 150+ papers."
+  text: "We release a [survey on agentic security](https://github.com/kagnlp/Awesome-Agentic-Security) covering 274 papers."
 - when: "10.2025"
   text: "I will serve as a Senior Area Chair for EACL 2026."
 - when: "2025"
