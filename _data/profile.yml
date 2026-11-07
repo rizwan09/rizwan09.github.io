@@ -26,7 +26,8 @@ bio:
     actions can be checked against evidence, execution, and the environment they act in, rather than
     taken on the model's word. Currently, my research includes three directions:
     (1) attributed knowledge and retrieval-augmented generation, (2) verifiable code generation and
-    software engineering agents, and (3) grounded agents for maps, the web, GUIs, and charts.
+    software engineering agents, and (3) grounded agents for maps, the web, GUIs, and charts,
+    together with the safety and security of these agents.
 recruiting: >-
   I do **not** have funding for paid internships in 2027. I am open to **unpaid research
   assistantships** and to **research collaborations**, and I co-supervise **Ph.D. students** with
