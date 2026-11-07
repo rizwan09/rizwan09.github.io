@@ -1,16 +1,17 @@
 # Mentees, from the CV (Sep 2026). `current: true` = active collaboration.
+# Order within each list is the display order (roughly by institution reputation).
 - group: Postdocs and Ph.D. Students
   people:
+    - name: Salman Rahman
+      where: Ph.D. student, UCLA
+      since: 2024
+      current: true
+      topic: Multi-turn red-teaming (X-Teaming); AI debate; Xolver; reward engineering
     - name: Md Abrar Jahin
       where: Ph.D. student, University of Southern California
       since: 2026
       current: true
       topic: Agent failure localization; certified model behavior
-    - name: Ahmed Masry
-      where: Ph.D. student, York University
-      since: 2023
-      current: true
-      topic: Chart QA and instruction tuning; chart-video reasoning; dashboard QA
     - name: Md Ashraful Islam
       url: "https://md-ashraful-pramanik.github.io/"
       where: Ph.D. student, Monash University (Fulbright Fellow)
@@ -18,11 +19,6 @@
       current: true
       topic: Multi-agent code generation (MapCoder, CodeSim); AI co-worker agents; PR review
       outcome: MSc, BUET → Ph.D., Monash
-    - name: Salman Rahman
-      where: Ph.D. student, UCLA
-      since: 2024
-      current: true
-      topic: Multi-turn red-teaming (X-Teaming); AI debate; Xolver; reward engineering
     - name: Tien Anh Nguyen
       where: Ph.D. student, Monash University
       since: 2026
@@ -33,16 +29,22 @@
       since: 2026
       current: true
       topic: Robustness and calibrated abstention in omni-modal models
+    - name: Ahmed Masry
+      where: Ph.D. student, York University
+      since: 2023
+      current: true
+      topic: Chart QA and instruction tuning; chart-video reasoning; dashboard QA
     - name: Shubhashis Roy Dipta
       where: Ph.D. student, UMBC
       since: 2026
       current: true
       topic: Robustness and calibrated abstention in omni-modal models
-    - name: Ahmed Lekssays
-      where: Postdoc, QCRI
-      since: 2024
-      until: 2025
-      topic: RAG for cyber-threat intelligence (TechniqueRAG)
+    - name: Zhiruo Wang
+      where: Ph.D. student, Carnegie Mellon University
+      since: 2023
+      until: 2023
+      topic: Context filtering for RAG (FiLCo)
+      outcome: Google Ph.D. Fellow, 2025–26
     - name: Md Rayhanul Masud
       where: Ph.D., UC Riverside
       since: 2026
@@ -53,52 +55,51 @@
       since: 2023
       until: 2024
       topic: Poisoning attacks on code LLMs (PwS, ICML 2026)
-    - name: Zhiruo Wang
-      where: Ph.D. student, Carnegie Mellon University
-      since: 2023
-      until: 2023
-      topic: Context filtering for RAG (FiLCo)
-      outcome: Google Ph.D. Fellow, 2025–26
+    - name: Ahmed Lekssays
+      where: Postdoc, QCRI
+      since: 2024
+      until: 2025
+      topic: RAG for cyber-threat intelligence (TechniqueRAG)
 
 - group: Master's, Undergraduate, and Pre-Doctoral Researchers
   people:
+    - name: Md. Tanzib Hosain
+      where: AIUB → Max Planck Institute
+      since: 2023
+      current: true
+      topic: Xolver; SWE-Discussion; Bengali idiom translation
     - name: Mahir Labib Dihan
       url: "https://mahirlabibdihan.github.io/"
       where: Master's student, BUET
       since: 2024
       current: true
       topic: MapEval, MapAgent, MapQaTor; WebOperator; SWE-Xplorer
-    - name: Azmine Toushik Wasi
-      where: Shahjalal University of Science and Technology
-      since: 2025
-      current: true
-      topic: Spatial and geo-temporal VLM benchmarks (SpatiaLab, TimeSpot); legal-aid agent (Mina); surveys
-    - name: Md. Tanzib Hosain
-      where: AIUB → Max Planck Institute
-      since: 2023
-      current: true
-      topic: Xolver; SWE-Discussion; Bengali idiom translation
     - name: Tusher Bhomik & Soumik Bhattacharjee
       where: Undergraduates, BUET
       since: 2026
       current: true
       topic: Failure attribution for LLM agents on CTF tasks
+    - name: Azmine Toushik Wasi
+      where: Shahjalal University of Science and Technology
+      since: 2025
+      current: true
+      topic: Spatial and geo-temporal VLM benchmarks (SpatiaLab, TimeSpot); legal-aid agent (Mina); surveys
     - name: Niloy Kumar Mondal
       since: 2026
       current: true
       topic: LLM-based QUBO formulation from natural language
-    - name: Md Hasebul Hasan
-      where: MSc, BUET
-      since: 2024
-      until: 2025
-      topic: Geospatial reasoning agents (MapAgent, MapEval)
-      outcome: now Ph.D. student at UT Arlington
     - name: Md Nazmul Islam Ananto
       where: Undergraduate, BUET
       since: 2024
       until: 2025
       topic: Geo-spatial path discovery with LLMs (CompassLLM)
       outcome: now Ph.D. student at Penn State
+    - name: Md Hasebul Hasan
+      where: MSc, BUET
+      since: 2024
+      until: 2025
+      topic: Geospatial reasoning agents (MapAgent, MapEval)
+      outcome: now Ph.D. student at UT Arlington
     - name: Asif Shahriar
       where: BUET
       since: 2025
