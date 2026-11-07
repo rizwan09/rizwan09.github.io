@@ -27,7 +27,7 @@ h1, h2, h3 { color: var(--head); line-height: 1.25; margin: 0; }
 .small { font-size: 13.5px; }
 
 /* ---------- Top bar ---------- */
-.topbar { border-bottom: 1px solid var(--line); background: #fff; }
+.topbar { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid var(--line); background: rgba(255, 255, 255, .94); -webkit-backdrop-filter: saturate(1.4) blur(8px); backdrop-filter: saturate(1.4) blur(8px); }
 .topbar-inner { max-width: 1120px; margin: 0 auto; padding: 16px 28px; display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 6px 24px; }
 .site-name { font-family: var(--serif); font-weight: 600; font-size: 19px; color: var(--head); }
 .site-name:hover { text-decoration: none; }
@@ -352,4 +352,6 @@ details.fig img { margin-top: 8px; border: 1px solid var(--line); border-radius:
 .osteps li::before { content: counter(s); position: absolute; left: 0; top: 0; width: 22px; height: 22px; border-radius: 50%; background: var(--accent); color: #fff; font-size: 12px; font-weight: 600; display: grid; place-items: center; }
 .ocard code { font-size: 13px; background: #f3f5f3; border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; }
 .ocard p { margin: 8px 0 0; }
-html { scroll-behavior: smooth; } .tcard { scroll-margin-top: 18px; } .tcard:target { border-color: var(--accent); box-shadow: 0 0 0 3px #d7eadf; }
+html { scroll-behavior: smooth; } .tcard { scroll-margin-top: 80px; } .tcard:target { border-color: var(--accent); box-shadow: 0 0 0 3px #d7eadf; }
+
+html { scroll-padding-top: 72px; }

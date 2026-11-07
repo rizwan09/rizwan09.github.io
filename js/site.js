@@ -35,8 +35,10 @@
   function fitProfile() {
     if (!prof) return;
     if (window.matchMedia('(max-width: 860px)').matches) { prof.style.top = ''; return; }
-    var extra = prof.offsetHeight + 48 - window.innerHeight;
-    prof.style.top = (extra > 0 ? 24 - extra : 24) + 'px';
+    var bar = document.querySelector('.topbar');
+    var top = (bar ? bar.offsetHeight : 0) + 20;
+    var extra = prof.offsetHeight + top + 24 - window.innerHeight;
+    prof.style.top = (extra > 0 ? top - extra : top) + 'px';
   }
   window.addEventListener('load', fitProfile);
   window.addEventListener('resize', fitProfile);
