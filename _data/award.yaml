@@ -1,43 +1,52 @@
-- group : Academic and Research Awards
+- group: Honors and Selected Impact
+  id: impact
+  award:
+    - title: "Evaluation dataset adopted in Claude Mythos/Fable 5"
+      venue: "ChartQAPro (ACL Findings 2025)"
+      year: 2026
+    - title: "ICML 2025 Spotlight, top 2% (313 of 12,107 submissions)"
+      venue: "MapEval"
+      year: 2025
+      url: "https://icml.cc/virtual/2025/poster/44415"
+    - title: "Top-29 most-cited paper at EMNLP 2024"
+      venue: "A Systematic Survey and Critical Review on Evaluating Large Language Models"
+      year: 2024
+      url: "https://www.paperdigest.org/digest/?topic=emnlp&type=author&year=2024"
+    - title: "Top-37 most-cited paper at ACL 2024"
+      venue: "MapCoder"
+      year: 2024
+      url: "https://www.paperdigest.org/digest/?topic=acl&type=author&year=2024"
+    - title: "6.2M+ Hugging Face downloads"
+      venue: "xCodeEval (ACL 2024)"
+      year: 2024
+      url: "https://huggingface.co/datasets/NTU-NLP-sg/xCodeEval"
+    - title: "Press coverage in MarkTechPost (1.5M+ monthly readers)"
+      venue: "Open-RAG (EMNLP Findings 2024)"
+      year: 2024
+      url: "https://www.marktechpost.com/2024/10/14/open-rag-a-novel-ai-framework-designed-to-enhance-reasoning-capabilities-in-rag-with-open-source-llms/"
+    - title: "Top-10 most-cited software engineering arXiv paper, 2021"
+      venue: "RedCoder (EMNLP Findings 2021)"
+      year: 2021
+      url: "https://resources.paperdigest.org/2025/09/most-influential-arxiv-software-engineering-papers-2025-09-version/"
+
+- group: Fellowships, Scholarships, and Grants
   id: award
-  award :
-    - title : UCLA graduate fellowships
-      year : 2017
-      url: 
-    - title : EMNLP Student Travel Grant 
-      year : 2021
-      url:
-    - title : ACL Student Travel Grant 
-      year : 2018
-      url: 
-    - title : Best Demo Award, Bangladesh Inter-University System Design and Development
+  award:
+    - title: "Conference Student Travel Grants"
+      venue: "EMNLP 2021, ACL 2018"
+      year: "2018, 2021"
+    - title: "UCLA Graduate Division Fellowships"
+      venue: "University of California, Los Angeles"
+      year: "2017, 2018"
+    - title: "Professor M. A. Nasser Memorial and Undergraduate Merit Scholarships"
+      venue: "BUET"
+      year: "2014–2015"
+    - title: "Undergraduate Thesis and Dean's List Awards"
+      venue: "BUET"
+      year: "2013–2015"
+    - title: "Best Demo Award, Bangladesh Inter-University System Design and Development"
       year: 2015
-      url:
-    - title : Best Demo Award, Workshop on Mobile Computing and Human Computer Interaction 
+    - title: "Best Demo Award, Workshop on Mobile Computing and Human Computer Interaction"
       year: 2014
-      url:
-    - title: Second Runner-Up Award, Bangladesh National ICT Projects
+    - title: "Second Runner-Up Award, Bangladesh National ICT Projects"
       year: 2014
-      url: 
-    - title : Dean’s List Award, BUET 
-      year : 2013-2015
-      url:
-    - title : Professor M. A. Nasser Memorial Scholarship, BUET 
-      year : 2014
-      url :
-    - title : University Merit Scholarship, BUET
-      year : 2014-2015
-      url : 
-      
-- group : Student Awards
-  id : student
-  award :
-
-
-- group : Paper Awards
-  id : paper
-  award :
-   - title : Spotlight
-     venue : ICML 2025
-     desc : "MapEval: A Map-Based Evaluation of Geo-Spatial Reasoning in Foundation Models, Mahir Labib Dihan, Md Tanvir Hassan, Md Tanvir Parvez, Md Hasebul Hasan, Md Almash Alam, Muhammad Aamir Cheema, Mohammed Eunus Ali, and Md. Rizwan Parvez"
-    

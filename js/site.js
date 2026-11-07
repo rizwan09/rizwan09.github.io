@@ -1,0 +1,34 @@
+(function () {
+  // Toggle abstract / BibTeX blocks
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-toggle="collapse"]');
+    if (!a) return;
+    var el = document.getElementById((a.getAttribute('href') || '').slice(1));
+    if (!el) return;
+    e.preventDefault();
+    el.classList.toggle('in');
+  });
+
+  // News: show all / fewer
+  document.querySelectorAll('[data-news-toggle]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var list = document.getElementById(btn.getAttribute('data-news-toggle'));
+      var open = list.classList.toggle('open');
+      btn.textContent = open ? 'Less News' : 'More News';
+    });
+  });
+
+  // Publication topic filter
+  var links = document.querySelectorAll('[data-filter]');
+  links.forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      var f = link.getAttribute('data-filter');
+      links.forEach(function (l) { l.classList.toggle('active', l === link); });
+      document.querySelectorAll('[data-topics]').forEach(function (item) {
+        var li = item.closest('li') || item;
+        li.hidden = !(f === 'all' || item.getAttribute('data-topics').split(' ').indexOf(f) !== -1);
+      });
+    });
+  });
+})();

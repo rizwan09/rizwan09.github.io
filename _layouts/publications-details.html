@@ -1,111 +1,20 @@
 ---
 ---
-
-<h3> <a href="{{site.baseurl}}/bibliography/{{key}}"> {{entry.title}} </a></h3>
-{{reference}}
-<br/>
-
-{% if entry.presentation_time %}
-<div>
-    QA Sessions: {{entry.presentation_time}}
-
-    <a href="{{entry.presentation_id}}" class="my_details">Paper link in the virtual conference</a>
-
-</div>
-
-{% endif %}
-{% if entry.paper_url %}
-<a href="{{entry.paper_url}}" class="my_details">Full Text</a>
-{% endif %}
-
-{% if entry.slides_url %}
-<a href="{{entry.slides_url | relative_url}}" class="my_details">Slides</a>
-{% endif %}
-
-{% if entry.poster_url %}
-<a href="{{entry.poster_url | relative_url}}" class="my_details">Poster</a>
-{% endif %}
-
-{% if entry.code_url %}
-<a href="{{entry.code_url}}" class="my_code">Code</a>
-{% endif %}
-
-{% if entry.demo_url %}
-<a href="{{entry.demo_url}}" class="my_code">Demo</a>
-{% endif %}
-
-<a data-toggle="collapse" href="#{{key}}-bibtex" class="my_details">BibTeX</a>
-
-<a href="{{site.baseurl}}/bibliography/{{key}}/" class="my_details">Details</a>
-
-{% if entry.keynote %}
-<a href="
-{% if entry.keynote_url %}
-{{entry.keynote_url}}
-{% else %}
-#
-{% endif %}
-" class="my_keynote">{{entry.keynote}}</a>
-{% endif %}
-
-<div id="{{key}}-materials">
-
-    <div class='paper-img'>
-        {% if links.png %}
-        <img class='center-image' src="{{links.png}}" >
-        {% endif %}
+{% assign venue = entry.booktitle | default: entry.journal | default: entry.howpublished %}
+<div class="pub" data-topics="{{ entry.topic }}">
+  <div class="pub-abbr">{{ entry.abbr | default: venue }}</div>
+  <div>
+    <div class="pub-title">{% if entry.paper_url %}<a href="{{ entry.paper_url }}">{{ entry.title }}</a>{% else %}{{ entry.title }}{% endif %}</div>
+    <div class="pub-authors">{{ reference | replace: 'others,', '…,' | replace: 'Md Rizwan Parvez', '<span class="me">Md Rizwan Parvez</span>' }}</div>
+    {% if entry.pub_type == 'conference' %}{% if entry.keynote %}<div class="pub-venue"><span class="pub-award">{{ entry.keynote }}</span></div>{% endif %}{% elsif venue != 'Under review' and venue != 'Pre-print' %}<div class="pub-venue">{{ venue }}{% unless venue contains entry.year %}, {{ entry.year }}{% endunless %}{% if entry.keynote %} · <span class="pub-award">{{ entry.keynote }}</span>{% endif %}</div>{% elsif entry.keynote %}<div class="pub-venue"><span class="pub-award">{{ entry.keynote }}</span></div>{% endif %}
+    <div class="pub-links">
+      {% if entry.paper_url %}<a href="{{ entry.paper_url }}">paper</a>{% endif %}
+      {% if entry.code_url %}<a href="{{ entry.code_url }}">code</a>{% endif %}
+      {% if entry.demo_url %}<a href="{{ entry.demo_url }}">project</a>{% endif %}
+      {% if entry.abstract %}<a data-toggle="collapse" href="#{{ key }}-abstract">abstract</a>{% endif %}
+      <a data-toggle="collapse" href="#{{ key }}-bibtex">bibtex</a>
     </div>
-
-
-        {% if entry.abstract %}
-        <pre id="{{key}}-abstract" class="pre">{{entry.abstract}}</pre>
-        {% endif %}
-        <pre id="{{key}}-bibtex" class="pre pre-scrollable collapse">{{entry.bibtex}}</pre> 
-
-        {% if entry.comment %}
-        {{entry.comment}}
-        {% endif %}
-        <div class="col-md-12"> 
-            {% if entry.youtube_id %}
-            <div class="col-md-6">
-                <div class="h_iframe">
-                    <iframe width="2" height="2" src="https://www.youtube.com/embed/{{entry.youtube_id}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div> 
-            {% endif %}
-
-            {% if entry.vimeo_id %}
-            <div class="col-md-6">
-                <div class="h_iframe">
-                    <iframe src="https://player.vimeo.com/video/{{entry.vimeo_id}}?byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                </div>
-            </div> 
-            {% endif %}
-        {% if entry.slideslive_id %}
-        <div id="presentation-embed-{{entry.slideslive_id}}" class="container container-sm"></div>
-        <script src='https://slideslive.com/embed_presentation.js'></script>
-        <script>
-             embed = new SlidesLiveEmbed('presentation-embed-{{entry.slideslive_id}}', {
-             presentationId: '{{entry.slideslive_id}}',
-             autoPlay: false, // change to true to autoplay the embedded presentation
-             verticalEnabled: true
-             });
-        </script>
-    {% endif %}
-
-            {% if entry.tweet %}
-            <div class="col-md-6 pre-scrollable" style="max-height:260px;">
-                {% twitter {{entry.tweet}} %}
-            </div>
-            {% endif %}
-
-
-        </div>
-        <div class="col-md-12">
-            <h4> <a data-toggle="collapse" href="#{{key}}-relate" class="my_botton">Related Publications </a></h4>
-            <div id="{{key}}-relate" class="collapse">
-                {% bibliography  -q @*[keyword= {{entry.keyword}}]* %}
-            </div>
-            <hr>
-        </div>
+    {% if entry.abstract %}<div id="{{ key }}-abstract" class="collapse"><p class="abstract">{{ entry.abstract }}</p></div>{% endif %}
+    <div id="{{ key }}-bibtex" class="collapse"><pre class="bibtex">{{ entry.bibtex }}</pre></div>
+  </div>
 </div>

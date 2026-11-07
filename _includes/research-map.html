@@ -1,0 +1,30 @@
+{% assign r = site.data.research %}
+<div class="rmap" aria-label="How the research threads connect">
+  <div class="rmap-core"><span>Auditable agents</span></div>
+  <div class="rmap-row">
+    {% for t in r.thrusts %}
+    <div class="rnode glow" data-id="{{ t.id }}">
+      <div class="rnode-prop">{{ t.property }}</div>
+      <div class="rnode-name">{{ t.name }}</div>
+      <div class="rnode-q">{{ t.question }}</div>
+      <div class="rnode-papers">{% for p in t.papers %}<a href="{{ p.url }}">{{ p.name }}</a>{% endfor %}</div>
+    </div>
+    {% unless forloop.last %}
+      {% assign nxt = r.thrusts[forloop.index].id %}
+      <div class="rlink" data-ids="{{ t.id }} {{ nxt }}">
+        {% for l in r.links %}
+          {% if l.from == t.id and l.to == nxt %}
+          <div class="arrow fwd"><span class="lbl">{{ l.label }}</span><span class="line"></span><span class="via">{{ l.via }}</span></div>
+          {% elsif l.from == nxt and l.to == t.id %}
+          <div class="arrow back"><span class="lbl">{{ l.label }}</span><span class="line"></span><span class="via">{{ l.via }}</span></div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endunless %}
+    {% endfor %}
+  </div>
+  <div class="rsafety glow">
+    <span class="rsafety-name">{{ r.safety.name }}</span>
+    <span class="rnode-papers">{% for p in r.safety.papers %}<a href="{{ p.url }}">{{ p.name }}</a>{% endfor %}</span>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+# Homepage header and bio. Text fields accept Markdown.
+name: Md Rizwan Parvez
+role:
+  - Scientist
+  - Qatar Computing Research Institute (QCRI)
+  - Hamad Bin Khalifa University, Doha, Qatar
+email: rizwan@ucla.edu
+cv: /files/CV_Md_Rizwan_Parvez.pdf        # replace this PDF to update the CV everywhere
+statement: /files/Research_Statement_Md_Rizwan_Parvez.pdf   # research statement PDF
+photo: /img/myphoto.jpg
+links:
+  - { name: Google Scholar, url: "https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en" }
+  - { name: GitHub, url: "https://github.com/rizwan09" }
+  - { name: LinkedIn, url: "https://www.linkedin.com/in/rizwanparvez" }
+  - { name: OpenReview, url: "https://openreview.net/profile?id=~Md_Rizwan_Parvez1" }
+bio:
+  - >-
+    I am a Scientist at the [Qatar Computing Research Institute (QCRI)](https://www.hbku.edu.qa/en/qcri),
+    [Hamad Bin Khalifa University](https://www.hbku.edu.qa/), where I lead research on auditable
+    language and coding agents. Before that, I was a Research Scientist at
+    [Bosch Research](https://www.bosch.com/research/). I received my Ph.D. in Computer Science from the
+    [University of California, Los Angeles](https://www.cs.ucla.edu/), where I worked with
+    [Kai-Wei Chang](https://web.cs.ucla.edu/~kwchang/), and interned at Google Research, Meta FAIR,
+    Salesforce Research, and Microsoft. My research focuses on natural language processing, machine
+    learning, and software engineering, with the goal of building agents whose claims, code, and
+    actions can be checked against evidence, execution, and the environment they act in, rather than
+    taken on the model's word. Currently, my research includes three directions:
+    (1) attributed knowledge and retrieval-augmented generation, (2) verifiable code generation and
+    software engineering agents, and (3) grounded agents for maps, the web, GUIs, and charts.
+recruiting: >-
+  I am actively looking for **research interns** and **visiting students**, and I co-supervise
+  **Ph.D. students** with university partners. If you are interested in AI agents, code generation
+  and software engineering, or retrieval-augmented generation, please check the recruiting
+  information [here](/application/).

@@ -1,4 +1,16 @@
 ---
-layout: home
+layout: page
 title: News
+permalink: /news/
 ---
+<ul class="news">
+  {% for n in site.data.news %}
+  <li class="glow"><span class="date">{{ n.when }}</span> {{ n.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% if n.post %} [<a href="{{ n.post | relative_url }}">details</a>]{% endif %}</li>
+  {% endfor %}
+</ul>
+<h2>Older announcements</h2>
+<ul class="news">
+  {% for post in site.posts %}
+  <li class="glow"><span class="date">{{ post.date | date: "%b %Y" }}</span> <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>

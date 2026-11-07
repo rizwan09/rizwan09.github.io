@@ -1,0 +1,22 @@
+---
+layout: page
+title: Mentees
+permalink: /members/
+---
+<p>I mentor Ph.D. students together with their faculty advisors, as well as master's and undergraduate researchers. Most of my papers since 2023 are first-authored by these mentees.</p>
+{% for group in site.data.members %}
+<h2>{{ group.group }}</h2>
+<h3>Current</h3>
+<ul class="people">
+{% for m in group.people %}{% if m.current %}
+  <li class="glow"><span class="who">{% if m.url %}<a href="{{ m.url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</span>{% if m.where %}, {{ m.where }}{% endif %} (since {{ m.since }})<br><span class="muted">{{ m.topic }}</span></li>
+{% endif %}{% endfor %}
+</ul>
+<h3>Alumni</h3>
+<ul class="people">
+{% for m in group.people %}{% unless m.current %}
+  <li class="glow"><span class="who">{% if m.url %}<a href="{{ m.url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</span>{% if m.where %}, {{ m.where }}{% endif %} ({{ m.since }}{% if m.until and m.until != m.since %}–{{ m.until }}{% endif %}){% if m.outcome %}; {{ m.outcome }}{% endif %}<br><span class="muted">{{ m.topic }}</span></li>
+{% endunless %}{% endfor %}
+</ul>
+{% endfor %}
+<p>Interested in joining? See <a href="{{ '/application/' | relative_url }}">this note</a>.</p>

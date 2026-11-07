@@ -1,17 +1,116 @@
-- group : Faculty
-  people :
-    - name : Md. Rizwan Parvez
-      github: rizwan09
-      url: "https://rizwan09.github.io/"
-      title : Scientist
-      description: Lead
-      
-- group : PhD and Master Researchers
-  people :
-    - name : Md Ashraful Islam
-      url : "https://md-ashraful-pramanik.github.io/"
-      github: Md-Ashraful-Pramanik
-      description: PhD@Monash
-    - name : Mahir Labib Dihan
-      github : mahirlabibdihan
-      url : "https://mahirlabibdihan.github.io/"
+# Mentees, from the CV (Sep 2026). `current: true` = active collaboration.
+- group: Postdocs and Ph.D. Students
+  people:
+    - name: Md Abrar Jahin
+      where: Ph.D. student, University of Southern California
+      since: 2026
+      current: true
+      topic: Agent failure localization; certified model behavior
+    - name: Ahmed Masry
+      where: Ph.D. student, York University
+      since: 2023
+      current: true
+      topic: Chart QA and instruction tuning; chart-video reasoning; dashboard QA
+    - name: Md Ashraful Islam
+      url: "https://md-ashraful-pramanik.github.io/"
+      where: Ph.D. student, Monash University (Fulbright Fellow)
+      since: 2024
+      current: true
+      topic: Multi-agent code generation (MapCoder, CodeSim); AI co-worker agents; PR review
+      outcome: MSc, BUET → Ph.D., Monash
+    - name: Salman Rahman
+      where: Ph.D. student, UCLA
+      since: 2024
+      current: true
+      topic: Multi-turn red-teaming (X-Teaming); AI debate; Xolver; reward engineering
+    - name: Tien Anh Nguyen
+      where: Ph.D. student, Monash University
+      since: 2026
+      current: true
+      topic: Multimodal urban agents; multi-view spatial reasoning
+    - name: Zabir Al Nazi
+      where: Ph.D. student, UC Riverside
+      since: 2026
+      current: true
+      topic: Robustness and calibrated abstention in omni-modal models
+    - name: Shubhashis Roy Dipta
+      where: Ph.D. student, UMBC
+      since: 2026
+      current: true
+      topic: Robustness and calibrated abstention in omni-modal models
+    - name: Ahmed Lekssays
+      where: Postdoc, QCRI
+      since: 2024
+      until: 2025
+      topic: RAG for cyber-threat intelligence (TechniqueRAG)
+    - name: Md Rayhanul Masud
+      where: Ph.D., UC Riverside
+      since: 2026
+      until: 2026
+      topic: Reward engineering for software tasks; emergent misalignment
+    - name: Khang Tran
+      where: Ph.D., NJIT
+      since: 2023
+      until: 2024
+      topic: Poisoning attacks on code LLMs (PwS, ICML 2026)
+    - name: Zhiruo Wang
+      where: Ph.D. student, Carnegie Mellon University
+      since: 2023
+      until: 2023
+      topic: Context filtering for RAG (FiLCo)
+      outcome: Google Ph.D. Fellow, 2025–26
+
+- group: Master's, Undergraduate, and Pre-Doctoral Researchers
+  people:
+    - name: Mahir Labib Dihan
+      url: "https://mahirlabibdihan.github.io/"
+      where: Master's student, BUET
+      since: 2024
+      current: true
+      topic: MapEval, MapAgent, MapQaTor; WebOperator; SWE-Xplorer
+    - name: Azmine Toushik Wasi
+      where: Shahjalal University of Science and Technology
+      since: 2025
+      current: true
+      topic: Spatial and geo-temporal VLM benchmarks (SpatiaLab, TimeSpot); legal-aid agent (Mina); surveys
+    - name: Md. Tanzib Hosain
+      where: AIUB → Max Planck Institute
+      since: 2023
+      current: true
+      topic: Xolver; SWE-Discussion; Bengali idiom translation
+    - name: Tusher Bhomik & Soumik Bhattacharjee
+      where: Undergraduates, BUET
+      since: 2026
+      current: true
+      topic: Failure attribution for LLM agents on CTF tasks
+    - name: Niloy Kumar Mondal
+      since: 2026
+      current: true
+      topic: LLM-based QUBO formulation from natural language
+    - name: Md Hasebul Hasan
+      where: MSc, BUET
+      since: 2024
+      until: 2025
+      topic: Geospatial reasoning agents (MapAgent, MapEval)
+      outcome: now Ph.D. student at UT Arlington
+    - name: Md Nazmul Islam Ananto
+      where: Undergraduate, BUET
+      since: 2024
+      until: 2025
+      topic: Geo-spatial path discovery with LLMs (CompassLLM)
+      outcome: now Ph.D. student at Penn State
+    - name: Asif Shahriar
+      where: BUET
+      since: 2025
+      until: 2026
+      topic: Survey on agentic security (TMLR 2026)
+    - name: Asif Azad
+      where: BUET
+      since: 2025
+      until: 2026
+      topic: Conformal uncertainty benchmarking in VLMs
+    - name: Amira Abdalla
+      where: Master's student, HBKU
+      since: 2024
+      until: 2025
+      topic: Multi-language depression detection with LLMs

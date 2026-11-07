@@ -1,0 +1,20 @@
+---
+---
+{% assign venue = entry.booktitle | default: entry.journal | default: entry.howpublished %}
+<div class="pub" data-topics="{{ entry.topic }}">
+  <div class="pub-abbr">{{ entry.abbr | default: venue }}</div>
+  <div>
+    <div class="pub-title">{% if entry.paper_url %}<a href="{{ entry.paper_url }}">{{ entry.title }}</a>{% else %}{{ entry.title }}{% endif %}</div>
+    <div class="pub-authors">{{ reference | replace: 'others,', '…,' | replace: 'Md Rizwan Parvez', '<span class="me">Md Rizwan Parvez</span>' }}</div>
+    {% if entry.keynote %}<div class="pub-venue"><span class="pub-award">{{ entry.keynote }}</span></div>{% endif %}
+    <div class="pub-links">
+      {% if entry.paper_url %}<a href="{{ entry.paper_url }}">paper</a>{% endif %}
+      {% if entry.code_url %}<a href="{{ entry.code_url }}">code</a>{% endif %}
+      {% if entry.demo_url %}<a href="{{ entry.demo_url }}">project</a>{% endif %}
+      {% if entry.abstract %}<a data-toggle="collapse" href="#{{ key }}-abstract">abstract</a>{% endif %}
+      <a data-toggle="collapse" href="#{{ key }}-bibtex">bibtex</a>
+    </div>
+    {% if entry.abstract %}<div id="{{ key }}-abstract" class="collapse"><p class="abstract">{{ entry.abstract }}</p></div>{% endif %}
+    <div id="{{ key }}-bibtex" class="collapse"><pre class="bibtex">{{ entry.bibtex }}</pre></div>
+  </div>
+</div>

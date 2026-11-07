@@ -1,22 +1,30 @@
-      
-- group: News
-  news:
-    - month: 12
-      month_text: Dec
-      year: 2025
-      items:
-        - desc: xCodeEval has surpassed 1.7 million downloads on [Hugging Face](https://huggingface.co/datasets/NTU-NLP-sg/xCodeEval).
-        - desc: I will serve as a Senior Area Chair at ACL, 2026.
-        - desc: We release [WebOperator](https://kagnlp.github.io/WebOperator/), our fully open-sourced web agent that achieves [state-of-the-art results on WebArena](https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/edit?gid=0#gid=0).
-    - month: 11
-      month_text: Nov
-      year: 2025
-      items:
-        - desc: We conducted a comprehensive [survey on agentic security](https://github.com/kagnlp/Awesome-Agentic-Security) covering 150+ papers. Feel free to add your paper. 
-    - month: 10
-      month_text: Oct
-      year: 2025
-      items:
-        - desc: I will serve as a Senior Area Chair at EACL, 2026.
-        
-   
+# Newest first. `when` is MM.YYYY when the month is known, otherwise YYYY.
+# Keep each item to one short line; link paper names.
+- when: "2026"
+  text: "I will serve as a Senior Area Chair for ACL 2027, and as an Area Chair for NAACL 2027 and AAAI 2027."
+- when: "2026"
+  text: "2 papers accepted at EMNLP 2026: [GUI-Primitives](https://arxiv.org/abs/2608.21832), Reward Engineering for Software Tasks."
+- when: "2026"
+  text: "Our [survey on agentic security](https://arxiv.org/abs/2510.06445) is published in TMLR."
+- when: "2026"
+  text: "[ChartQAPro](https://arxiv.org/abs/2504.05506) is used in the evaluation of Anthropic's Claude Mythos/Fable 5."
+- when: "2026"
+  text: "Invited talk on language agents for software development at the UNT Data Science Seminar."
+- when: "05.2026"
+  text: "2 papers accepted at ICML 2026: [Poison with Style](https://arxiv.org/abs/2605.27631), [TimeSpot](https://arxiv.org/abs/2603.06687)."
+- when: "04.2026"
+  text: "3 papers accepted at ACL 2026 Findings: CompassLLM, Mina, [CoT-PoT](https://arxiv.org/abs/2604.17433)."
+- when: "01.2026"
+  text: "1 paper accepted at ICLR 2026: [SpatiaLab](https://arxiv.org/abs/2602.03916)."
+- when: "01.2026"
+  text: "3 papers accepted at EACL 2026 Findings: [MapAgent](https://arxiv.org/abs/2509.05933), Conformal Lens, [DashboardQA](https://arxiv.org/abs/2508.17398)."
+- when: "12.2025"
+  text: "We release [WebOperator](https://kagnlp.github.io/WebOperator/), an open-source web agent among the top scorers on WebArena."
+- when: "12.2025"
+  text: "I will serve as a Senior Area Chair for ACL 2026."
+- when: "11.2025"
+  text: "We release a [survey on agentic security](https://github.com/kagnlp/Awesome-Agentic-Security) covering 150+ papers."
+- when: "10.2025"
+  text: "I will serve as a Senior Area Chair for EACL 2026."
+- when: "2025"
+  text: "[MapEval](https://arxiv.org/abs/2501.00316) is selected as a spotlight at ICML 2025."

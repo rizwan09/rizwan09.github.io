@@ -1,0 +1,21 @@
+# Sidebar "Recognition" list; each item links to its source.
+- text: ICML 2025 Spotlight, top 2% (MapEval)
+  url: https://icml.cc/virtual/2025/poster/44415
+- text: Top-10 most-cited SE arXiv paper of 2021 (RedCoder)
+  url: https://resources.paperdigest.org/2025/09/most-influential-arxiv-software-engineering-papers-2025-09-version/
+- text: Top-37 most-cited paper at ACL 2024 (MapCoder)
+  url: https://www.paperdigest.org/digest/?topic=acl&type=author&year=2024
+- text: Top-29 most-cited paper at EMNLP 2024 (LLM evaluation survey)
+  url: https://www.paperdigest.org/digest/?topic=emnlp&type=author&year=2024
+- text: ChartQAPro used in the evaluation of Claude Mythos/Fable 5
+  url: https://arxiv.org/abs/2504.05506
+- text: RedCoder's method adopted in Microsoft AutoGen
+  url: https://github.com/microsoft/autogen
+- text: MapCoder, a baseline in Meta's RLEF (Llama 3.1)
+  url: https://arxiv.org/abs/2410.02089
+- text: 6.2M+ Hugging Face downloads (xCodeEval)
+  url: https://huggingface.co/datasets/NTU-NLP-sg/xCodeEval
+- text: Press coverage in MarkTechPost (Open-RAG)
+  url: https://www.marktechpost.com/2024/10/14/open-rag-a-novel-ai-framework-designed-to-enhance-reasoning-capabilities-in-rag-with-open-source-llms/
+- text: More honors and awards
+  url: /awards/

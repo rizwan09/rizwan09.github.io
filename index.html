@@ -1,0 +1,111 @@
+---
+layout: base
+title: ""
+permalink: /
+---
+{% assign p = site.data.profile %}
+{% assign r = site.data.research %}
+<div class="home">
+
+  <aside class="profile">
+    <img src="{{ p.photo | relative_url }}" alt="{{ p.name }}">
+    <h1>{{ p.name }}</h1>
+    <div class="role">{{ p.role | join: '<br>' }}</div>
+    <ul class="plain-list">
+      <li class="email"><a href="mailto:{{ p.email }}">{{ p.email }}</a></li>
+      <li><a href="{{ p.cv | relative_url }}">Curriculum vitae</a></li>
+      {% if p.statement %}<li><a href="{{ p.statement | relative_url }}">Research statement</a></li>{% endif %}
+      {% for l in p.links %}<li><a href="{{ l.url }}">{{ l.name }}</a></li>{% endfor %}
+    </ul>
+    <p class="rec-title">Recognition</p>
+    <ul class="rec">
+      {% for a in site.data.recognition %}<li class="glow"><a href="{{ a.url | relative_url }}">{{ a.text }}</a></li>{% endfor %}
+    </ul>
+  </aside>
+
+  <div class="content">
+
+    <section id="about">
+      {% for para in p.bio %}<p class="bio">{{ para | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endfor %}
+      <div class="recruit">{{ p.recruiting | markdownify }}</div>
+    </section>
+
+    <section id="news">
+      <h2 class="with-pill">News {% if site.data.news.size > 8 %}<button class="pill-btn" data-news-toggle="news-list">More News</button>{% endif %}</h2>
+      <ul class="news" id="news-list">
+        {% for n in site.data.news %}
+        <li class="{% if forloop.index > 8 %}extra{% endif %}"><span class="date">{{ n.when }}</span>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <p>{{ r.intro | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+
+      {% include research-map.html %}
+
+      <div class="thrusts">
+        {% for t in r.thrusts %}
+        <div class="thrust glow" id="thread-{{ t.id }}">
+          <div class="thrust-name">{{ t.name }}<span>{{ t.property }} · {{ t.question }}</span></div>
+          <p><i>{{ t.thesis }}</i> {{ t.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+        </div>
+        {% endfor %}
+      </div>
+
+      <p class="future-title"><b>Where this is heading</b></p>
+      <ol class="future">
+        {% for f in r.future %}<li>{{ f }}</li>{% endfor %}
+      </ol>
+      <p class="small">More on the <a href="{{ '/research/' | relative_url }}">research page</a> and in my <a href="{{ p.statement | relative_url }}">research statement</a> (PDF).</p>
+    </section>
+
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      <p class="small muted">Full list on the <a href="{{ '/publications/' | relative_url }}">publications page</a> and <a href="{{ p.links[0].url }}">Google Scholar</a>.</p>
+      {% bibliography --file ref --template publications-selected -q @*[selected=true]* %}
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        {% for e in site.data.experience %}
+        <li class="glow"><b>{{ e.title }}</b> <span class="yrs">{{ e.years }}</span><br>
+          {% if e.items %}
+          <ul class="sub">
+            {% for i in e.items %}<li><a href="{{ i.url }}">{{ i.org }}</a>{% if i.host %}, with {{ i.host }}{% endif %} <span class="yrs">{{ i.years }}</span></li>{% endfor %}
+          </ul>
+          {% else %}{% if e.url %}<a href="{{ e.url }}">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section id="mentees">
+      <h2>Mentees</h2>
+      <p>I mentor Ph.D. students together with their faculty advisors. Their first-authored papers make up most of my work since 2023.</p>
+      {% for group in site.data.members limit: 1 %}
+      <ul class="people">
+        {% for m in group.people %}{% if m.current %}
+        <li class="glow"><span class="who">{% if m.url %}<a href="{{ m.url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</span>, {{ m.where }}<br><span class="muted small">{{ m.topic }}</span></li>
+        {% endif %}{% endfor %}
+      </ul>
+      {% endfor %}
+      <p class="small"><a href="{{ '/members/' | relative_url }}">All mentees and alumni</a></p>
+    </section>
+
+    <section id="service">
+      <h2>Service</h2>
+      <div class="service">
+        {% for s in site.data.service %}
+        <div class="svc glow">
+          <div class="svc-role">{{ s.role }}</div>
+          <div class="svc-venues">{% for v in s.venues %}{% if v.url %}<a href="{{ v.url }}">{{ v.name }}</a>{% else %}<span>{{ v.name }}</span>{% endif %}{% endfor %}</div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+  </div>
+</div>

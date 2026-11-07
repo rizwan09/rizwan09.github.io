@@ -1,0 +1,23 @@
+- title: Scientist
+  org: "Qatar Computing Research Institute (QCRI), Hamad Bin Khalifa University"
+  url: https://www.hbku.edu.qa/en/qcri
+  years: 2023–Present
+- title: Research Scientist
+  org: "Bosch Research, Sunnyvale, CA"
+  url: https://www.bosch.com/research/
+  years: 2022–2023
+- title: Ph.D. Research Internships
+  years: 2018–2021
+  items:
+    - { org: "Google Research, Kirkland, WA", host: Bin Zhang, years: "2021", url: "https://research.google/" }
+    - { org: "Meta FAIR, Seattle, WA", host: Scott Wen-tau Yih, years: "2020", url: "https://ai.meta.com/research/" }
+    - { org: "Salesforce Research, Palo Alto, CA", host: Bryan McCann, years: "2019", url: "https://www.salesforceairesearch.com/" }
+    - { org: "Microsoft AI & Research, Redmond, WA", host: Paul Mineiro, years: "2018", url: "https://www.microsoft.com/en-us/research/" }
+- title: Ph.D. in Computer Science
+  org: "University of California, Los Angeles (advisor: Kai-Wei Chang)"
+  url: https://www.cs.ucla.edu/
+  years: 2017–2022
+- title: B.Sc. in Computer Science and Engineering
+  org: "Bangladesh University of Engineering and Technology (BUET)"
+  url: https://www.buet.ac.bd/
+  years: 2010–2015

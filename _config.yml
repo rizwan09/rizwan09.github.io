@@ -4,74 +4,29 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://kagnlp.github.io"
+url: "https://rizwan09.github.io"
 baseurl: ""
 
-# If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
+title: Md Rizwan Parvez
+description: Auditable Agentic AI — Attributed, Verifiable, and Grounded
+meta-description: "Md Rizwan Parvez is a Scientist at the Qatar Computing Research Institute (QCRI) working on AI agents, generative AI, NLP, machine learning, and AI for software engineering."
 
-# Of course don't forget to change the username and projectname to YOUR username and project
-
-# Name of website
-title: KAGNLP
-
-# Short description of your site
-description: Knowledge, Agent, Program  
-
-# --- Navigation bar options --- #
-
-  # Menu and submenu
-  # Research: "research/projects"
-  #   - Projects : "research/projects"
-  #   - Phd Thesis : "research/myphd"
-  #   - Publications : "research/publications_area"
-
-# List of links in the navigation bar
 navbar-links:
-  Lead: ""
-  Group: "members"
-  # Research: "research"
-  # Topics: "publications_area" 
-  Publications : "publications"
-  Talks: "talks"
-  # News: "blog"
-  # Code: "code"
-  # Awards: "awards"
-  # Funding: "funding"
-  Opening: "application"
+  Research: "research/"
+  Publications: "publications/"
+  Mentees: "members/"
+  Teaching: "teaching/"
+  News: "news/"
+  CV: "files/CV_Md_Rizwan_Parvez.pdf"
 
-  # About Me: "aboutme"
-  # Resources:
-  #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-  #   - Learn markdown: "http://www.markdowntutorial.com/"
-  #   - GitHub Pages: "https://pages.github.com/"
-  # Author's home: "http://deanattali.com"
-
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-# avatar: "/img/uclanlp.png"
-# avatar-flat: "/img/uclanlp_new.png"
-# --- Footer options --- #
-
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: KAGNLP
-  email: "rizwan@ucla.com"
-  # facebook: yourname  # eg. daattali
-  github: kagnlp    # eg. daattali
-  # twitter: kaiwei_chang   # eg. daattali
-  # linkedin: kai-wei-chang-41239040
-  # google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
-  # xing: yourname      # eg. daattali
-  # stackoverflow: yourlink  # eg. "3943160/daattali"
-  # snapchat: yourname  # eg. daattali
-  # instagram: yourname # eg. daattali
-  # youtube: channel/UCN7nI4vDPLhnDVTXse5Vjyw   # eg. user/daattali or channel/daattali
-  # spotify: yourname   # eg. daattali
+  name: Md Rizwan Parvez
+  email: "rizwan@ucla.edu"
+  github: rizwan09
+  linkedin: rizwanparvez
+  scholar: "https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en"
+  openreview: "https://openreview.net/profile?id=~Md_Rizwan_Parvez1"
 
-# Select which links to show in the footer
 footer-links-active:
   rss: false
   facebook: false
@@ -120,7 +75,7 @@ paginate: 5
 paginate_path: "blog/page:num"
 
 # Output options (more information on Jekyll's site)
-timezone: "Europe/Paris"
+timezone: "Asia/Qatar"
 markdown: kramdown
 highlighter: rouge
 #permalink: /:year-:month-:day-:title/
@@ -161,7 +116,6 @@ defaults:
       path: "" # all files
     values:
       layout: "page"
-      show-avatar: true
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
 link-tags: false
@@ -177,6 +131,11 @@ exclude:
   - /vendor/bundle/ruby/
   - node_modules
   - _site
+  - vendor
+  - backup.index.md
+  - make.sh
+  - remove-fields.rsc
+  - Dockerfile
 
 # prose.io config
 prose:
@@ -233,7 +192,7 @@ prose:
 # configuration of jekyll-scholar
 
 scholar:
-  style: bibliography/ieee-with-url
+  style: bibliography/portfolio-authors
   #style: acm-siggraph
   locale: en
 
@@ -268,6 +227,8 @@ scholar:
   - comment
   - rank
   - pub_type
+  - topic
+  - abbr
   - hide
   - keyword
   - tweet

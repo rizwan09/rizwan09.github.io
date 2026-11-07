@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never">
+  <info>
+    <title>Portfolio (authors only)</title>
+    <id>portfolio-authors</id>
+    <updated>2026-11-07T00:00:00+00:00</updated>
+  </info>
+  <citation>
+    <layout>
+      <text variable="title"/>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout>
+      <names variable="author">
+        <name and="text" delimiter=", " delimiter-precedes-last="contextual" initialize="false" />
+        <et-al term="and others"/>
+      </names>
+    </layout>
+  </bibliography>
+</style>

@@ -2,7 +2,6 @@
 title: "Tutorial: Bias and Fairness in Natural Language Processing"
 layout: page
 share: "true"
-css: "/css/academicons.css"
 ---
 
 

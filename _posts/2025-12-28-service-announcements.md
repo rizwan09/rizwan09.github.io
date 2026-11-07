@@ -1,7 +1,6 @@
 ---
 title: Senior/Area Chair  Announcement!
 layout: post
-css: "/css/academicons.css"
 tag: [conference]
 ---
 

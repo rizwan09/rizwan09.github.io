@@ -1,20 +1,13 @@
 ---
 layout: page
-title: Awards
+title: Honors and Awards
 permalink: /awards/
-weight: 1.5
-show: 1
 ---
-
-
 {% for group in site.data.award %}
-<div id ={{group.id}} markdown="1">
-<h2>{{group.group}}</h2>
-{% for member in group.award %}
-* [{{member.title}}, {{member.venue}} {{member.year}}]({{member.url}}){% if member.desc %}: {{member.desc}} {% endif %}
+<h2>{{ group.group }}</h2>
+<ul class="news">
+{% for a in group.award %}
+  <li class="glow"><span class="date">{{ a.year }}</span> {% if a.url %}<a href="{{ a.url }}">{{ a.title }}</a>{% else %}{{ a.title }}{% endif %}{% if a.venue %}, {{ a.venue }}{% endif %}</li>
 {% endfor %}
-</div>
+</ul>
 {% endfor %}
-
-
-

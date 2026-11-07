@@ -1,0 +1,93 @@
+# Research section on the homepage (map + narrative). Text accepts Markdown.
+intro: >-
+  Large language models have made natural language an interface to computation, yet they fail
+  in ways users cannot easily detect: answers cite unsupported sources, generated code runs but
+  returns wrong results, and agents act on outdated views of their environment. My guiding
+  principle is to **never let the model be its own only witness**. An answer should be checked
+  against its cited passages, a program against its specification and execution, and an action
+  against observations of the environment it will change. My research builds these checks
+  throughout an agent's workflow, along three connected threads.
+
+thrusts:
+  - id: k
+    name: Knowledge
+    property: Attributed
+    question: what an agent knows
+    thesis: Attribution is a pipeline property, not a post-hoc citation.
+    summary: >-
+      Provenance survives to the output only if valuation, retrieval, filtering, and generation
+      each expose an auditable decision. [Open-RAG](https://arxiv.org/abs/2410.01782) turns an
+      open LLM into a sparse mixture-of-experts that ignores distractors and decides when to
+      retrieve; its Llama2-7B version outperforms ChatGPT-RAG and Self-RAG.
+      [FiLCo](https://arxiv.org/abs/2311.08377) learns which context to keep,
+      [DelucionQA](https://arxiv.org/abs/2312.05200) detects hallucination, and
+      [CoT-PoT](https://arxiv.org/abs/2604.17433) reaches self-consistency from two samples.
+      The same machinery runs in legal aid (Mina), cyber-threat intelligence
+      ([TechniqueRAG](https://arxiv.org/abs/2505.11988)), and medical screening (DR-VQA).
+    papers:
+      - { name: Open-RAG, url: "https://arxiv.org/abs/2410.01782" }
+      - { name: FiLCo, url: "https://arxiv.org/abs/2311.08377" }
+      - { name: DelucionQA, url: "https://arxiv.org/abs/2312.05200" }
+      - { name: CoT-PoT, url: "https://arxiv.org/abs/2604.17433" }
+  - id: c
+    name: Code
+    property: Verifiable
+    question: what an agent produces
+    thesis: The bottleneck is correctness, not fluency.
+    summary: >-
+      Code can be executed and tested, so it is where agent outputs can be verified.
+      [RedCoder](https://arxiv.org/abs/2108.11601) was among the first retrieval-augmented code
+      generators; [MapCoder](https://arxiv.org/abs/2405.11403) extended it to a
+      recall–plan–code–debug team of agents, and [CodeSim](https://arxiv.org/abs/2502.05664)
+      verifies plans by simulation before code exists (95.1% on HumanEval).
+      [Xolver](https://arxiv.org/abs/2506.14234) carries this to general problem solving with
+      shared, evolving memory, and [xCodeEval](https://arxiv.org/abs/2303.03004) evaluates code by
+      execution at scale. At repository scale, SWE-Xplorer reconciles parallel search paths
+      (53.2% to 60.8% on SWE-Bench Verified), and our agents resolve issues through discussion
+      and review real pull requests.
+    papers:
+      - { name: RedCoder, url: "https://arxiv.org/abs/2108.11601" }
+      - { name: MapCoder, url: "https://arxiv.org/abs/2405.11403" }
+      - { name: CodeSim, url: "https://arxiv.org/abs/2502.05664" }
+      - { name: xCodeEval, url: "https://arxiv.org/abs/2303.03004" }
+      - { name: Xolver, url: "https://arxiv.org/abs/2506.14234" }
+  - id: a
+    name: Action
+    property: Grounded
+    question: how an agent acts
+    thesis: Instrument first, then build the agent.
+    summary: >-
+      On maps, the web, GUIs, and charts, models recite state they cannot operate on.
+      [MapEval](https://arxiv.org/abs/2501.00316) exposed a gap of more than 20 points to humans
+      in geo-spatial reasoning and grew into [MapAgent](https://arxiv.org/abs/2509.05933),
+      [SpatiaLab](https://arxiv.org/abs/2602.03916), and [TimeSpot](https://arxiv.org/abs/2603.06687).
+      [WebOperator](https://arxiv.org/abs/2512.12692) searches web actions while ranking them by
+      reversibility, [GUI-Primitives](https://arxiv.org/abs/2608.21832) isolates screen grounding
+      as the bottleneck for computer-use agents, and
+      [ChartQAPro](https://arxiv.org/abs/2504.05506) and
+      [DashboardQA](https://arxiv.org/abs/2508.17398) test agents on the charts and dashboards
+      organizations reason with.
+    papers:
+      - { name: MapEval, url: "https://arxiv.org/abs/2501.00316" }
+      - { name: WebOperator, url: "https://arxiv.org/abs/2512.12692" }
+      - { name: SpatiaLab, url: "https://arxiv.org/abs/2602.03916" }
+      - { name: ChartQAPro, url: "https://arxiv.org/abs/2504.05506" }
+
+# Arrows between threads in the map.
+links:
+  - { from: k, to: c, label: "retrieval seeds code generation", via: RedCoder }
+  - { from: c, to: k, label: "execution as a second witness", via: CoT-PoT }
+  - { from: c, to: a, label: "simulation and tree search", via: WebOperator }
+
+safety:
+  name: Trust and safety, across all three
+  papers:
+    - { name: X-Teaming, url: "https://arxiv.org/abs/2504.13203" }
+    - { name: Poison with Style, url: "https://arxiv.org/abs/2605.27631" }
+    - { name: AI Debate, url: "https://arxiv.org/abs/2506.02175" }
+    - { name: Agentic Security Survey, url: "https://arxiv.org/abs/2510.06445" }
+
+future:
+  - A unified, attributed, and safety-certified knowledge substrate for everything an agent consumes, from documents and memory to skills and tools.
+  - A research platform for trustworthy human–AI software engineering across the full development lifecycle.
+  - Agents that stay grounded as the physical and digital world changes under them.
