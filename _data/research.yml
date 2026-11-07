@@ -88,7 +88,8 @@ thrusts:
       [SpatiaLab](https://arxiv.org/abs/2602.03916), and [TimeSpot](https://arxiv.org/abs/2603.06687).
       [WebOperator](https://arxiv.org/abs/2512.12692) searches web actions while ranking them by
       reversibility, [GUI-Primitives](https://arxiv.org/abs/2608.21832) isolates screen grounding
-      as the bottleneck for computer-use agents, and
+      as the bottleneck for computer-use agents, [AgentTell](https://arxiv.org/abs/2609.32915) shows
+      that browser-use agents leak information through behavioural side channels, and
       [ChartQAPro](https://arxiv.org/abs/2504.05506) and
       [DashboardQA](https://arxiv.org/abs/2508.17398) test agents on the charts and dashboards
       organizations reason with.
@@ -107,7 +108,7 @@ thrusts:
       - name: Visual data agents
         papers: [{ name: "ChartInstruct", url: "https://aclanthology.org/2024.findings-acl.619/" }, { name: "DataNarrative", url: "https://aclanthology.org/2024.emnlp-main.1073/" }, { name: "ChartQAPro", url: "https://arxiv.org/abs/2504.05506" }, { name: "ChartQA-Video" }, { name: "ChartOrchestra" }]
       - name: Web and computer-use agents
-        papers: [{ name: "WebOperator", url: "https://arxiv.org/abs/2512.12692" }, { name: "GUI-Primitives", url: "https://arxiv.org/abs/2608.21832" }, { name: "DashboardQA", url: "https://arxiv.org/abs/2508.17398" }]
+        papers: [{ name: "WebOperator", url: "https://arxiv.org/abs/2512.12692" }, { name: "GUI-Primitives", url: "https://arxiv.org/abs/2608.21832" }, { name: "AgentTell", url: "https://arxiv.org/abs/2609.32915" }, { name: "DashboardQA", url: "https://arxiv.org/abs/2508.17398" }]
 
 links:
   - { from: k, to: c, label: "retrieval seeds code generation", via: RedCoder }
