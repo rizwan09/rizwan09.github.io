@@ -20,13 +20,12 @@ permalink: /
     <p class="rec-title">Recognition</p>
     <ul class="rec">
       {% for a in site.data.recognition %}
-      <li class="rec-item glow k-{{ a.kind }}{% if forloop.index > 5 %} extra{% endif %}"><a href="{{ a.url | relative_url }}">
+      <li class="rec-item glow k-{{ a.kind }}"><a href="{{ a.url | relative_url }}">
         <span class="rec-head">{{ a.title }}</span>
         <span class="rec-detail">{{ a.detail }}</span>
       </a></li>
       {% endfor %}
     </ul>
-    {% if site.data.recognition.size > 5 %}<button class="rec-toggle" data-rec-toggle>Show {{ site.data.recognition.size | minus: 5 }} more</button>{% endif %}
     <p class="rec-more"><a href="{{ '/awards/' | relative_url }}">All honors and awards &rarr;</a></p>
   </aside>
 

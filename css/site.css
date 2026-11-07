@@ -41,7 +41,7 @@ h1, h2, h3 { color: var(--head); line-height: 1.25; margin: 0; }
 
 /* ---------- Home: profile column + content ---------- */
 .home { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 56px; }
-.profile { position: sticky; top: 24px; align-self: start; font-size: 14px; }
+.profile { align-self: start; font-size: 14px; }
 .profile img { width: 100%; aspect-ratio: 5 / 6; object-fit: cover; object-position: center 22%; border-radius: 4px; display: block; }
 .profile h1 { font-family: var(--serif); font-size: 25px; font-weight: 600; margin: 16px 0 4px; }
 .profile .role { color: var(--soft); line-height: 1.5; margin-bottom: 14px; }
