@@ -10,7 +10,7 @@ permalink: /
   <aside class="profile">
     <img src="{{ p.photo | relative_url }}" alt="{{ p.name }}">
     <h1>{{ p.name }}</h1>
-    <div class="role">{{ p.role | join: '<br>' }}</div>
+    <div class="role"><span class="role-title">{{ p.title }}</span><span class="role-aff">{{ p.affiliation | join: '<br>' }}</span></div>
     <ul class="plain-list">
       <li class="email"><span class="email-label">Email</span><a href="mailto:{{ p.email }}">{{ p.email }}</a></li>
       <li><a href="{{ p.cv | relative_url }}">Curriculum vitae</a></li>
@@ -20,12 +20,13 @@ permalink: /
     <p class="rec-title">Recognition</p>
     <ul class="rec">
       {% for a in site.data.recognition %}
-      <li class="rec-item glow k-{{ a.kind }}"><a href="{{ a.url | relative_url }}">
+      <li class="rec-item glow k-{{ a.kind }}{% if forloop.index > 5 %} extra{% endif %}"><a href="{{ a.url | relative_url }}">
         <span class="rec-head">{{ a.title }}</span>
         <span class="rec-detail">{{ a.detail }}</span>
       </a></li>
       {% endfor %}
     </ul>
+    {% if site.data.recognition.size > 5 %}<button class="rec-toggle" data-rec-toggle>Show {{ site.data.recognition.size | minus: 5 }} more</button>{% endif %}
     <p class="rec-more"><a href="{{ '/awards/' | relative_url }}">All honors and awards &rarr;</a></p>
   </aside>
 
@@ -95,25 +96,69 @@ permalink: /
 
     <section id="publications">
       <h2>Selected Publications</h2>
-      <p class="small muted">Full list on the <a href="{{ '/publications/' | relative_url }}">publications page</a> and <a href="{{ p.links[0].url }}">Google Scholar</a>.</p>
-      <h3 class="thread-name t-k">Retrieval and Knowledge</h3>
-      {% bibliography --file ref --template publications-selected -q @*[featured2=knowledge]* %}
-      {% bibliography --file ref --template publications-selected -q @*[featured=knowledge]* %}
-      <h3 class="thread-name t-c">Code Generation and Software Engineering</h3>
-      {% bibliography --file ref --template publications-selected -q @*[featured=code]* %}
-      {% bibliography --file ref --template publications-selected -q @*[featured2=code]* %}
-      <h3 class="thread-name t-a">Grounded Actions: Maps and Spatial Reasoning</h3>
-      {% bibliography --file ref --template publications-selected -q @*[featured=spatial]* %}
-      {% bibliography --file ref --template publications-selected -q @*[featured2=spatial]* %}
-      <h3 class="thread-name t-a">Grounded Actions: Charts and Visual Data</h3>
-      {% bibliography --file ref --template publications-selected -q @*[featured=chart]* %}
-      {% bibliography --file ref --template publications-selected -q @*[featured2=chart]* %}
-      <h3 class="thread-name t-a">Grounded Actions: Web and Computer-Use Agents</h3>
-      {% bibliography --file ref --template publications-selected -q @*[featured=web]* %}
-      {% bibliography --file ref --template publications-selected -q @*[featured2=web]* %}
-      <h3 class="thread-name t-s">Safety, Security, and Trust</h3>
-      {% bibliography --file ref --template publications-selected -q @*[featured2=safety]* %}
-      {% bibliography --file ref --template publications-selected -q @*[featured=safety]* %}
+      {% include pub-summary.html %}
+      <div class="pubcards">
+      <article class="tcard pubcard">
+        <header class="tcard-head">
+          <span class="tcard-icon">{% include icon.html name="memory" %}</span>
+          <div class="tcard-title"><h3>Retrieval and Knowledge</h3></div>
+        </header>
+        <div class="tcard-body">
+        {% bibliography --file ref --template publications-selected -q @*[featured2=knowledge]* %}
+        {% bibliography --file ref --template publications-selected -q @*[featured=knowledge]* %}
+        </div>
+      </article>
+      <article class="tcard pubcard">
+        <header class="tcard-head">
+          <span class="tcard-icon">{% include icon.html name="code" %}</span>
+          <div class="tcard-title"><h3>Code Generation and Software Engineering</h3></div>
+        </header>
+        <div class="tcard-body">
+        {% bibliography --file ref --template publications-selected -q @*[featured=code]* %}
+        {% bibliography --file ref --template publications-selected -q @*[featured2=code]* %}
+        </div>
+      </article>
+      <article class="tcard pubcard">
+        <header class="tcard-head">
+          <span class="tcard-icon">{% include icon.html name="action" %}</span>
+          <div class="tcard-title"><div class="tcard-meta">Grounded actions</div><h3>Maps and Spatial Reasoning</h3></div>
+        </header>
+        <div class="tcard-body">
+        {% bibliography --file ref --template publications-selected -q @*[featured=spatial]* %}
+        {% bibliography --file ref --template publications-selected -q @*[featured2=spatial]* %}
+        </div>
+      </article>
+      <article class="tcard pubcard">
+        <header class="tcard-head">
+          <span class="tcard-icon">{% include icon.html name="action" %}</span>
+          <div class="tcard-title"><div class="tcard-meta">Grounded actions</div><h3>Charts and Visual Data</h3></div>
+        </header>
+        <div class="tcard-body">
+        {% bibliography --file ref --template publications-selected -q @*[featured=chart]* %}
+        {% bibliography --file ref --template publications-selected -q @*[featured2=chart]* %}
+        </div>
+      </article>
+      <article class="tcard pubcard">
+        <header class="tcard-head">
+          <span class="tcard-icon">{% include icon.html name="action" %}</span>
+          <div class="tcard-title"><div class="tcard-meta">Grounded actions</div><h3>Web and Computer-Use Agents</h3></div>
+        </header>
+        <div class="tcard-body">
+        {% bibliography --file ref --template publications-selected -q @*[featured=web]* %}
+        {% bibliography --file ref --template publications-selected -q @*[featured2=web]* %}
+        </div>
+      </article>
+      <article class="tcard pubcard">
+        <header class="tcard-head">
+          <span class="tcard-icon">{% include icon.html name="shield" %}</span>
+          <div class="tcard-title"><h3>Safety, Security, and Trust</h3></div>
+        </header>
+        <div class="tcard-body">
+        {% bibliography --file ref --template publications-selected -q @*[featured2=safety]* %}
+        {% bibliography --file ref --template publications-selected -q @*[featured=safety]* %}
+        </div>
+      </article>
+      </div>
     </section>
 
     <section id="experience">

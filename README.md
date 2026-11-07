@@ -8,7 +8,7 @@ Almost everything on the site is plain data. You rarely need to touch HTML.
 
 | To change | Edit |
 | --- | --- |
-| Name, title, email, photo, links, bio, recruiting note | `_data/profile.yml` |
+| Name, title, affiliation, email, photo, links, bio, recruiting note, publication summary (citations, h-index) | `_data/profile.yml` |
 | CV | Replace `files/CV_Md_Rizwan_Parvez.pdf` (same file name). If you rename it, update `cv:` in `_data/profile.yml` and the `CV` entry in `_config.yml`. |
 | Research statement | Replace `files/Research_Statement_Md_Rizwan_Parvez.pdf` (path set by `statement:` in `_data/profile.yml`) |
 | News | `_data/news.yaml` (newest first; one short line each; `when` is `MM.YYYY` or `YYYY`) |

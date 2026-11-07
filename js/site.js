@@ -18,6 +18,17 @@
     });
   });
 
+  // Recognition: show more / fewer
+  var recBtn = document.querySelector('[data-rec-toggle]');
+  if (recBtn) {
+    var label = recBtn.textContent;
+    recBtn.addEventListener('click', function () {
+      var prof = recBtn.closest('.profile');
+      var open = prof.classList.toggle('rec-open');
+      recBtn.textContent = open ? 'Show fewer' : label;
+    });
+  }
+
   // Publication topic filter
   var links = document.querySelectorAll('[data-filter]');
   links.forEach(function (link) {

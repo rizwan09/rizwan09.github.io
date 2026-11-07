@@ -4,6 +4,8 @@ layout: page
 permalink: /publications/
 ---
 
+{% include pub-summary.html %}
+
 <p>Grouped by research thread, newest first. See also <a href="https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en">Google Scholar</a> and the <a href="{{ '/bibliography/ref.bib' | relative_url }}">BibTeX file</a>. Highlights in red are from my CV; most-cited rankings are from Paper Digest.</p>
 
 <p class="jump">{% for t in site.data.threads %}<a href="#{{ t.id }}">{% if t.group == "Grounded Actions" %}Grounded: {% endif %}{{ t.name }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</p>

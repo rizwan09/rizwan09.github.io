@@ -1,7 +1,7 @@
 # Homepage header and bio. Text fields accept Markdown.
 name: Md Rizwan Parvez
-role:
-  - Scientist
+title: Scientist
+affiliation:
   - Qatar Computing Research Institute (QCRI)
   - Hamad Bin Khalifa University, Doha, Qatar
 email: rizwan@ucla.edu
@@ -34,3 +34,12 @@ recruiting: >-
   internships are **unpaid research assistantships**. If you are interested in AI agents, code
   generation and software engineering, or retrieval-augmented generation, please check the
   recruiting information [here](/application/).
+
+# Publication summary shown above the paper lists (update from Google Scholar).
+pub_summary:
+  papers: "45+"
+  citations: "2,700+"
+  h_index: 18
+  i10_index: 25
+  as_of: September 2026
+  venues: ACL, EMNLP, NAACL, EACL, COLM, TMLR, ICML, NeurIPS, and ICLR
