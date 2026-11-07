@@ -53,22 +53,37 @@ permalink: /
 
       <div class="thrusts">
         {% for t in r.thrusts %}
-        <div class="thrust glow t-{{ t.id }}" id="thread-{{ t.id }}">
-          <div class="thrust-name">{{ t.name }}<span class="prop">{{ t.property }}</span><span class="ask">{{ t.question }}</span></div>
-          <div>
+        <article class="tcard" id="thread-{{ t.id }}">
+          <header class="tcard-head">
+            <span class="tcard-icon">{% include icon.html name=t.icon %}</span>
+            <div class="tcard-title">
+              <h3>{{ t.name }}</h3>
+              <div class="tcard-meta"><span class="comp">Agent's {{ t.component | downcase }}</span><span class="dot">·</span><span class="prop">{{ t.property }}</span></div>
+            </div>
+            <span class="ask">{{ t.question }}</span>
+          </header>
+          <div class="tcard-body">
             <p><i>{{ t.thesis }}</i> {{ t.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+            {% include stages.html stages=t.stages %}
             {% if t.id == 'c' %}<details class="fig"><summary>End-to-end code pipeline (figure from my research statement)</summary><img src="{{ '/img/research/code-pipeline.png' | relative_url }}" alt="Language-to-code pipeline: federated coding agents retrieve, plan, simulate and verify, and execute and debug; a judge agent reconciles feedback into evolving memory; discussion and reviewer agents resolve issues behind safety guardrails."></details>{% endif %}
           </div>
-          {% include stages.html stages=t.stages %}
-        </div>
+        </article>
         {% endfor %}
-        <div class="thrust glow t-s" id="thread-s">
-          <div class="thrust-name">{{ r.safety.short }}<span class="prop">{{ r.safety.property }}</span><span class="ask">{{ r.safety.question }}</span></div>
-          <div>
-            <p><i>{{ r.safety.thesis }}</i> {{ r.safety.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+        {% assign sf = r.safety %}
+        <article class="tcard" id="thread-s">
+          <header class="tcard-head">
+            <span class="tcard-icon">{% include icon.html name=sf.icon %}</span>
+            <div class="tcard-title">
+              <h3>{{ sf.short }}</h3>
+              <div class="tcard-meta"><span class="comp">Agent's {{ sf.component | downcase }}</span><span class="dot">·</span><span class="prop">{{ sf.property }}</span></div>
+            </div>
+            <span class="ask">{{ sf.question }}</span>
+          </header>
+          <div class="tcard-body">
+            <p><i>{{ sf.thesis }}</i> {{ sf.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+            {% include stages.html stages=sf.stages %}
           </div>
-          {% include stages.html stages=r.safety.stages %}
-        </div>
+        </article>
       </div>
 
       <p class="future-title"><b>Where this is heading</b></p>

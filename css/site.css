@@ -283,3 +283,27 @@ details.fig img { margin-top: 8px; border: 1px solid var(--line); border-radius:
 .rec-head { display: block; font-size: 13.5px; font-weight: 600; color: var(--head); line-height: 1.35; }
 .rec-detail { display: block; font-size: 12.5px; color: var(--soft); line-height: 1.35; }
 .rec-more { font-size: 13px; margin: 8px 0 0 14px; }
+
+/* ---------- Icons ---------- */
+.ico { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; display: block; }
+.rnode-icon { width: 38px; height: 38px; margin: 0 auto 6px; border-radius: 50%; display: grid; place-items: center; background: #e7f1ec; color: var(--accent); }
+.rsafety-icon { width: 26px; height: 26px; border-radius: 50%; display: inline-grid; place-items: center; background: #e7f1ec; color: var(--accent); }
+.rsafety-icon .ico { width: 16px; height: 16px; }
+
+/* ---------- Thread cards (clearly separated) ---------- */
+.thrusts { display: flex; flex-direction: column; gap: 18px; margin: 18px 0 20px; }
+.tcard { border: 1px solid #dbe6e0; border-radius: 12px; background: #fff; overflow: hidden; transition: box-shadow .18s ease, border-color .18s ease; }
+.tcard:hover { border-color: #b9d4c6; box-shadow: 0 12px 28px -18px rgba(15, 107, 79, .55); }
+.tcard-head { display: flex; align-items: center; gap: 14px; padding: 12px 18px; background: #f3f8f5; border-bottom: 1px solid #dbe6e0; flex-wrap: wrap; }
+.tcard-icon { width: 40px; height: 40px; flex: 0 0 40px; border-radius: 10px; display: grid; place-items: center; background: #fff; border: 1px solid #cfe2d8; color: var(--accent); }
+.tcard-title { flex: 1 1 auto; min-width: 0; }
+.tcard-title h3 { font-family: var(--serif); font-size: 19px; font-weight: 600; color: var(--head); margin: 0; line-height: 1.2; }
+.tcard-meta { font-size: 11.5px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--accent); margin-top: 2px; }
+.tcard-meta .dot { margin: 0 6px; color: #9cbfaf; }
+.tcard-head .ask { margin: 0; font-size: 12.5px; background: #fff; border: 1px solid #cfe2d8; color: var(--accent); }
+.tcard-body { padding: 14px 18px 16px; }
+.tcard-body > p { font-size: 14.5px; margin: 0 0 4px; }
+.tcard-body i { color: var(--head); }
+.tcard .stages { margin-top: 14px; }
+.tcard .stage { flex: 1 1 105px; min-width: 100px; }
+@media (max-width: 600px) { .tcard-head .ask { flex-basis: 100%; text-align: center; } }

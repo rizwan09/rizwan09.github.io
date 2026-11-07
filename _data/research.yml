@@ -12,7 +12,9 @@ thrusts:
   - id: k
     name: Knowledge
     property: Attributed
-    question: What does the agent know?
+    component: Memory
+    icon: memory
+    question: What does the agent know and remember?
     thesis: Attribution is a pipeline property, not a post-hoc citation.
     summary: >-
       Provenance survives to the output only if valuation, retrieval, filtering, and generation
@@ -22,6 +24,8 @@ thrusts:
       [FiLCo](https://arxiv.org/abs/2311.08377) learns which context to keep,
       [DelucionQA](https://arxiv.org/abs/2312.05200) detects hallucination, and
       [CoT-PoT](https://arxiv.org/abs/2604.17433) reaches self-consistency from two samples.
+      [Xolver](https://arxiv.org/abs/2506.14234) extends retrieval to agentic memory: past solutions,
+      experiences, and skills become one evolving store the agent can retrieve from as it works.
       The same machinery runs in legal aid ([Mina](https://aclanthology.org/2026.findings-acl.1295/)), cyber-threat intelligence
       ([TechniqueRAG](https://arxiv.org/abs/2505.11988)), and medical screening (DR-VQA).
     papers:
@@ -39,12 +43,16 @@ thrusts:
         papers: [{ name: "Open-RAG", url: "https://arxiv.org/abs/2410.01782" }, { name: "Chain of Evidences", url: "https://aclanthology.org/2025.knowledgenlp-1.21/" }, { name: "CoT-PoT", url: "https://arxiv.org/abs/2604.17433" }]
       - name: Attribution and audit
         papers: [{ name: "DelucionQA", url: "https://arxiv.org/abs/2312.05200" }, { name: "Conformal Lens", url: "https://aclanthology.org/2026.findings-eacl.274/" }]
+      - name: Agentic memory and skills
+        papers: [{ name: "Xolver", url: "https://arxiv.org/abs/2506.14234" }]
       - name: Applied domains
         papers: [{ name: "TechniqueRAG", url: "https://arxiv.org/abs/2505.11988" }, { name: "Mina", url: "https://aclanthology.org/2026.findings-acl.1295/" }, { name: "DR-VQA" }]
 
   - id: c
     name: Code
     property: Verifiable
+    component: Tools and execution
+    icon: code
     question: What does the agent produce?
     thesis: The bottleneck is correctness, not fluency.
     summary: >-
@@ -79,6 +87,8 @@ thrusts:
   - id: a
     name: Action
     property: Grounded
+    component: Environment
+    icon: action
     question: How does the agent act?
     thesis: Instrument first, then build the agent.
     summary: >-
@@ -119,6 +129,8 @@ safety:
   name: Trust and safety, across all three
   short: Safety
   property: Trustworthy
+  component: Guardrails
+  icon: shield
   question: Can the agent be trusted?
   thesis: Trust has to be built in, then audited.
   summary: >-
