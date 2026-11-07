@@ -13,4 +13,4 @@ I work with motivated students and researchers on **AI agents, generative AI, NL
 
 **How to reach out.** Email me at [rizwan@ucla.edu](mailto:rizwan@ucla.edu) with the subject line "Prospective student: [your name]", your CV, and a short note on which of my papers or directions interests you and why. I read every message, but cannot reply to all.
 
-**Please note:** I may not have paid positions available at any given time. I am always open to research collaborations.
+**Please note:** I do not have funding for paid internships in 2027. Unpaid research assistantships are possible, and I am always open to research collaborations. Ph.D. students are co-supervised with university partners.

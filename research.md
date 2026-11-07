@@ -51,7 +51,7 @@ An agent that knows and makes must finally act: navigate maps, fill forms, and c
 
 <h2 id="safety">Trustworthy agents</h2>
 
-Trustworthiness has to be built in and then audited. Our critical review of LLM evaluation (top-29 most-cited at EMNLP 2024) diagnoses why model comparisons mislead; the **[Agentic Security Survey](https://arxiv.org/abs/2510.06445)** (TMLR 2026) offers a three-pillar taxonomy across 260+ papers; **[X-Teaming](https://arxiv.org/abs/2504.13203)** (COLM 2025) reaches 98.1% multi-turn attack success with collaborative planner–attacker–verifier agents; **[AI Debate](https://arxiv.org/abs/2506.02175)** (NeurIPS 2025) helps human judges beat single-advisor consultancy by 4–10 points; and CTF failure attribution shows security-agent failures are dominated by a reasoning ceiling rather than tooling.
+Trustworthiness has to be built in and then audited. Our critical review of LLM evaluation (top-29 most-cited at EMNLP 2024) diagnoses why model comparisons mislead; our **[agentic security](https://arxiv.org/abs/2510.06445)** survey (TMLR 2026) offers a three-pillar taxonomy across 260+ papers; **[AgentTell](https://arxiv.org/abs/2609.32915)** studies behavioural side-channel leakage in browser-use agents; **[X-Teaming](https://arxiv.org/abs/2504.13203)** (COLM 2025) reaches 98.1% multi-turn attack success with collaborative planner–attacker–verifier agents; **[AI Debate](https://arxiv.org/abs/2506.02175)** (NeurIPS 2025) helps human judges beat single-advisor consultancy by 4–10 points; and CTF failure attribution shows security-agent failures are dominated by a reasoning ceiling rather than tooling.
 
 <h2 id="future">Future directions</h2>
 

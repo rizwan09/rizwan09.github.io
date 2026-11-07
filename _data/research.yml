@@ -85,7 +85,8 @@ safety:
     - { name: X-Teaming, url: "https://arxiv.org/abs/2504.13203" }
     - { name: Poison with Style, url: "https://arxiv.org/abs/2605.27631" }
     - { name: AI Debate, url: "https://arxiv.org/abs/2506.02175" }
-    - { name: Agentic Security Survey, url: "https://arxiv.org/abs/2510.06445" }
+    - { name: Agentic Security, url: "https://arxiv.org/abs/2510.06445" }
+    - { name: AgentTell, url: "https://arxiv.org/abs/2609.32915" }
 
 future:
   - A unified, attributed, and safety-certified knowledge substrate for everything an agent consumes, from documents and memory to skills and tools.
