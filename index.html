@@ -19,8 +19,15 @@ permalink: /
     </ul>
     <p class="rec-title">Recognition</p>
     <ul class="rec">
-      {% for a in site.data.recognition %}<li class="glow"><a href="{{ a.url | relative_url }}">{{ a.text }}</a></li>{% endfor %}
+      {% for a in site.data.recognition %}
+      <li class="rec-item glow k-{{ a.kind }}"><a href="{{ a.url | relative_url }}">
+        <span class="rec-kind">{% case a.kind %}{% when 'award' %}Award{% when 'cited' %}Most cited{% when 'adopted' %}Adopted by{% else %}Impact{% endcase %}</span>
+        <span class="rec-head">{{ a.title }}</span>
+        <span class="rec-detail">{{ a.detail }}</span>
+      </a></li>
+      {% endfor %}
     </ul>
+    <p class="rec-more"><a href="{{ '/awards/' | relative_url }}">All honors and awards &rarr;</a></p>
   </aside>
 
   <div class="content">
@@ -47,8 +54,8 @@ permalink: /
 
       <div class="thrusts">
         {% for t in r.thrusts %}
-        <div class="thrust glow" id="thread-{{ t.id }}">
-          <div class="thrust-name">{{ t.name }}<span>{{ t.property }} · {{ t.question }}</span></div>
+        <div class="thrust glow t-{{ t.id }}" id="thread-{{ t.id }}">
+          <div class="thrust-name">{{ t.name }}<span class="prop">{{ t.property }}</span><span class="ask">{{ t.question }}</span></div>
           <div>
             <p><i>{{ t.thesis }}</i> {{ t.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
             {% if t.id == 'c' %}<details class="fig"><summary>End-to-end code pipeline (figure from my research statement)</summary><img src="{{ '/img/research/code-pipeline.png' | relative_url }}" alt="Language-to-code pipeline: federated coding agents retrieve, plan, simulate and verify, and execute and debug; a judge agent reconciles feedback into evolving memory; discussion and reviewer agents resolve issues behind safety guardrails."></details>{% endif %}
@@ -56,8 +63,8 @@ permalink: /
           {% include stages.html stages=t.stages %}
         </div>
         {% endfor %}
-        <div class="thrust glow" id="thread-s">
-          <div class="thrust-name">{{ r.safety.short }}<span>{{ r.safety.property }} · {{ r.safety.question }}</span></div>
+        <div class="thrust glow t-s" id="thread-s">
+          <div class="thrust-name">{{ r.safety.short }}<span class="prop">{{ r.safety.property }}</span><span class="ask">{{ r.safety.question }}</span></div>
           <div>
             <p><i>{{ r.safety.thesis }}</i> {{ r.safety.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
           </div>
@@ -75,18 +82,18 @@ permalink: /
     <section id="publications">
       <h2>Selected Publications</h2>
       <p class="small muted">Full list on the <a href="{{ '/publications/' | relative_url }}">publications page</a> and <a href="{{ p.links[0].url }}">Google Scholar</a>.</p>
-      <h3 class="thread-name">Retrieval and Knowledge</h3>
+      <h3 class="thread-name t-k">Retrieval and Knowledge</h3>
       {% bibliography --file ref --template publications-selected -q @*[featured2=knowledge]* %}
       {% bibliography --file ref --template publications-selected -q @*[featured=knowledge]* %}
-      <h3 class="thread-name">Code Generation and Software Engineering</h3>
+      <h3 class="thread-name t-c">Code Generation and Software Engineering</h3>
       {% bibliography --file ref --template publications-selected -q @*[featured=code]* %}
-      <h3 class="thread-name">Grounded Actions: Maps and Spatial Reasoning</h3>
+      <h3 class="thread-name t-a">Grounded Actions: Maps and Spatial Reasoning</h3>
       {% bibliography --file ref --template publications-selected -q @*[featured=spatial]* %}
-      <h3 class="thread-name">Grounded Actions: Charts and Visual Data</h3>
+      <h3 class="thread-name t-a">Grounded Actions: Charts and Visual Data</h3>
       {% bibliography --file ref --template publications-selected -q @*[featured=chart]* %}
-      <h3 class="thread-name">Grounded Actions: Web and Computer-Use Agents</h3>
+      <h3 class="thread-name t-a">Grounded Actions: Web and Computer-Use Agents</h3>
       {% bibliography --file ref --template publications-selected -q @*[featured=web]* %}
-      <h3 class="thread-name">Safety, Security, and Trust</h3>
+      <h3 class="thread-name t-s">Safety, Security, and Trust</h3>
       {% bibliography --file ref --template publications-selected -q @*[featured=safety]* %}
     </section>
 

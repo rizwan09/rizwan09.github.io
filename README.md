@@ -12,7 +12,7 @@ Almost everything on the site is plain data. You rarely need to touch HTML.
 | CV | Replace `files/CV_Md_Rizwan_Parvez.pdf` (same file name). If you rename it, update `cv:` in `_data/profile.yml` and the `CV` entry in `_config.yml`. |
 | Research statement | Replace `files/Research_Statement_Md_Rizwan_Parvez.pdf` (path set by `statement:` in `_data/profile.yml`) |
 | News | `_data/news.yaml` (newest first; one short line each; `when` is `MM.YYYY` or `YYYY`) |
-| Recognition list in the sidebar | `_data/recognition.yml` |
+| Recognition cards in the sidebar | `_data/recognition.yml` (`kind`: award, cited, adopted, impact) |
 | Research section, diagram, and per-thread pipelines (`stages`) | `_data/research.yml` |
 | Experience timeline | `_data/experience.yml` (use `items:` to group entries, as with the internships) |
 | Service | `_data/service.yml` (add `url` to make a venue a link) |

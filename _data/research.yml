@@ -12,7 +12,7 @@ thrusts:
   - id: k
     name: Knowledge
     property: Attributed
-    question: what an agent knows
+    question: What does the agent know?
     thesis: Attribution is a pipeline property, not a post-hoc citation.
     summary: >-
       Provenance survives to the output only if valuation, retrieval, filtering, and generation
@@ -45,7 +45,7 @@ thrusts:
   - id: c
     name: Code
     property: Verifiable
-    question: what an agent produces
+    question: What does the agent produce?
     thesis: The bottleneck is correctness, not fluency.
     summary: >-
       Code can be executed and tested, so it is where agent outputs can be verified.
@@ -79,7 +79,7 @@ thrusts:
   - id: a
     name: Action
     property: Grounded
-    question: how an agent acts
+    question: How does the agent act?
     thesis: Instrument first, then build the agent.
     summary: >-
       On maps, the web, GUIs, and charts, models recite state they cannot operate on.
@@ -118,7 +118,7 @@ safety:
   name: Trust and safety, across all three
   short: Safety
   property: Trustworthy
-  question: how far an agent can be trusted
+  question: Can the agent be trusted?
   thesis: Trust has to be built in, then audited.
   summary: >-
     Our [critical review of LLM evaluation](https://aclanthology.org/2024.emnlp-main.764/) diagnoses why model comparisons mislead.

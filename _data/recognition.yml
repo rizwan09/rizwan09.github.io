@@ -1,21 +1,37 @@
-# Sidebar "Recognition" list; each item links to its source.
-- text: ICML 2025 Spotlight, top 2% (MapEval)
+# Sidebar "Recognition". kind: award | cited | adopted | impact (sets the tag color).
+- kind: award
+  title: ICML 2025 Spotlight
+  detail: MapEval, top 2% of 12,107 submissions
   url: https://icml.cc/virtual/2025/poster/44415
-- text: Top-10 most-cited SE arXiv paper of 2021 (RedCoder)
+- kind: cited
+  title: Top-10 most-cited SE paper
+  detail: RedCoder, arXiv 2021
   url: https://resources.paperdigest.org/2025/09/most-influential-arxiv-software-engineering-papers-2025-09-version/
-- text: Top-37 most-cited paper at ACL 2024 (MapCoder)
+- kind: cited
+  title: Top-37 most-cited at ACL 2024
+  detail: MapCoder
   url: https://www.paperdigest.org/digest/?topic=acl&type=author&year=2024
-- text: Top-29 most-cited paper at EMNLP 2024 (LLM evaluation survey)
+- kind: cited
+  title: Top-29 most-cited at EMNLP 2024
+  detail: LLM evaluation survey
   url: https://www.paperdigest.org/digest/?topic=emnlp&type=author&year=2024
-- text: ChartQAPro used in the evaluation of Claude Mythos/Fable 5
+- kind: adopted
+  title: Claude Mythos/Fable 5
+  detail: ChartQAPro in its evaluation suite
   url: https://arxiv.org/abs/2504.05506
-- text: RedCoder's method adopted in Microsoft AutoGen
+- kind: adopted
+  title: Microsoft AutoGen
+  detail: adopts RedCoder's method
   url: https://github.com/microsoft/autogen
-- text: MapCoder, a baseline in Meta's RLEF (Llama 3.1)
+- kind: adopted
+  title: Meta RLEF (Llama 3.1)
+  detail: MapCoder as a baseline
   url: https://arxiv.org/abs/2410.02089
-- text: 6.2M+ Hugging Face downloads (xCodeEval)
+- kind: impact
+  title: 6.2M+ downloads
+  detail: xCodeEval on Hugging Face
   url: https://huggingface.co/datasets/NTU-NLP-sg/xCodeEval
-- text: Press coverage in MarkTechPost (Open-RAG)
+- kind: impact
+  title: MarkTechPost coverage
+  detail: Open-RAG
   url: https://www.marktechpost.com/2024/10/14/open-rag-a-novel-ai-framework-designed-to-enhance-reasoning-capabilities-in-rag-with-open-source-llms/
-- text: More honors and awards
-  url: /awards/

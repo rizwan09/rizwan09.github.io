@@ -1,7 +1,7 @@
 # Newest first. `when` is MM.YYYY when the month is known, otherwise YYYY.
 # Keep each item to one short line; link paper names.
 - when: "2026"
-  text: "I will serve as a Senior Area Chair for ACL 2027, and as an Area Chair for NAACL 2027 and AAAI 2027."
+  text: "I will serve as a Senior Area Chair for ACL 2027, an Area Chair for NAACL 2027, and a Senior Program Committee member for AAAI 2027."
 - when: "2026"
   text: "Our [survey on agentic security](https://arxiv.org/abs/2510.06445) is published in TMLR."
 - when: "2026"

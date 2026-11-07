@@ -3,10 +3,10 @@
   <div class="rmap-core"><span>Auditable agents</span></div>
   <div class="rmap-row">
     {% for t in r.thrusts %}
-    <div class="rnode glow" data-id="{{ t.id }}">
+    <div class="rnode glow t-{{ t.id }}" data-id="{{ t.id }}">
       <div class="rnode-prop">{{ t.property }}</div>
       <div class="rnode-name">{{ t.name }}</div>
-      <div class="rnode-q">{{ t.question }}</div>
+      <div class="ask">{{ t.question }}</div>
       <div class="rnode-papers">{% for p in t.papers %}<a href="{{ p.url }}">{{ p.name }}</a>{% endfor %}</div>
     </div>
     {% unless forloop.last %}
@@ -23,8 +23,8 @@
     {% endunless %}
     {% endfor %}
   </div>
-  <div class="rsafety glow">
-    <span class="rsafety-name">{{ r.safety.name }}</span>
+  <div class="rsafety glow t-s">
+    <span class="rsafety-name">{{ r.safety.name }}</span> <span class="ask">{{ r.safety.question }}</span>
     <span class="rnode-papers">{% for p in r.safety.papers %}<a href="{{ p.url }}">{{ p.name }}</a>{% endfor %}</span>
   </div>
 </div>

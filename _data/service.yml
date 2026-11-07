@@ -9,10 +9,12 @@
 - role: Area Chair
   venues:
     - { name: NAACL 2027 }
-    - { name: AAAI 2027, url: "https://aaai.org/conference/aaai/" }
     - { name: NeurIPS 2026, url: "https://neurips.cc/" }
     - { name: COLM 2026, url: "https://colmweb.org/" }
     - { name: ACL 2025, url: "https://2025.aclweb.org/" }
+- role: Senior Program Committee
+  venues:
+    - { name: AAAI 2027, url: "https://aaai.org/conference/aaai/" }
 - role: Session Chair
   venues:
     - { name: EACL 2026, url: "https://2026.eacl.org/" }
