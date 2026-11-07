@@ -29,6 +29,19 @@
     });
   }
 
+  // Sticky profile column: if it is taller than the window, let it scroll
+  // until its bottom is visible, then stick (so every item stays reachable).
+  var prof = document.querySelector('.profile');
+  function fitProfile() {
+    if (!prof) return;
+    if (window.matchMedia('(max-width: 860px)').matches) { prof.style.top = ''; return; }
+    var extra = prof.offsetHeight + 48 - window.innerHeight;
+    prof.style.top = (extra > 0 ? 24 - extra : 24) + 'px';
+  }
+  window.addEventListener('load', fitProfile);
+  window.addEventListener('resize', fitProfile);
+  fitProfile();
+
   // Publication topic filter
   var links = document.querySelectorAll('[data-filter]');
   links.forEach(function (link) {
