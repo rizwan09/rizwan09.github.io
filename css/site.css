@@ -251,18 +251,15 @@ details.fig img { margin-top: 8px; border: 1px solid var(--line); border-radius:
 .prose h2 { border-bottom: 0; padding-bottom: 0; }
 
 /* ---------- Thread colors (Knowledge, Code, Action, Safety) ---------- */
-.t-k { --tc: #2b6c8f; --ts: #e7f0f6; }
-.t-c { --tc: #5a4fa0; --ts: #eeecf8; }
-.t-a { --tc: #9a5b22; --ts: #f7eee4; }
-.t-s { --tc: #a8322d; --ts: #f8e9e8; }
+.t-k, .t-c, .t-a, .t-s { --tc: var(--accent); --ts: #e7f1ec; }
 .ask { display: inline-block; font-size: 12px; font-weight: 600; font-style: italic; color: var(--tc, var(--accent)); background: var(--ts, var(--accent-soft)); border-radius: 999px; padding: 1px 10px; margin: 4px 0 8px; }
 .rnode.t-k, .rnode.t-c, .rnode.t-a { border-top-color: var(--tc); }
 .rnode .rnode-prop { color: var(--tc, var(--accent)); }
 .rnode .rnode-papers a { color: var(--tc, var(--accent)); }
-.rsafety.t-s { border-color: #e2b8b5; }
+.rsafety.t-s { border-color: #b9cfc4; }
 .rsafety .ask { margin: 0; }
 .rsafety .rnode-papers a { color: var(--tc); }
-.thrust.t-k, .thrust.t-c, .thrust.t-a, .thrust.t-s { border-left: 3px solid var(--tc); }
+.thrust.t-k, .thrust.t-c, .thrust.t-a, .thrust.t-s { border-left: 2px solid #d3e5db; }
 .thrust .thrust-name { color: var(--tc, var(--head)); }
 .thrust .thrust-name span.prop { display: block; font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--tc); opacity: .85; margin-top: 2px; }
 .thrust .thrust-name span.ask { display: inline-block; font-family: var(--sans); font-size: 12px; font-weight: 600; color: var(--tc); background: var(--ts); margin-top: 8px; padding: 2px 10px; line-height: 1.4; }
@@ -275,17 +272,14 @@ details.fig img { margin-top: 8px; border: 1px solid var(--line); border-radius:
 .thread-group.t-k::before, .thread-group.t-c::before, .thread-group.t-a::before, .thread-group.t-s::before { background: var(--tc); box-shadow: 4px -4px 0 -1px var(--ts); }
 @media (max-width: 700px) { .thrust .stage:not(:last-child)::after { border-left-color: transparent; border-top-color: color-mix(in srgb, var(--tc) 55%, #fff); } }
 
-/* ---------- Recognition cards ---------- */
-.profile .rec { margin-top: 2px; }
-.profile .rec li.rec-item { padding: 0; margin: 0 0 7px; border-radius: 8px; }
-.rec-item a { display: block; padding: 7px 10px 7px 12px; border: 1px solid var(--line); border-left: 3px solid var(--rc); border-radius: 8px; background: #fff; color: var(--text); }
+/* ---------- Recognition list ---------- */
+.profile .rec { margin-top: 2px; border-left: 2px solid #cfe2d8; }
+.profile .rec li.rec-item { padding: 0; margin: 0; border-radius: 0 6px 6px 0; }
+.rec-item a { display: block; padding: 6px 10px 6px 12px; color: var(--text); }
 .rec-item a:hover { text-decoration: none; }
-.rec-item.glow:hover a { border-color: color-mix(in srgb, var(--rc) 40%, #fff); border-left-color: var(--rc); }
-.rec-kind { display: block; font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--rc); }
-.rec-head { display: block; font-size: 13.5px; font-weight: 600; color: var(--head); line-height: 1.35; margin-top: 1px; }
+.rec-item.glow:hover { box-shadow: none; background: #f3faf6; }
+.rec-item.glow:hover .rec-head { color: var(--accent); }
+.rec-kind { display: none; }
+.rec-head { display: block; font-size: 13.5px; font-weight: 600; color: var(--head); line-height: 1.35; }
 .rec-detail { display: block; font-size: 12.5px; color: var(--soft); line-height: 1.35; }
-.k-award { --rc: #b4791a; }
-.k-cited { --rc: #a8322d; }
-.k-adopted { --rc: #2b6c8f; }
-.k-impact { --rc: #0f6b4f; }
-.rec-more { font-size: 13px; margin: 6px 0 0; }
+.rec-more { font-size: 13px; margin: 8px 0 0 14px; }

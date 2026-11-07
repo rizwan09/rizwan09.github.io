@@ -21,7 +21,6 @@ permalink: /
     <ul class="rec">
       {% for a in site.data.recognition %}
       <li class="rec-item glow k-{{ a.kind }}"><a href="{{ a.url | relative_url }}">
-        <span class="rec-kind">{% case a.kind %}{% when 'award' %}Award{% when 'cited' %}Most cited{% when 'adopted' %}Adopted by{% else %}Impact{% endcase %}</span>
         <span class="rec-head">{{ a.title }}</span>
         <span class="rec-detail">{{ a.detail }}</span>
       </a></li>
