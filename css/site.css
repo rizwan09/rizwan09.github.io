@@ -406,3 +406,32 @@ html { scroll-padding-top: 72px; }
 
 /* Publications page: sub-thread headings sit visibly under their group */
 .prose h3.thread-name { margin-left: 2px; padding-left: 12px; border-left: 3px solid #cfe2d8; border-bottom: 0; }
+
+/* ---------- Pipeline panel (C1) ---------- */
+.pipeline { margin: 16px 0 2px; padding: 12px 14px 8px; background: #f8fbf9; border: 1px solid #e1ece6; border-radius: 10px; }
+.pipeline-label { font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); margin: 0 0 6px 2px; }
+.pipeline .stages { margin: 0; }
+.pipeline .stages::before { left: 11px; top: 18px; bottom: 18px; background: #cfe2d8; }
+.pipeline .stage { grid-template-columns: 24px 215px minmax(0, 1fr); align-items: center; padding: 8px 8px 8px 0; border-radius: 8px; }
+.pipeline .stage + .stage { border-top: 0; }
+.pipeline .stage:hover { background: #fff; box-shadow: 0 0 0 1px #d6e7de; }
+.pipeline .stage-name { font-size: 13.5px; }
+.pipeline .stage-papers a, .pipeline .stage-papers span { background: #fff; }
+@media (max-width: 700px) {
+  .pipeline .stage { grid-template-columns: 24px minmax(0, 1fr); align-items: start; }
+  .pipeline .stage-num { align-self: start; }
+}
+
+/* ---------- Sub-group headers vs venue labels (C3) ---------- */
+/* Venue: a small neutral badge */
+.pub-abbr { padding-top: 3px; }
+.pubcard .pub-abbr, .prose .pub-abbr { font-size: 11.5px; font-weight: 600; color: #3f5f53; }
+.pub-abbr-badge, .pubcard .pub-abbr > span, .prose .pub-abbr > span { display: inline-block; padding: 1px 8px; border: 1px solid #d5e2db; border-radius: 6px; background: #fff; line-height: 1.5; }
+/* Sub-group: a full-width tinted band with a serif title */
+.pubcard .subhead { margin: 14px -16px 4px; padding: 7px 16px; background: #f3f8f5; border-top: 1px solid #e1ece6; border-bottom: 1px solid #e1ece6; font-family: var(--serif); font-size: 15.5px; font-weight: 600; letter-spacing: 0; text-transform: none; color: var(--head); }
+.pubcard .subhead::before { content: ""; width: 4px; height: 16px; border-radius: 2px; background: var(--accent); flex: 0 0 auto; }
+.pubcard .subhead::after { content: none; }
+.pubcard .subgroup:first-child .subhead { margin-top: -4px; border-top: 0; }
+.pub-abbr > span { white-space: nowrap; }
+.pub { grid-template-columns: 136px minmax(0, 1fr); }
+@media (max-width: 600px) { .pub { grid-template-columns: 1fr; } }

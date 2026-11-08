@@ -1,9 +1,12 @@
-<ol class="stages">
-  {% for st in include.stages %}
-  <li class="stage">
-    <span class="stage-num">{{ forloop.index }}</span>
-    <span class="stage-name">{{ st.name }}</span>
-    <span class="stage-papers">{% for p in st.papers %}{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}<span>{{ p.name }}</span>{% endif %}{% endfor %}</span>
-  </li>
-  {% endfor %}
-</ol>
+<div class="pipeline">
+  <div class="pipeline-label">Research pipeline</div>
+  <ol class="stages">
+    {% for st in include.stages %}
+    <li class="stage">
+      <span class="stage-num">{{ forloop.index }}</span>
+      <span class="stage-name">{{ st.name }}</span>
+      <span class="stage-papers">{% for p in st.papers %}{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}<span>{{ p.name }}</span>{% endif %}{% endfor %}</span>
+    </li>
+    {% endfor %}
+  </ol>
+</div>
