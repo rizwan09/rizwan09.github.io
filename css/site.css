@@ -199,7 +199,7 @@ footer { border-top: 1px solid var(--line); max-width: 1120px; margin: 0 auto; p
 
 /* Bio and recruiting highlight (Kuan-Hao style) */
 .bio { text-align: justify; hyphens: auto; font-size: 15.5px; line-height: 1.7; }
-.recruit { margin: 18px 0 4px; padding: 14px 18px; background: #eaf3ee; border-left: 3px solid var(--accent); border-radius: 12px; text-align: justify; font-size: 15px; color: #3b3f43; }
+.recruit { margin: 18px 0 4px; padding: 14px 18px; background: #eaf3ee; border-radius: 10px; text-align: justify; font-size: 15px; color: #3b3f43; }
 .recruit p { margin: 0; }
 .recruit strong { color: var(--head); }
 
@@ -346,7 +346,7 @@ details.fig img { margin-top: 8px; border: 1px solid var(--line); border-radius:
 .ocard h3::before { content: ""; width: 8px; height: 8px; border-radius: 2px; background: var(--accent); transform: rotate(45deg); }
 .ocard ul, .ocard ol { margin: 0; padding-left: 20px; }
 .ocard li { margin-bottom: 6px; }
-.onote { background: #eef6f1; border-color: #cfe2d8; border-left: 4px solid var(--accent); }
+.onote { background: #eef6f1; border-color: #d6e7de; }
 .osteps { counter-reset: s; list-style: none; padding-left: 0 !important; }
 .osteps li { counter-increment: s; position: relative; padding-left: 34px; margin-bottom: 10px; }
 .osteps li::before { content: counter(s); position: absolute; left: 0; top: 0; width: 22px; height: 22px; border-radius: 50%; background: var(--accent); color: #fff; font-size: 12px; font-weight: 600; display: grid; place-items: center; }
