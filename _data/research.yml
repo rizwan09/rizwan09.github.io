@@ -10,7 +10,7 @@ intro: >-
 
 thrusts:
   - id: k
-    name: Knowledge
+    name: Knowledge Agents
     property: Attributed
     component: Memory
     icon: memory
@@ -49,7 +49,7 @@ thrusts:
         papers: [{ name: "TechniqueRAG", url: "https://arxiv.org/abs/2505.11988" }, { name: "Mina", url: "https://aclanthology.org/2026.findings-acl.1295/" }, { name: "DR-VQA", url: "https://www.researchgate.net/profile/Tanvir-Alam-2/publication/400926894_DR-VQA_Large_Language_Model_Based_Vision_Question_Answering_System_on_Diabetic_Retinopathy/links/69ad86e5ceb31f79ab24f76b/DR-VQA-Large-Language-Model-Based-Vision-Question-Answering-System-on-Diabetic-Retinopathy.pdf" }]
 
   - id: c
-    name: Code
+    name: Coding Agents
     property: Verifiable
     component: Tools and execution
     icon: code
@@ -85,7 +85,7 @@ thrusts:
         papers: [{ name: "xCodeEval", url: "https://arxiv.org/abs/2303.03004" }, { name: "VibeSweBench" }, { name: "PR Reviewer" }]
 
   - id: a
-    name: Action
+    name: Grounded and Live Agents
     property: Grounded
     component: Environment
     icon: action
@@ -126,8 +126,9 @@ links:
   - { from: c, to: a, label: "simulation and tree search", via: WebOperator }
 
 safety:
-  name: Trust and safety, across all three
-  short: Safety
+  name: Safety, Security, and Trust of Agents
+  short: Safety, Security, and Trust of Agents
+  scope: across all three
   property: Trustworthy
   component: Guardrails
   icon: shield

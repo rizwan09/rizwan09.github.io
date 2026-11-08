@@ -3,7 +3,7 @@ layout: page
 title: "Research"
 subtitle: "Auditable agentic AI: attributed, verifiable, and grounded."
 permalink: /research/
-meta-description: "Research of Md Rizwan Parvez: auditable agentic AI across three interfaces: language–knowledge (attributed RAG), language–code (verifiable code and SE agents), and language–action (grounded agents)."
+meta-description: "Research of Md Rizwan Parvez: auditable agentic AI knowledge agents, coding agents, grounded and live agents, and the safety, security, and trust of agents."
 ---
 
 <p class="small">The full version is in my <a href="{{ site.data.profile.statement | relative_url }}">research statement</a> (PDF).</p>
@@ -17,7 +17,7 @@ My research develops these checks throughout an agent's workflow rather than onl
 
 {% include research-map.html %}
 
-<h2 id="knowledge">Language–Knowledge: Retrieval, attribution, and evolving memory</h2>
+<h2 id="knowledge">Knowledge Agents: Retrieval, attribution, and evolving memory</h2>
 
 Before an agent can be trusted to act, it must be trusted to know. Retrieval-augmented generation (RAG) grounds output in external text, but production RAG still retrieves misleading passages, cannot say which source supports which claim, and treats outdated content as current. My organizing claim is that **attribution is a pipeline property, not a post-hoc citation**: provenance survives to the output only if valuation, retrieval, filtering, and generation each expose an auditable, overridable decision.
 
@@ -26,7 +26,7 @@ Before an agent can be trusted to act, it must be trusted to know. Retrieval-aug
 - **Knowing what the model does not know.** **[DelucionQA](https://arxiv.org/abs/2312.05200)** detects hallucination in domain-specific QA; **[CoT–PoT](https://arxiv.org/abs/2604.17433)** (ACL 2026 Findings) reaches self-consistency from only two samples (9.3× fewer) by ensembling a reasoning chain with a program-of-thought; a conformal benchmark measures calibrated abstention across 18 VLMs.
 - **Where evidence has consequences.** **[TechniqueRAG](https://arxiv.org/abs/2505.11988)** for cyber-threat intelligence; **[Mina](https://aclanthology.org/2026.findings-acl.1295/)**, a multilingual legal-aid agent reaching 75–80% on Bangladesh Bar Council exams at under 1% of typical consultation cost; **DR-VQA** for diabetic-retinopathy screening.
 
-<h2 id="code">Language–Code: Code generation and software engineering agents</h2>
+<h2 id="code">Coding Agents: Code generation and software engineering</h2>
 
 Code is the scalable lever for natural-language automation, and because code can be executed, tested, and analyzed, the property that gives it power also lets us verify it. Today's systems still produce code that runs but returns wrong results: **the bottleneck is correctness, not fluency**. This is my flagship line.
 
@@ -41,7 +41,7 @@ Code is the scalable lever for natural-language automation, and because code can
 - **Repository-scale software engineering.** **SWE-Xplorer** reframes issue resolution as best-first tree search with cross-path reconciliation (53.2% → 60.8% on SWE-Bench Verified under matched budgets); **SWE-Discussion** fuses partial localization evidence through role-played discussion; **Agent-as-a-Reviewer** issues auditable merge-or-reject decisions on real pull requests.
 - **Securing the code supply chain.** **[Poison with Style](https://arxiv.org/abs/2605.27631)** (ICML 2026) induces insecure code in up to 95% of cases with under 6% utility drop.
 
-<h2 id="action">Language–Action: Grounded agents</h2>
+<h2 id="action">Grounded and Live Agents: Maps, charts, the web, and GUIs</h2>
 
 An agent that knows and makes must finally act: navigate maps, fill forms, and compose workflows across tools. Across physical space, organizational data, and software screens, the failure is the same (models recite state they cannot operate on) and so is the method: **instrument first, then build the agent**.
 
@@ -49,7 +49,7 @@ An agent that knows and makes must finally act: navigate maps, fill forms, and c
 - **Web and GUI agents.** **[WebOperator](https://arxiv.org/abs/2512.12692)** brings tree search to partially observable web environments, ranking actions by reward and reversibility, and is among the top-scoring open-source agents on WebArena. **[GUI-Primitives](https://arxiv.org/abs/2608.21832)** (EMNLP 2026) isolates grounding as the bottleneck for computer-use agents: the best of 19 models reaches 31% vs. 96.9% for humans.
 - **Grounded in visual data.** [ChartInstruct](https://aclanthology.org/2024.findings-acl.619/), **[ChartQAPro](https://arxiv.org/abs/2504.05506)** (adopted in the evaluation suites of Claude Mythos/Fable 5, ByteDance Seed 2.0, and Alibaba Ovis 2.5), [DataNarrative](https://aclanthology.org/2024.emnlp-main.1073/), **[DashboardQA](https://arxiv.org/abs/2508.17398)**, and ChartQA-Video.
 
-<h2 id="safety">Trustworthy agents</h2>
+<h2 id="safety">Safety, Security, and Trust of Agents</h2>
 
 Trustworthiness has to be built in and then audited. Our [critical review of LLM evaluation](https://aclanthology.org/2024.emnlp-main.764/) (top-29 most-cited at EMNLP 2024) diagnoses why model comparisons mislead; our **[agentic security](https://arxiv.org/abs/2510.06445)** survey (TMLR 2026) offers a three-pillar taxonomy across 274 papers; **[AgentTell](https://arxiv.org/abs/2609.32915)** studies behavioural side-channel leakage in browser-use agents; **[X-Teaming](https://arxiv.org/abs/2504.13203)** (COLM 2025) reaches 98.1% multi-turn attack success with collaborative planner–attacker–verifier agents; **[AI Debate](https://arxiv.org/abs/2506.02175)** (NeurIPS 2025) helps human judges beat single-advisor consultancy by 4–10 points; and CTF failure attribution shows security-agent failures are dominated by a reasoning ceiling rather than tooling.
 

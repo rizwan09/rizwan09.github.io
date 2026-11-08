@@ -1,8 +1,8 @@
 # Order and names of research threads used to group papers everywhere.
-- { id: knowledge, name: "Retrieval and Knowledge", group: "Knowledge" }
-- { id: code, name: "Code Generation and Software Engineering", group: "Code" }
-- { id: spatial, name: "Maps and Spatial Agents", group: "Grounded Actions" }
-- { id: chart, name: "Charts and Visual Data Agents", group: "Grounded Actions" }
-- { id: web, name: "Web and Computer-Use Agents", group: "Grounded Actions" }
-- { id: safety, name: "Safety, Security, and Trust", group: "Safety" }
+- { id: knowledge, name: "Knowledge Agents", group: "Knowledge Agents" }
+- { id: code, name: "Coding Agents", group: "Coding Agents" }
+- { id: spatial, name: "Maps and Spatial Agents", group: "Grounded and Live Agents" }
+- { id: chart, name: "Charts and Visual Data Agents", group: "Grounded and Live Agents" }
+- { id: web, name: "Web and Computer-Use Agents", group: "Grounded and Live Agents" }
+- { id: safety, name: "Safety, Security, and Trust of Agents", group: "Safety, Security, and Trust of Agents" }
 - { id: other, name: "Other ML and NLP", group: "Other" }

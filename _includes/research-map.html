@@ -25,7 +25,7 @@
     {% endfor %}
   </div>
   <div class="rsafety glow t-s">
-    <span class="rsafety-icon">{% include icon.html name=r.safety.icon %}</span><span class="rsafety-name">{{ r.safety.name }}</span> <span class="ask">{{ r.safety.question }}</span>
+    <span class="rsafety-icon">{% include icon.html name=r.safety.icon %}</span><span class="rsafety-name">{{ r.safety.name }}</span><span class="rsafety-scope">{{ r.safety.scope }}</span> <span class="ask">{{ r.safety.question }}</span>
     <span class="rnode-papers">{% for p in r.safety.papers %}<a href="{{ p.url }}">{{ p.name }}</a>{% endfor %}</span>
   </div>
 </div>

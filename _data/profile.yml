@@ -26,9 +26,9 @@ bio:
     actions can be checked against evidence, execution, and the environment they act in, rather than
     taken on the model's word. Currently, my research covers three kinds of agents:
     (1) [knowledge agents that retrieve, remember, and attribute evidence](#thread-k),
-    (2) [coding and software engineering agents whose output is verified by execution](#thread-c),
-    and (3) [grounded agents that act on maps, the web, GUIs, and charts](#thread-a), together with
-    (4) [the safety and security of these agents](#thread-s).
+    (2) [coding agents for software engineering whose output is verified by execution](#thread-c),
+    and (3) [grounded and live agents that act on maps, the web, GUIs, and charts](#thread-a), together with
+    (4) [the safety, security, and trust of these agents](#thread-s).
 recruiting: >-
   I am actively looking for **research interns**, and I co-supervise **Ph.D. students** with
   university partners. Please note that I currently do not have funding for paid positions, so
