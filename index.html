@@ -51,38 +51,22 @@ permalink: /
 
       {% include research-map.html %}
 
-      <div class="thrusts">
+      <div class="rthreads">
         {% for t in r.thrusts %}
-        <article class="tcard" id="thread-{{ t.id }}">
-          <header class="tcard-head">
-            <span class="tcard-icon">{% include icon.html name=t.icon %}</span>
-            <div class="tcard-title">
-              <h3>{{ t.name }}</h3>
-              <div class="tcard-meta"><span class="prop">{{ t.property }}</span><span class="dot">·</span><span class="comp">{{ t.component }}</span></div>
-            </div>
-            <span class="ask">{{ t.question }}</span>
-          </header>
-          <div class="tcard-body">
-            <p><i>{{ t.thesis }}</i> {{ t.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
-            {% include stages.html stages=t.stages %}
-            {% if t.id == 'c' %}<details class="fig"><summary>End-to-end code pipeline (figure from my research statement)</summary><img src="{{ '/img/research/code-pipeline.png' | relative_url }}" alt="Language-to-code pipeline: federated coding agents retrieve, plan, simulate and verify, and execute and debug; a judge agent reconciles feedback into evolving memory; discussion and reviewer agents resolve issues behind safety guardrails."></details>{% endif %}
-          </div>
+        <article class="rthread" id="thread-{{ t.id }}">
+          <h3><span class="rthread-icon">{% include icon.html name=t.icon %}</span>{{ t.name }}<span class="rthread-meta">{{ t.property }} · {{ t.component }}</span></h3>
+          <p class="rthread-q">{{ t.question }}</p>
+          <p><i>{{ t.thesis }}</i> {{ t.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+          {% include stages.html stages=t.stages %}
+          {% if t.id == 'c' %}<details class="fig"><summary>End-to-end code pipeline (figure from my research statement)</summary><img src="{{ '/img/research/code-pipeline.png' | relative_url }}" alt="Language-to-code pipeline: federated coding agents retrieve, plan, simulate and verify, and execute and debug; a judge agent reconciles feedback into evolving memory; discussion and reviewer agents resolve issues behind safety guardrails."></details>{% endif %}
         </article>
         {% endfor %}
         {% assign sf = r.safety %}
-        <article class="tcard" id="thread-s">
-          <header class="tcard-head">
-            <span class="tcard-icon">{% include icon.html name=sf.icon %}</span>
-            <div class="tcard-title">
-              <h3>{{ sf.short }}</h3>
-              <div class="tcard-meta"><span class="prop">{{ sf.property }}</span><span class="dot">·</span><span class="comp">{{ sf.component }}</span><span class="dot">·</span><span class="comp">{{ sf.scope }}</span></div>
-            </div>
-            <span class="ask">{{ sf.question }}</span>
-          </header>
-          <div class="tcard-body">
-            <p><i>{{ sf.thesis }}</i> {{ sf.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
-            {% include stages.html stages=sf.stages %}
-          </div>
+        <article class="rthread" id="thread-s">
+          <h3><span class="rthread-icon">{% include icon.html name=sf.icon %}</span>{{ sf.short }}<span class="rthread-meta">{{ sf.property }} · {{ sf.component }} · {{ sf.scope }}</span></h3>
+          <p class="rthread-q">{{ sf.question }}</p>
+          <p><i>{{ sf.thesis }}</i> {{ sf.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+          {% include stages.html stages=sf.stages %}
         </article>
       </div>
 
@@ -98,60 +82,34 @@ permalink: /
       {% include pub-summary.html %}
       {% assign th = site.data.threads %}
       {% assign tk = th | where: "id", "knowledge" | first %}{% assign tc = th | where: "id", "code" | first %}{% assign tsp = th | where: "id", "spatial" | first %}{% assign tch = th | where: "id", "chart" | first %}{% assign tw = th | where: "id", "web" | first %}{% assign ts = th | where: "id", "safety" | first %}
-      <div class="pubcards">
-      <article class="tcard pubcard">
-        <header class="tcard-head">
-          <span class="tcard-icon">{% include icon.html name="memory" %}</span>
-          <div class="tcard-title"><h3>{{ tk.name }}</h3></div>
-        </header>
-        <div class="tcard-body">
-        {% bibliography --file ref --template publications-selected -q @*[featured2=knowledge]* %}
-        {% bibliography --file ref --template publications-selected -q @*[featured=knowledge]* %}
+      <div class="pubgroups">
+        <div class="pubgroup">
+          <h3 class="pubgroup-title">{{ tk.name }}</h3>
+          {% bibliography --file ref --template publications-selected -q @*[featured2=knowledge]* %}
+          {% bibliography --file ref --template publications-selected -q @*[featured=knowledge]* %}
         </div>
-      </article>
-      <article class="tcard pubcard">
-        <header class="tcard-head">
-          <span class="tcard-icon">{% include icon.html name="code" %}</span>
-          <div class="tcard-title"><h3>{{ tc.name }}</h3></div>
-        </header>
-        <div class="tcard-body">
-        {% bibliography --file ref --template publications-selected -q @*[featured=code]* %}
-        {% bibliography --file ref --template publications-selected -q @*[featured2=code]* %}
+        <div class="pubgroup">
+          <h3 class="pubgroup-title">{{ tc.name }}</h3>
+          {% bibliography --file ref --template publications-selected -q @*[featured=code]* %}
+          {% bibliography --file ref --template publications-selected -q @*[featured2=code]* %}
         </div>
-      </article>
-      <article class="tcard pubcard">
-        <header class="tcard-head">
-          <span class="tcard-icon">{% include icon.html name="action" %}</span>
-          <div class="tcard-title"><h3>{{ tsp.group }}</h3></div>
-        </header>
-        <div class="tcard-body">
-          <div class="subgroup">
-            <h4 class="subhead">{{ tsp.name }}</h4>
-            {% bibliography --file ref --template publications-selected -q @*[featured=spatial]* %}
-            {% bibliography --file ref --template publications-selected -q @*[featured2=spatial]* %}
-          </div>
-          <div class="subgroup">
-            <h4 class="subhead">{{ tch.name }}</h4>
-            {% bibliography --file ref --template publications-selected -q @*[featured=chart]* %}
-            {% bibliography --file ref --template publications-selected -q @*[featured2=chart]* %}
-          </div>
-          <div class="subgroup">
-            <h4 class="subhead">{{ tw.name }}</h4>
-            {% bibliography --file ref --template publications-selected -q @*[featured=web]* %}
-            {% bibliography --file ref --template publications-selected -q @*[featured2=web]* %}
-          </div>
+        <div class="pubgroup">
+          <h3 class="pubgroup-title">{{ tsp.group }}</h3>
+          <h4 class="pubsub">{{ tsp.name }}</h4>
+          {% bibliography --file ref --template publications-selected -q @*[featured=spatial]* %}
+          {% bibliography --file ref --template publications-selected -q @*[featured2=spatial]* %}
+          <h4 class="pubsub">{{ tch.name }}</h4>
+          {% bibliography --file ref --template publications-selected -q @*[featured=chart]* %}
+          {% bibliography --file ref --template publications-selected -q @*[featured2=chart]* %}
+          <h4 class="pubsub">{{ tw.name }}</h4>
+          {% bibliography --file ref --template publications-selected -q @*[featured=web]* %}
+          {% bibliography --file ref --template publications-selected -q @*[featured2=web]* %}
         </div>
-      </article>
-      <article class="tcard pubcard">
-        <header class="tcard-head">
-          <span class="tcard-icon">{% include icon.html name="shield" %}</span>
-          <div class="tcard-title"><h3>{{ ts.name }}</h3></div>
-        </header>
-        <div class="tcard-body">
-        {% bibliography --file ref --template publications-selected -q @*[featured2=safety]* %}
-        {% bibliography --file ref --template publications-selected -q @*[featured=safety]* %}
+        <div class="pubgroup">
+          <h3 class="pubgroup-title">{{ ts.name }}</h3>
+          {% bibliography --file ref --template publications-selected -q @*[featured2=safety]* %}
+          {% bibliography --file ref --template publications-selected -q @*[featured=safety]* %}
         </div>
-      </article>
       </div>
     </section>
 

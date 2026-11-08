@@ -2,7 +2,7 @@
 ---
 {% assign venue = entry.booktitle | default: entry.journal | default: entry.howpublished %}
 <div class="pub" data-topics="{{ entry.topic }}">
-  <div class="pub-abbr"><span>{{ entry.abbr | default: venue }}</span></div>
+  <div class="pub-abbr">{{ entry.abbr | default: venue }}</div>
   <div>
     <div class="pub-title">{% if entry.paper_url %}<a href="{{ entry.paper_url }}">{{ entry.title }}</a>{% else %}{{ entry.title }}{% endif %}</div>
     <div class="pub-authors">{{ reference | replace: 'others,', '…,' | replace: 'Md Rizwan Parvez', '<span class="me">Md Rizwan Parvez</span>' }}</div>
