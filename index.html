@@ -95,15 +95,21 @@ permalink: /
         </div>
         <div class="pubgroup">
           <h3 class="pubgroup-title">{{ tsp.group }}</h3>
-          <h4 class="pubsub">{{ tsp.name }}</h4>
-          {% bibliography --file ref --template publications-selected -q @*[featured=spatial]* %}
-          {% bibliography --file ref --template publications-selected -q @*[featured2=spatial]* %}
-          <h4 class="pubsub">{{ tch.name }}</h4>
-          {% bibliography --file ref --template publications-selected -q @*[featured=chart]* %}
-          {% bibliography --file ref --template publications-selected -q @*[featured2=chart]* %}
-          <h4 class="pubsub">{{ tw.name }}</h4>
-          {% bibliography --file ref --template publications-selected -q @*[featured=web]* %}
-          {% bibliography --file ref --template publications-selected -q @*[featured2=web]* %}
+          <div class="pubsubgroup">
+            <h4 class="pubsub">{{ tsp.name }}</h4>
+            {% bibliography --file ref --template publications-selected -q @*[featured=spatial]* %}
+            {% bibliography --file ref --template publications-selected -q @*[featured2=spatial]* %}
+          </div>
+          <div class="pubsubgroup">
+            <h4 class="pubsub">{{ tch.name }}</h4>
+            {% bibliography --file ref --template publications-selected -q @*[featured=chart]* %}
+            {% bibliography --file ref --template publications-selected -q @*[featured2=chart]* %}
+          </div>
+          <div class="pubsubgroup">
+            <h4 class="pubsub">{{ tw.name }}</h4>
+            {% bibliography --file ref --template publications-selected -q @*[featured=web]* %}
+            {% bibliography --file ref --template publications-selected -q @*[featured2=web]* %}
+          </div>
         </div>
         <div class="pubgroup">
           <h3 class="pubgroup-title">{{ ts.name }}</h3>

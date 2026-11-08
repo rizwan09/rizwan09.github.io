@@ -424,3 +424,15 @@ html { scroll-padding-top: 72px; }
 
 /* Research map: calmer hover */
 .rnode.glow:hover { box-shadow: 0 6px 16px -12px rgba(15,107,79,.5); }
+
+/* Group and sub-group hover (selected publications and publications page) */
+.pubgroup, .pubsubgroup { border-radius: 10px; transition: background-color .18s ease, box-shadow .18s ease; }
+.pubgroup { padding: 6px 14px 4px; margin-left: -14px; margin-right: -14px; }
+.pubsubgroup { padding: 2px 12px 2px; margin: 8px -12px 0; }
+.pubgroup:hover { background: #fafcfb; box-shadow: 0 0 0 1px #e3eee8; }
+.pubgroup:hover > .pubgroup-title, .pubgroup:hover > .thread-group { color: var(--accent); }
+.pubsubgroup:hover { background: #f2f8f4; box-shadow: 0 0 0 1px #d4e6dc; }
+.pubsubgroup:hover > .pubsub, .pubsubgroup:hover > .thread-name { color: var(--accent); }
+.pubgroup .pub:hover { background: #fff; box-shadow: 0 0 0 1px #d4e6dc; }
+.prose .pubgroup > .thread-group { margin-top: 10px; }
+.prose .pubgroup { margin-top: 18px; }
