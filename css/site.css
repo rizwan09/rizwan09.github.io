@@ -444,3 +444,44 @@ html { scroll-padding-top: 72px; }
 .rsafety-icon .ico { width: 22px; height: 22px; }
 .rsafety .ask { font-size: 12px; }
 .rsafety .rnode-papers { font-size: 12.5px; }
+
+/* ====================================================================
+   Research figure, redrawn: plain canvas, equal nodes, guardrail base
+   ==================================================================== */
+.rmap { margin: 22px 0 24px; padding: 18px 18px 18px; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+.rmap-title { margin: 0 0 14px; font-size: 11.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); }
+.rmap-row { grid-template-columns: 1fr 112px 1fr 112px 1fr; align-items: stretch; }
+.rnode { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 4px; padding: 16px 12px 14px; text-align: center; background: #fff; border: 1px solid #d9e6df; border-top: 3px solid var(--accent); border-radius: 10px; color: var(--text); transition: border-color .18s ease, box-shadow .18s ease, background-color .18s ease; }
+.rnode:hover { text-decoration: none; background: #f6fbf8; border-color: #b7d4c5; border-top-color: var(--accent); box-shadow: 0 10px 22px -16px rgba(15, 107, 79, .55); }
+.rmap .rnode-icon { width: 36px; height: 36px; margin: 0 0 2px; border-radius: 50%; display: grid; place-items: center; background: #e9f3ee; color: var(--accent); }
+.rmap .rnode-icon .ico { width: 20px; height: 20px; }
+.rmap .rnode-name { font-family: var(--serif); font-size: 19px; font-weight: 600; color: var(--head); line-height: 1.2; }
+.rmap .rnode-prop { font-size: 11px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
+.rmap .rnode-comp { color: var(--faint); }
+.rmap .rnode-q { margin-top: 4px; font-size: 13px; font-style: italic; color: var(--soft); line-height: 1.4; }
+/* connector from each thread down to the guardrail base */
+.rmap-row .rnode::after { content: ""; position: absolute; left: 50%; bottom: -19px; width: 1px; height: 18px; background: #c9ddd2; }
+.rlink { padding: 0 8px; gap: 16px; }
+.arrow { font-size: 11px; color: var(--faint); }
+.arrow .lbl { color: var(--soft); }
+.rsafety { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 8px 16px; margin-top: 18px; padding: 12px 16px; background: #f6faf7; border: 1px solid #d9e6df; border-radius: 10px; color: var(--text); text-align: left; transition: border-color .18s ease, background-color .18s ease; }
+.rsafety:hover { text-decoration: none; background: #eef6f1; border-color: #b7d4c5; }
+.rsafety .rnode-icon { margin: 0; }
+.rsafety-text { display: flex; flex-direction: column; gap: 2px; }
+.rsafety .rnode-q { margin: 0; }
+.rsafety .rnode-name { font-size: 19px; }
+@media (max-width: 860px) {
+  .rmap-row { grid-template-columns: 1fr; gap: 6px; }
+  .rmap-row .rnode::after { display: none; }
+  .rmap .rnode-prop { white-space: normal; }
+  .rsafety { flex-direction: column; text-align: center; }
+  .rsafety-text { align-items: center; }
+}
+.rmap-row { grid-template-columns: minmax(0,1fr) 112px minmax(0,1fr) 112px minmax(0,1fr); }
+.rmap .rnode-prop { white-space: normal; }
+.rmap-row .rnode-comp { display: block; font-weight: 500; letter-spacing: .05em; margin-top: 1px; }
+.rmap-row .rnode-comp::first-letter { }
+@media (max-width: 860px) {
+  .rmap-row { grid-template-columns: 1fr; gap: 6px; }
+  .rlink { padding: 4px 30px; }
+}

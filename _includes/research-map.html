@@ -1,15 +1,14 @@
 {% assign r = site.data.research %}
-<div class="rmap" aria-label="How the research threads connect">
-  <div class="rmap-core"><span>Auditable agents</span></div>
+<figure class="rmap" aria-label="How the research threads connect">
+  <figcaption class="rmap-title">Auditable agents: four connected threads</figcaption>
   <div class="rmap-row">
     {% for t in r.thrusts %}
-    <div class="rnode glow t-{{ t.id }}" data-id="{{ t.id }}">
-      <div class="rnode-icon">{% include icon.html name=t.icon %}</div>
-      <div class="rnode-prop">{{ t.property }} · {{ t.component }}</div>
-      <div class="rnode-name">{{ t.name }}</div>
-      <div class="ask">{{ t.question }}</div>
-      <div class="rnode-papers">{% for p in t.papers %}<a href="{{ p.url }}">{{ p.name }}</a>{% endfor %}</div>
-    </div>
+    <a class="rnode" href="#thread-{{ t.id }}" data-id="{{ t.id }}">
+      <span class="rnode-icon">{% include icon.html name=t.icon %}</span>
+      <span class="rnode-name">{{ t.name }}</span>
+      <span class="rnode-prop">{{ t.property }}<span class="rnode-comp">{{ t.component }}</span></span>
+      <span class="rnode-q">{{ t.question }}</span>
+    </a>
     {% unless forloop.last %}
       {% assign nxt = r.thrusts[forloop.index].id %}
       <div class="rlink" data-ids="{{ t.id }} {{ nxt }}">
@@ -24,8 +23,12 @@
     {% endunless %}
     {% endfor %}
   </div>
-  <div class="rsafety glow t-s">
-    <span class="rsafety-icon">{% include icon.html name=r.safety.icon %}</span><span class="rsafety-name">{{ r.safety.name }}</span><span class="rsafety-scope">{{ r.safety.scope }}</span> <span class="ask">{{ r.safety.question }}</span>
-    <span class="rnode-papers">{% for p in r.safety.papers %}<a href="{{ p.url }}">{{ p.name }}</a>{% endfor %}</span>
-  </div>
-</div>
+  <a class="rsafety" href="#thread-s">
+    <span class="rnode-icon">{% include icon.html name=r.safety.icon %}</span>
+    <span class="rsafety-text">
+      <span class="rnode-name">{{ r.safety.name }}</span>
+      <span class="rnode-prop">{{ r.safety.property }}<span class="rnode-comp"> · {{ r.safety.component }} · {{ r.safety.scope }}</span></span>
+    </span>
+    <span class="rnode-q">{{ r.safety.question }}</span>
+  </a>
+</figure>
