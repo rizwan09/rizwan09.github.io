@@ -485,3 +485,30 @@ html { scroll-padding-top: 72px; }
   .rmap-row { grid-template-columns: 1fr; gap: 6px; }
   .rlink { padding: 4px 30px; }
 }
+
+/* ---------- Compact sidebar on shorter screens so the whole column stays fixed ---------- */
+@media (min-width: 861px) and (max-height: 1260px) {
+  .profile { display: grid; grid-template-columns: 78px minmax(0, 1fr); column-gap: 14px; align-content: start; }
+  .profile > * { grid-column: 1 / -1; }
+  .profile img { grid-column: 1; grid-row: 1 / span 2; width: 78px; aspect-ratio: 4 / 5; border-radius: 6px; }
+  .profile h1 { grid-column: 2; grid-row: 1; align-self: end; margin: 0; font-size: 21px; }
+  .profile .role { display: contents; }
+  .profile .role-title { grid-column: 2; grid-row: 2; align-self: start; margin: 2px 0 0; font-size: 14px; }
+  .profile .role-aff { grid-column: 1 / -1; margin: 10px 0 10px; font-size: 13px; line-height: 1.45; }
+  .profile .plain-list { display: grid; grid-template-columns: 1fr 1fr; gap: 1px 10px; margin-bottom: 12px; font-size: 13.5px; }
+  .profile .plain-list li { margin: 0; }
+  .profile .plain-list li.email { grid-column: 1 / -1; margin: 0 0 6px; padding: 5px 9px; }
+  .profile .rec-title { margin: 0 0 4px; padding-top: 10px; }
+  .rec-item a { padding: 3px 8px 3px 10px; }
+  .rec-head { font-size: 13px; }
+  .rec-detail { font-size: 12px; }
+  .rec-more { margin-top: 6px; }
+}
+@media (min-width: 861px) and (max-height: 1260px) {
+  .profile .plain-list { display: flex; flex-wrap: wrap; gap: 2px 14px; }
+  .profile .plain-list li.email { flex: 1 1 100%; padding: 0; margin: 0 0 4px; background: none; border: 0; }
+  .profile .email-label { display: none; }
+  .profile .role-aff { margin: 8px 0 6px; }
+  .rec-item a { padding: 2px 8px 2px 10px; }
+  .rec-detail { line-height: 1.3; }
+}
