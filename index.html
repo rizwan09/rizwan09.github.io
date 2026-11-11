@@ -33,7 +33,7 @@ permalink: /
 
     <section id="about">
       {% for para in p.bio %}<p class="bio">{{ para | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endfor %}
-      <div class="recruit">{{ p.recruiting | markdownify }}</div>
+      <div class="recruit"><div class="recruit-title">Openings</div><div class="recruit-body">{{ p.recruiting | markdownify }}</div></div>
     </section>
 
     <section id="news">
