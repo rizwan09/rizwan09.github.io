@@ -13,7 +13,7 @@ I work with motivated students and researchers on **AI agents, generative AI, NL
   <ul>
     <li><b>Coding agents:</b> repository-scale issue resolution, PR review, and verifiable human–AI co-development.</li>
     <li><b>Knowledge agents:</b> retrieval, memory, and skills with provenance and safety guarantees.</li>
-    <li><b>Grounded and live agents:</b> web, GUI, map, and data-visualization agents, and living benchmarks for them.</li>
+    <li><b>Grounded and live agents:</b> web, GUI, computer-use, map, and data-visualization agents, and living benchmarks for them.</li>
     <li><b>Safety, security, and trust of agents:</b> red-teaming, agentic security, calibrated abstention, and failure attribution.</li>
   </ul>
 </section>

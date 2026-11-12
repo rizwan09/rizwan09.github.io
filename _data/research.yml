@@ -92,7 +92,7 @@ thrusts:
     question: How does the agent act?
     thesis: Instrument first, then build the agent.
     summary: >-
-      On maps, the web, GUIs, and charts, models recite state they cannot operate on.
+      On maps, the web, computers, GUIs, and charts, models recite state they cannot operate on.
       [MapEval](https://arxiv.org/abs/2501.00316) exposed a gap of more than 20 points to humans
       in geo-spatial reasoning and grew into [MapAgent](https://arxiv.org/abs/2509.05933),
       [SpatiaLab](https://arxiv.org/abs/2602.03916), and [TimeSpot](https://arxiv.org/abs/2603.06687).

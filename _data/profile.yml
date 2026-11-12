@@ -27,7 +27,7 @@ bio:
     taken on the model's word. Currently, my research covers three kinds of agents:
     (1) [knowledge agents that retrieve, remember, and attribute evidence](#thread-k),
     (2) [coding agents for software engineering whose output is verified by execution](#thread-c),
-    and (3) [grounded and live agents that act on maps, the web, GUIs, and charts](#thread-a), together with
+    and (3) [grounded and live agents that act on maps, the web, computers, GUIs, and charts](#thread-a), together with
     (4) [the safety, security, and trust of these agents](#thread-s).
 recruiting: >-
   I am actively looking for **research interns**, and I co-supervise **Ph.D. students** with
