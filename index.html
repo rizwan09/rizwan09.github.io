@@ -37,10 +37,10 @@ permalink: /
     </section>
 
     <section id="news">
-      <h2 class="with-pill">News {% if site.data.news.size > 8 %}<button class="pill-btn" data-news-toggle="news-list">More News</button>{% endif %}</h2>
+      <h2 class="with-pill">News {% if site.data.news.size > 9 %}<button class="pill-btn" data-news-toggle="news-list">More News</button>{% endif %}</h2>
       <ul class="news" id="news-list">
         {% for n in site.data.news %}
-        <li class="{% if forloop.index > 8 %}extra{% endif %}"><span class="date">{{ n.when }}</span>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+        <li class="{% if forloop.index > 9 %}extra{% endif %}"><span class="date">{{ n.when }}</span>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
         {% endfor %}
       </ul>
     </section>
